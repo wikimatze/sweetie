@@ -1,0 +1,180 @@
+$blue: #0048a2
+$hoverblue: #3366CC
+$grey: #BDBBBB
+$darkgrey: #bdbbbb
+$codeborder: #ddd
+$codebackground: #eef
+$inlinecodeborder: #888888
+$inlinecodebackground: #ffff88
+$imgbackground: #F3F3F3
+$imgborder: #DDDDDD
+
+// just a global reset
+*
+	:margin 5px 0 0 0
+	:padding 0
+
+html, body
+	:height 100%
+
+body
+	:background-color white
+	:font 400 1em trebuchet ms, arial, clean
+	:text-align center
+
+h1,h2,h3,h4,h5,h6
+	:font-size 110%
+	:margin 30px 0 10px 0
+	:text-transform uppercase
+
+h3
+	:margin 20px 0 10px 0
+
+h1
+	:font-size 120%
+
+h2,h3,h4,h5,h6
+	:font-size 110%
+
+#sitetitle
+	:font 400 3.5em arial, sans-serif
+	:letter-spacing -0.1em
+	:text-transform uppercase
+	:height 1.15em
+	a
+		:color $grey
+		:text-decoration none
+		:border-bottom 0px
+
+#tagseperator
+	:font-size 3.5em
+	:color $grey
+
+#tagline
+	:font-size 0.9em
+	:color $darkgrey
+
+a#navlink, a#archivelink
+	:padding-right 10px
+	:text-transform uppercase
+	:border-bottom 0px dotted $blue
+
+a#navlink:hover
+	:color $hoverblue
+
+a#archivelink
+	:float right
+
+.title
+	:margin-bottom 10px
+
+.nav
+	:margin-bottom 40px
+	:border-bottom 2px solid $grey
+
+p
+	:margin 1em 0
+
+a
+	:color $blue
+	:text-decoration none
+	:border-bottom 1px dotted $blue
+
+a.blog
+	:border-bottom 0px
+
+a.blog-small
+	:border-bottom 0px
+	:float left
+	:margin-left 10px
+
+a:hover
+	:color $hoverblue
+	:border-bottom none
+
+table
+	:font-size inherit
+	:font 100%
+
+img
+	:border 0px dotted $imgborder
+
+ul, ol
+	li
+		:margin-left 40px
+
+/* my posts */
+ul.posts
+	:margin 1em
+	:list-style-type none
+	li
+		:line-height 1.60em
+	span
+		:font-size 80%
+		:color $darkgrey
+
+ul.archiv
+	:margin 1em
+	:list-style-type none
+	li
+		:line-height 1.5em
+		:margin-left 15px
+
+.site
+	:font-size 100%
+	:text-align justify
+	:width 40em
+	// trick to center the page with auto
+	:margin 0 auto 3em auto
+	:line-height 1.4em
+	.footer
+		:font-size 70%
+		:border-top 4px solid $grey
+		:margin-top 10px
+		a
+			:text-decoration none
+			:border-bottom 0px dotted $blue
+
+/* Posts */
+#post, .site
+	pre
+		:border 1px solid $codeborder
+		:background-color $codebackground
+		:font 15px helvetica,arial,clean,sans-serif
+		:padding 0 .4em
+		:white-space pre-wrap
+	code
+		:font-size 105%
+		:border 1px dotted $inlinecodeborder
+		:background-color $inlinecodebackground
+		:padding 0 .2em
+		:display inline-block
+	.highlight code
+		:border none
+		:background-color $codebackground
+
+/* Miscleanous */
+span.tweet
+	:float right
+	:margin-top 5px
+	a
+		:text-decoration none
+		:border-bottom none
+		:font-style italic
+
+.author
+	:font-size 80%
+	:color $darkgrey
+	:margin 0 0 1em 0
+	:float right
+	a
+		:text-decoration none
+		:border-bottom none
+		:font-style italic
+
+#disqus_thread
+	:margin 2em 0 0 0
+
+.clearer
+	:clear both
+

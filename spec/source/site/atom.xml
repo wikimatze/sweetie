@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <title>wikimatze</title>
+ <link href="http://0.0.0:4000/atom.xml" rel="self"/>
+ <link href="http://0.0.0:4000"/>
+ <updated>2011-06-24T11:53:28+02:00</updated>
+ <id>http://0.0.0:4000</id>
+ <author>
+   <name>Matthias Günther</name>
+	 <email>matthias.guenther@wikimatze.de</email>
+	</author>
+	<rights> Copyright (c) 2011 Matthias Günther </rights>
+
+ 
+ <entry>
+   <title></title>
+	 <link href="http://0.0.0:4000/why-i-use-jekyll-for-blogging.html"/>
+   <updated>2011-06-02T00:00:00+02:00</updated>
+	 <id>http://0.0.0:4000/why-i-use-jekyll-for-blogging</id>
+   <content type="html">&lt;h1&gt;Why I use Jekyll for blogging&lt;/h1&gt;
+&lt;div class=&quot;author&quot;&gt;
+Posted by &lt;a href=&quot;http://twitter.com/wikimatze&quot; title=&quot;@wikimatze&quot;&gt;@wikimatze&lt;/a&gt; on Jun 02, 2011
+&lt;/div&gt;
+&lt;div class=&quot;clearer&quot;&gt;&lt;/div&gt;
+&lt;p&gt;I always wanted blogging for several years and tried many things different plattforms &lt;a href=&quot;:upload_url_public&quot; title=&quot;wordpress link&quot;&gt;wordpress&lt;/a&gt;, &lt;a href=&quot;http://www.blogger.com&quot; title=&quot;blogger link&quot;&gt;blogger&lt;/a&gt;, &lt;a href=&quot;http://www.tumblr.com/&quot; title=&quot;tumblr link&quot;&gt;tumblr&lt;/a&gt;. The main problem which kept me away from writing was just the fact, that every time I want to write I just had to do it in a new environment in a certain gui and not in my favorite editor &lt;a href=&quot;http://www.vim.org/&quot; title=&quot;vim link&quot;&gt;vim&lt;/a&gt;. Every system gives me the freedom to extend it in several ways but in the end it didn&amp;#8217;t provide me the freedom to change every tiny peace I want. With &lt;a href=&quot;http://jekyllrb.com&quot; title=&quot;jekyll&quot;&gt;jekyll&lt;/a&gt; I can use my favorite text editor and it really &amp;#8220;&lt;strong&gt;turned me into a text monster&lt;/strong&gt;&amp;#8221;. This description sounds like a holy grail, but let me explain in the following sections why it is so great.&lt;/p&gt;
+&lt;h2&gt;What jekyll is&lt;/h2&gt;
+&lt;p&gt;Jekyll is a static site generator written in &lt;a href=&quot;http://www.ruby-lang.org/en/&quot; title=&quot;ruby gem&quot;&gt;ruby&lt;/a&gt; to generate html pages. The page is presented through several templates and then fires the whole site were articles are written text markup language like &lt;a href=&quot;http://redcloth.org/textile&quot; title=&quot;Textile&quot;&gt;Textile&lt;/a&gt; or &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot; title=&quot;Markdown link&quot;&gt;Markdown&lt;/a&gt; though the &lt;a href=&quot;http://www.liquidmarkup.org/&quot; title=&quot;liquid converters&quot;&gt;liquid converters&lt;/a&gt; to generate fully generated compiled website. Don&amp;#8217;t think that it will be so easy for you to do it. First of all you have to learn either Textile or Markdown. I chose textile for writing my posts because I use Markdown to create the &lt;span class=&quot;caps&quot;&gt;README&lt;/span&gt; files for my github accounts.&lt;/p&gt;
+&lt;h2&gt;Setting up the environment&lt;/h2&gt;
+&lt;p&gt;You need to have a valid ruby and &lt;a href=&quot;http://rubygems.org/&quot; title=&quot;ruby gems&quot;&gt;ruby gems&lt;/a&gt; installation on your machine. A simple &lt;code&gt;gem install jekyll&lt;/code&gt; will install all the following mentioned gems:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;https://github.com/TwP/directory_watcher&quot; title=&quot;directory_watcher gem&quot;&gt;directory_watcher&lt;/a&gt; (gives a list of files which change in some intervals)&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://github.com/tobi/liquid&quot; title=&quot;liquid gem&quot;&gt;liquid&lt;/a&gt; (rendering templates in a safe manner)&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://github.com/ahoward/open4&quot; title=&quot;open4 gem&quot;&gt;open4&lt;/a&gt; (creates a child process to handle &lt;em&gt;pid&lt;/em&gt;, &lt;em&gt;stdout&lt;/em&gt;, etc.)&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://maruku.rubyforge.org/&quot; title=&quot;maruku gem&quot;&gt;maruku&lt;/a&gt; (Markdown interpreter)&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://rubygems.org/gems/classifier&quot; title=&quot;classifier gem&quot;&gt;classifier&lt;/a&gt; (is a Bayes implementation and can be used semantic indexing like to display related post &amp;#8211; this mechanism is used in machine learning)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To get nice syntax highlighting for your code you have to install &lt;a href=&quot;http://pygments.org/&quot; title=&quot;pygments&quot;&gt;pygments&lt;/a&gt; via &lt;code&gt;sudo apt-get install python-pygments&lt;/code&gt; on Ubuntu/Debian. On &lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/install&quot; title=&quot;install link for jekyll&quot;&gt;install page&lt;/a&gt; you can get more information about how to setup jekyll.&lt;/p&gt;
+&lt;h2&gt;The directories and styles&lt;/h2&gt;
+&lt;p&gt;Here is the basic layout of a typical jekyll project:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;_includes&lt;/strong&gt;: Small snippets which can be used in every place of the page.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;_layouts&lt;/strong&gt;: You can define layouts for post entries and the general default layout. All posts have the special &lt;strong&gt;Yaml Front Matter&lt;/strong&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;_posts&lt;/strong&gt;: Contains all posts in your specified Markup language&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;_config.yml&lt;/strong&gt;: Is a file to store configuration data like the styling of the urls, the ftp account. It is also possible to define own variables which can be used as global things on other pages.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Other files can just put on the root directory like an &lt;em&gt;atom.xml&lt;/em&gt; file (for &lt;span class=&quot;caps&quot;&gt;RSS&lt;/span&gt; feed) or &lt;em&gt;404.html&lt;/em&gt; page. For example has my &lt;code&gt;post.html&lt;/code&gt; the following layout:&lt;/p&gt;
+&lt;script src=&quot;https://gist.github.com/1000906.js&quot;&gt;&lt;/script&gt;&lt;p&gt;The lines between &lt;del&gt;-&lt;/del&gt; mark a special &lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter&quot; title=&quot;Yaml&quot;&gt;Yaml Front Matter&lt;/a&gt; file. This block is treated as a special block in jekyll and can contain different components. The &lt;code&gt;{ {content} }&lt;/code&gt; stands for the content of a post entry.&lt;/p&gt;
+&lt;h2&gt;Creating a layout&lt;/h2&gt;
+&lt;p&gt;Here is the main template for my blog.&lt;/p&gt;
+&lt;script src=&quot;https://gist.github.com/1001155.js?file=default.html&quot;&gt;&lt;/script&gt;&lt;p&gt;I used the meta-language &lt;a href=&quot;http://sass-lang.com/&quot; title=&quot;sass link&quot;&gt;Sass&lt;/a&gt; to create my &lt;span class=&quot;caps&quot;&gt;CSS&lt;/span&gt;. There is one problem with Sass: You have to compile it every time you made a change. Fortunately there is the &lt;a href=&quot;http://compass-style.org/&quot; title=&quot;compass gem&quot;&gt;compass gem&lt;/a&gt; which always compiles my sass file when I change it. When I build my page I start with &lt;code&gt;compass watch css/ &amp;amp;&lt;/code&gt; a command to automate Sass building. This is very handy when I change the layout.&lt;/p&gt;
+&lt;h2&gt;Static webpages &amp;#8211; how to include dynamic content&lt;/h2&gt;
+&lt;p&gt;Jekyll creates only static webpages but with the help of Javascript it is possible to add a &lt;a href=&quot;http://disqus.com/&quot; title=&quot;disqus link&quot;&gt;Disqus&lt;/a&gt; comment platform. You just have to create an account and then use the following snippet:&lt;/p&gt;
+&lt;script src=&quot;https://gist.github.com/1001268.js?file=comments.html&quot;&gt;&lt;/script&gt;&lt;p&gt;It is best to put this piece of code in a extra file under your _includes directory and then add it in your template for posts. Now the comment function is available in all your posts.&lt;/p&gt;
+&lt;h2&gt;Deployment&lt;/h2&gt;
+&lt;p&gt;There is a &lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/Deployment&quot; title=&quot;a&quot;&gt;bunch&lt;/a&gt; of deployment strategies: rsync, ftp, Rack-Jekyll (deploy on Heroku, EC2, etc.). I prefer ftp (with the &lt;a href=&quot;https://github.com/dmathieu/glynn&quot; title=&quot;glynn gem&quot;&gt;glynn gem&lt;/a&gt;) because it was easy to install and worked great with my server configuration in my &lt;strong&gt;_config.yml&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Just look on &lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/Sites&quot; title=&quot;link to other pages&quot;&gt;other pages&lt;/a&gt; what is possible with Jekyll. You can learn many new things by looking at other jekyll blogs and copy what you need. I love it write a little bit and after I finished an article just perform &lt;code&gt;rake deploy&lt;/code&gt; to upload my blog.&lt;/p&gt;</content>
+ </entry>
+ 
+</feed>
