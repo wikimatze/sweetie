@@ -11,8 +11,8 @@ class Sweetie
     while line = file.gets
       if line.match(/build:/)
         text << "build: #{build_time}\n"
-      elsif line.match(/pages:/)
-        text << "pages: #{count_html_pages(@@dir)}\n"
+      elsif line.match(/htmlpages:/)
+        text << "htmlpages: #{count_html_pages(@@dir)}\n"
       elsif line.match(/images:/)
         text << "images: #{count_all_images(@@dir)}\n"
       elsif line.match(/links:/)
