@@ -1,19 +1,19 @@
-Gem::Specification.new do |gem|
-  gem.name        = 'sweetie'
-  gem.version     = '0.0.1'
-  gem.date        = '2011-07-02'
+Gem::Specification.new do |s|
+  s.name        = 'sweetie'
+  s.version     = '0.0.2'
+  s.date        = '2011-07-05'
 
-  gem.summary     = 'Count pages, images, links, and last-build time of a jekyll project'
-  gem.description = 'Sweetie count pages, images, links, and last-build time of a jekyll project'
+  s.summary     = 'Count links, images, number of html pages, and last-build time of a jekyll project.'
+  s.description = 'Sweetie counts the links, images, number of html pages, and last-build time of a jekyll project.'
 
-  gem.authors     = ["Matthias Guenther"]
-  gem.email       = 'matthias.guenther@wikimatze.de'
-  gem.homepage    = 'http://github.com/matthias-guenther/sweetie'
+  s.authors     = ["Matthias Guenther"]
+  s.email       = 'matthias.guenther@wikimatze.de'
+  s.homepage    = 'http://github.com/matthias-guenther/sweetie'
 
-  gem.files       = %w[lib/sweetie.rb]
-  gem.executables << 'sweetie'
+  s.files       = %w[lib/sweetie.rb] + ["README.md", "Rakefile"]
+  s.executables << 'sweetie'
 
-  gem.add_runtime_dependency('nokogiri', ">= 1.4.6")
+  s.add_runtime_dependency('nokogiri', ">= 1.4.6")
 
-  gem.add_development_dependency('rspec', ">= 2.6.0")
+  s.add_development_dependency('rspec', ">= 2.6.0")
 end
