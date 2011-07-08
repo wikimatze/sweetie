@@ -6,7 +6,7 @@ To get the plugin working you must add `build`, `htmlpages`, `images`, and `link
 
 
 ## Installation
-Put the `sweetie.rb` file in the root of your jekyll project and then run the file to update your `_config.yml`file.
+Put the `sweetie.rb` file in the root of your jekyll project and then run the file to update your `_config.yml`file. To get the right calculated number of html pages, your pages must have the file ending *.html.
 
 
 ## Possible usage
