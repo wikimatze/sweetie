@@ -10,9 +10,8 @@ Gem::Specification.new do |s|
   s.email                    = 'matthias.guenther@wikimatze.de'
   s.homepage                 = 'http://github.com/matthias-guenther/sweetie'
 
-  s.required_ruby_version    = '>= 1.9.1'
+  s.required_ruby_version    = '>= 1.8.7'
   s.files                    = %w[lib/sweetie.rb] + ["README.md", "Rakefile"]
-  s.executables << 'sweetie'
 
   s.add_runtime_dependency('nokogiri', ">= 1.4.6")
 
