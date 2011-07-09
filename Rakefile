@@ -1,8 +1,8 @@
-require 'rspec/core'
-require 'rspec/core/rake_task'
-
-RSpec::Core::RakeTask.new(:spec) do |spec|
-  spec.pattern = FileList['spec/**/*_spec.rb']
+task :spec do
+  Dir.glob("spec/**/*_spec.rb") do |file|
+    system ("rspec #{file}")
+  end
 end
 
 task :default => :spec
+
