@@ -5,4 +5,3 @@ task :spec do
 end
 
 task :default => :spec
-

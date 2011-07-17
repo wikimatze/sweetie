@@ -17,7 +17,7 @@ describe Sweetie::Conversion do
   end
 
   it "should count all html pages" do
-    @stati.count_html_pages(@site_dir).should == 8
+    @stati.count_all_html_pages(@site_dir).should == 8
   end
 
   it "should count all links of all pages" do 

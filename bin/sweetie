@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
-require 'sweetie'
+$LOAD_PATH.unshift File.dirname(__FILE__) + '/lib'
 
+require 'sweetie/conversion'
 
-Sweetie.change_config
-
+Sweetie::Conversion.change_config

@@ -1,5 +1,0 @@
-#!/usr/bin/env ruby
-
-require 'sweetie'
-puts Sweetie.change_config
-
