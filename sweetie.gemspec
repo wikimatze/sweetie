@@ -19,6 +19,8 @@ Gem::Specification.new do |s|
   s.test_files            = Dir.glob "spec/**/*spec.rb"
   s.executables           = ['sweetie']
 
+  s.extra_rdoc_files      = ["README.md", "doc/frames.html"]
+
   s.add_runtime_dependency 'nokogiri', ">= 1.4.6"
 
   s.add_development_dependency 'rspec', ">= 2.6.0"
