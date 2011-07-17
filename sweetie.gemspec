@@ -1,4 +1,4 @@
-$:.push File.expand_path("../lib", __FILE__)
+File.expand_path("../lib", __FILE__)
 require 'lib/sweetie'
 
 Gem::Specification.new do |s|
