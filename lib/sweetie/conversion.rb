@@ -10,6 +10,10 @@ module Sweetie
     # It saves the gathered information about the build-date, the links,
     # the images, and the number of html-pages in the jekyll project.
     def self.change_config
+      if !File.exist? @@config or !Dir.exist? @@dir
+        raise "Can't find the _config.yml or the _site directory! Please create it!"
+      end
+
       file = File.open(@@config)
       text = ""
       while line = file.gets
