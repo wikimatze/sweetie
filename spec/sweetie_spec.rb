@@ -1,11 +1,11 @@
-require "sweetie"
+require 'sweetie/conversion'
 
-describe Sweetie do
+describe Sweetie::Conversion do
   before :each do
     current_dir = File.dirname(__FILE__)
     @about_page = File.join(current_dir, 'source', 'site', 'about.html')
     @site_dir = File.join(current_dir, 'source', 'site')
-    @stati = Sweetie
+    @stati = Sweetie::Conversion
   end
 
   it "should count links of about.html page" do
