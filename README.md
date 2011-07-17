@@ -2,7 +2,14 @@ Sweetie is a plugin for [jekyll](https://github.com/mojombo/jekyll) to count all
 
 
 ## Configuration variables
-To get the plugin working you must add `build`, `htmlpages`, `images`, and `links` in your `_config.yml` file. _sweetie_ will save the information to this variables. You can then use them everywhere in your page with the liquid snippet for example `{{ site.build }}`on all of your pages (of course you can use the other variables mentioned above).
+To get the plugin working you must add `build`, `htmlpages`, `images`, and `links` in your `_config.yml` file. _sweetie_ will save the information to this variables. You can then use them everywhere in your page with the liquid snippet for example: 
+
+* `{{ site.build }}`
+* `{{ site.htmlpages }}`
+* `{{ site.images }}`
+* `{{ site.links }}`
+
+on all of your pages.
 
 
 ## Installation
@@ -14,7 +21,6 @@ Before you deploy your page, you can run the `sweetie.rb` in a rake task:
 
 	desc "deploy"
 	task :create_stati do
-	  system("ruby sweetie.rb")
-	  sh 'glynn'
+	  system("sweetie")
 	end
 
