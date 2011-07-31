@@ -1,4 +1,5 @@
 Sweetie is a plugin for [jekyll](https://github.com/mojombo/jekyll) to count all links, images, pages, and the last build time on a jekyll site. You can then use this information at a any place in your jekyll project.
+[![Travis](http://travis-ci.org/matthias-guenther/sweetie.png)](http://travis-ci.org/matthias-guenther/sweetie)
 
 
 ## Configuration variables
