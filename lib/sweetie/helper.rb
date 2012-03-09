@@ -74,7 +74,7 @@ module Sweetie
     # @param [config] the _config.yml file
     # @param [dir] the directory of the generated jekyll page
     def check_config_and_directory_file(config, dir)
-      if !File.exist? @@config or !Dir.exist? @@dir
+      if !File.exist? config or !Dir.exist? dir
         raise "Can't find the _config.yml or the _site directory! Please create these files it!"
       end
     end
