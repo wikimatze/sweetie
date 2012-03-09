@@ -1,0 +1,143 @@
+{
+    "repositories": [
+        {
+            "website": "", 
+            "scm": "git", 
+            "name": "svn", 
+            "followers_count": 1, 
+            "owner": "wikimatze", 
+            "logo": null, 
+            "resource_uri": "/api/1.0/repositories/wikimatze/svn", 
+            "slug": "svn", 
+            "description": ""
+        }, 
+        {
+            "website": "", 
+            "scm": "git", 
+            "name": "sql", 
+            "followers_count": 1, 
+            "owner": "wikimatze", 
+            "logo": null, 
+            "resource_uri": "/api/1.0/repositories/wikimatze/sql", 
+            "slug": "sql", 
+            "description": ""
+        }, 
+        {
+            "website": "", 
+            "scm": "git", 
+            "name": "shell", 
+            "followers_count": 1, 
+            "owner": "wikimatze", 
+            "logo": null, 
+            "resource_uri": "/api/1.0/repositories/wikimatze/shell", 
+            "slug": "shell", 
+            "description": ""
+        }, 
+        {
+            "website": "", 
+            "scm": "git", 
+            "name": "scrum", 
+            "followers_count": 1, 
+            "owner": "wikimatze", 
+            "logo": null, 
+            "resource_uri": "/api/1.0/repositories/wikimatze/scrum", 
+            "slug": "scrum", 
+            "description": ""
+        }, 
+        {
+            "website": "", 
+            "scm": "git", 
+            "name": "ruby", 
+            "followers_count": 1, 
+            "owner": "wikimatze", 
+            "logo": null, 
+            "resource_uri": "/api/1.0/repositories/wikimatze/ruby", 
+            "slug": "ruby", 
+            "description": ""
+        }, 
+        {
+            "website": "", 
+            "scm": "git", 
+            "name": "rails", 
+            "followers_count": 1, 
+            "owner": "wikimatze", 
+            "logo": null, 
+            "resource_uri": "/api/1.0/repositories/wikimatze/rails", 
+            "slug": "rails", 
+            "description": ""
+        }, 
+        {
+            "website": "", 
+            "scm": "git", 
+            "name": "git", 
+            "followers_count": 1, 
+            "owner": "wikimatze", 
+            "logo": null, 
+            "resource_uri": "/api/1.0/repositories/wikimatze/git", 
+            "slug": "git", 
+            "description": ""
+        }, 
+        {
+            "website": "", 
+            "scm": "git", 
+            "name": "pmwiki-twitter-recipe", 
+            "followers_count": 1, 
+            "owner": "wikimatze", 
+            "logo": null, 
+            "resource_uri": "/api/1.0/repositories/wikimatze/pmwiki-twitter-recipe", 
+            "slug": "pmwiki-twitter-recipe", 
+            "description": ""
+        }, 
+        {
+            "website": "", 
+            "scm": "git", 
+            "name": "pmwiki-syntaxlove-recipe", 
+            "followers_count": 1, 
+            "owner": "wikimatze", 
+            "logo": null, 
+            "resource_uri": "/api/1.0/repositories/wikimatze/pmwiki-syntaxlove-recipe", 
+            "slug": "pmwiki-syntaxlove-recipe", 
+            "description": ""
+        }, 
+        {
+            "website": "", 
+            "scm": "git", 
+            "name": "pmwiki-linkicons-recipe", 
+            "followers_count": 1, 
+            "owner": "wikimatze", 
+            "logo": null, 
+            "resource_uri": "/api/1.0/repositories/wikimatze/pmwiki-linkicons-recipe", 
+            "slug": "pmwiki-linkicons-recipe", 
+            "description": ""
+        }, 
+        {
+            "website": "", 
+            "scm": "git", 
+            "name": "pmwiki-headlineimage-recipe", 
+            "followers_count": 1, 
+            "owner": "wikimatze", 
+            "logo": null, 
+            "resource_uri": "/api/1.0/repositories/wikimatze/pmwiki-headlineimage-recipe", 
+            "slug": "pmwiki-headlineimage-recipe", 
+            "description": ""
+        }, 
+        {
+            "website": "", 
+            "scm": "git", 
+            "name": "pmwiki-dropcaps-recipe", 
+            "followers_count": 1, 
+            "owner": "wikimatze", 
+            "logo": null, 
+            "resource_uri": "/api/1.0/repositories/wikimatze/pmwiki-dropcaps-recipe", 
+            "slug": "pmwiki-dropcaps-recipe", 
+            "description": ""
+        }
+    ], 
+    "user": {
+        "username": "wikimatze", 
+        "first_name": "Matthias", 
+        "last_name": "Günther", 
+        "avatar": "https://secure.gravatar.com/avatar/208673d619b63131cbfd7205366ad16e?d=identicon&s=32", 
+        "resource_uri": "/1.0/users/wikimatze"
+    }
+}
