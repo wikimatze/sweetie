@@ -4,10 +4,12 @@ module Sweetie
 
   class Conversion
 
-    @@config = "_config.yml"
-    @@dir    = "_site"
-
     class << self
+
+      @@config = "_config.yml"
+      @@dir    = "_site"
+
+
       include Sweetie::Helper
 
       # Opens the config file and search after the specified parameters.
