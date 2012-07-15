@@ -4,31 +4,29 @@ describe Sweetie::Bitbucket do
 
   let(:current_dir) {File.dirname(__FILE__)}
   let(:user_repositories) {File.join(current_dir, 'source', 'bitbucket', 'user_repositories.json')}
-  let(:user_changeset) {File.join(current_dir, 'source', 'bitbucket', 'user_changeset.json')}
+  let(:user_repositories_expectation) {File.join(current_dir, 'source', 'bitbucket', 'user_repositories_expectation.txt')}
   let(:site_dir) {File.join(current_dir, 'source', 'site')}
-  let(:user_changeset_expectation) {File.join(current_dir, 'source', 'bitbucket', 'user_changeset_expectation.txt')}
   let(:config) {File.join(current_dir, "source", "_config.yml")}
   let(:svn_hash) {{"svn" => "2011-10-16"}}
 
   let(:bitbucket) {Sweetie::Bitbucket}
 
   it "should parse a json file" do
-    changeset = File.open(user_changeset).read
+    changeset = File.open(user_repositories).read
     # gsub replace trailing newline at the end of the file
-    changeset_expectation = File.open(user_changeset_expectation).read.gsub("\n", "")
+    changeset_expectation = File.open(user_repositories_expectation).read.gsub("\n", "")
     changeset = bitbucket.parse_json(changeset).to_s
     changeset.should == changeset_expectation
   end
 
   it "should get the names of the repositories" do
     json_repositories = File.open(user_repositories).read
-    names = %w(svn sql shell scrum ruby rails
-               git pmwiki-twitter-recipe
-               pmwiki-syntaxlove-recipe
+    names = %w(pmwiki-headlineimage-recipe
                pmwiki-linkicons-recipe
-               pmwiki-headlineimage-recipe
-               pmwiki-dropcaps-recipe)
-    bitbucket.read_repositories(json_repositories).should == names
+               pmwiki-dropcaps-recipe
+               pmwiki-syntaxlove-recipe
+               pmwiki-twitter-recipe)
+    bitbucket.read_repositories(json_repositories).keys.should == names
   end
 
   it "should parse a timestamp" do
@@ -39,11 +37,6 @@ describe Sweetie::Bitbucket do
   it "should create a string representation of a repository" do
     repository = {"pmwiki" => "2011-10-26"}
     bitbucket.create_entry(repository.keys.first, repository.values.first).should == "pmwiki: 2011-10-26"
-  end
-
-  it "should create last modification of each repository" do
-    repo = File.open(user_changeset).read
-    bitbucket.repository_last_modification("svn", repo).should == svn_hash
   end
 
   it "should repositories changes write_repository_changes" do
