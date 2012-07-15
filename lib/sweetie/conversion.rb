@@ -9,7 +9,6 @@ module Sweetie
       @@config = "_config.yml"
       @@dir    = "_site"
 
-
       include Sweetie::Helper
 
       # Opens the config file and search after the specified parameters.
