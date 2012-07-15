@@ -3,6 +3,7 @@ module Sweetie
 
   class Bitbucket
     require 'json'
+
     @@config = "_config.yml"
 
     class << self
@@ -42,7 +43,7 @@ module Sweetie
         repositories_names = []
 
         repository_hash["repositories"].each do |repo|
-          repositories_names << repo["slug"]
+          repositories_names << repo["name"]
         end
 
         repositories_names
