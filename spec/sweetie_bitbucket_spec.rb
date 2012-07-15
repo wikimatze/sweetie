@@ -26,7 +26,7 @@ describe Sweetie::Bitbucket do
                pmwiki-dropcaps-recipe
                pmwiki-syntaxlove-recipe
                pmwiki-twitter-recipe)
-    bitbucket.read_repositories(json_repositories).keys.should == names
+    bitbucket.get_repositories_changes(json_repositories).keys.should == names
   end
 
   it "should parse a timestamp" do
@@ -36,7 +36,7 @@ describe Sweetie::Bitbucket do
 
   it "should create a string representation of a repository" do
     repository = {"pmwiki" => "2011-10-26"}
-    bitbucket.create_entry(repository.keys.first, repository.values.first).should == "pmwiki: 2011-10-26"
+    bitbucket.entry_text(repository.keys.first, repository.values.first).should == "pmwiki: 2011-10-26"
   end
 
   it "should repositories changes write_repository_changes" do
