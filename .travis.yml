@@ -1,3 +1,5 @@
-rbenv:
-  - 1.9.2-p290
+language: ruby
+rvm:
+  - 1.8.7-p358
+  - 1.9.2-p320
 
