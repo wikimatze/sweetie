@@ -1,14 +1,13 @@
-Sweetie is a plugin for [jekyll](https://github.com/mojombo/jekyll) to count all links, images,
-pages, and the last build time on a jekyll site. You can then use this information at a any place in
-your jekyll project.[![Travis](http://travis-ci.org/matthias-guenther/sweetie.png)](http://travis-ci.org/matthias-guenther/sweetie)
+Sweetie is a plugin for [jekyll](https://github.com/mojombo/jekyll) to count all links, images, pages, and the last
+build time on a jekyll site. You can then use this information at a any place in your jekyll project.
 
 
-## Installation ##
+## Installation
 
     gem install sweetie
 
 
-## Possible usage ##
+## Usage
 
 The easiest way is to add `require 'sweetie'` on the top of your Rakefile.
 
@@ -27,7 +26,7 @@ A similar task can be implemented for the bitbucket repositories:
     end
 
 
-## Configuration variables of jekyll ##
+## Configuration variables of jekyll
 
 Call the class method `Sweetie::Bitbucket.bitbucket("yourname")` and it will automatically append
 the `build`, `htmlpages`, `images`, and `links` in your `_config.yml` file. You can then use them
@@ -39,16 +38,18 @@ everywhere in your page with the liquid snippet for example:
 - `{{ site.links }}`
 
 
-## Last changes of bitbucket repository ##
+## Last changes of bitbucket repository
 
-Call the class method `Sweetie::Bitbucket.bitbucket("yourname")` and it will automatically append
-the repository name an the last change of the repository in your `_config.yml`. Here is an example:
+Call the class method `Sweetie::Bitbucket.bitbucket("yourname")` and it will automatically append the repository name an
+the last change of the repository in your `_config.yml`. Here is an example:
+
 
     git: 2011-10-16
     pmwiki-twitter-recipe: 2011-10-29
 
-You can then use this variables in the view of your jekyll project with the liquid template. For
-example:
+
+You can then use this variables in the view of your jekyll project with the liquid template. For example:
+
 
     ### git ###
 
@@ -64,6 +65,7 @@ example:
     Last update {{ site.pmwiki-twitter-recipe }}
     </section>
     ...
+
 
 will result the following html:
 
