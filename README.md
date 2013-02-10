@@ -83,3 +83,10 @@ will result the following html:
     Last update 2011-10-16
     </section>
 
+
+
+## License
+
+This software is licensed under the [MIT license](http://en.wikipedia.org/wiki/MIT_License).
+
+© 2011-2013 Matthias Günther <matthias.guenther@wikimatze.de>.
