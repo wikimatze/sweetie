@@ -3,3 +3,4 @@
 *.gem
 *.sass-cache
 .yardoc/*
+Gemfile.lock
