@@ -1,6 +1,5 @@
+require 'sweetie/helper'
 module Sweetie
-  require 'sweetie/helper'
-
   class Bitbucket
     require 'json'
 
@@ -200,8 +199,7 @@ module Sweetie
       def entry_text(name, last_updated)
         "#{name}: #{last_updated}"
       end
-
-    end # self
-  end # Bitbucket
-end # Sweetie
+    end
+  end
+end
 

@@ -1,9 +1,8 @@
+require 'nokogiri'
+require 'sweetie/helper'
+
 module Sweetie
-  require 'nokogiri'
-  require 'sweetie/helper'
-
   class Conversion
-
     class << self
 
       @@config = "_config.yml"
@@ -80,6 +79,5 @@ module Sweetie
       end
     end
   end
-
 end
 
