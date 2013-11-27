@@ -18,9 +18,7 @@ Gem::Specification.new do |s|
                              time of a jekyll project. In addition it can get the last changes of all
                              bitbuckets repositories of a user.}
   s.files                 = `git ls-files`.split("\n")
-  # files that are used for the gem (the line supports TestUnit, MiniTest, RSpec, and Cucumber
   s.test_files            = `git ls-files -- {test,spec,features}/*`.split("\n")
-  s.require_paths         = ['lib']
 
   s.extra_rdoc_files      = ['README.md']
 
