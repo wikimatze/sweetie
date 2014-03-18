@@ -3,4 +3,6 @@ rvm:
   - 1.9.3
   - 2.1.0
   - 2.1.1
+script:
+  - CODECLIMATE_REPO_TOKEN=9dd38a480e13a8a9f848d55f5342256906c4d40ac860e3bb4893266a10959eb6 bundle exec rake
 
