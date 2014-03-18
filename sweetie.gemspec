@@ -1,4 +1,3 @@
-# magic line that ensures "../lib" is in the load path
 $:.push File.expand_path("../lib", __FILE__)
 require 'sweetie/version'
 
@@ -24,8 +23,7 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency 'nokogiri', '>= 1.4.6'
   s.add_runtime_dependency 'json', '>= 1.6.1'
-  s.add_development_dependency 'rake'
-  s.add_development_dependency 'rspec'
-
+  s.add_development_dependency 'rake', '~> 10.1.0'
+  s.add_development_dependency 'rspec', '~> 2.14.1'
 end
 
