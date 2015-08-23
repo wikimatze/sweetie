@@ -1,10 +1,11 @@
 Sweetie is a plugin for [jekyll](https://github.com/mojombo/jekyll) to count all links, images, pages, and the last
-build time on a jekyll site. You can then use this information at a any place in your jekyll project.
+build time on a jekyll site. It can also grab the last changes of your bitbucket repositories.
+You can then use this information at a any place in your jekyll project.
 
 
 ## Installation
 
-    gem install sweetie
+    $ gem install sweetie
 
 
 ## Usage
@@ -44,49 +45,54 @@ Call the class method `Sweetie::Bitbucket.bitbucket("yourname")` and it will aut
 the last change of the repository in your `_config.yml`. Here is an example:
 
 
-    git: 2011-10-16
-    pmwiki-twitter-recipe: 2011-10-29
+```yml
+git: 2011-10-16
+pmwiki-twitter-recipe: 2011-10-29
+```
 
 
 You can then use this variables in the view of your jekyll project with the liquid template. For example:
 
 
-    ### git ###
+```markdown
+### git
 
-    <section class="lastupdate">
-    Last update {{ site.git }}
-    </section>
-    ...
+<section class="lastupdate">
+Last update {{ site.git }}
+</section>
+...
 
 
-    ### Twitter ###
+### Twitter
 
-    <section class="lastupdate">
-    Last update {{ site.pmwiki-twitter-recipe }}
-    </section>
-    ...
+<section class="lastupdate">
+Last update {{ site.pmwiki-twitter-recipe }}
+</section>
+...
+```
 
 
 will result the following html:
 
 
-    <h3 id="git">Git</h3>
+```html
+<h3 id="git">Git</h3>
 
-    <section class="lastupdate">
-    Last update 2011-10-16
-    </section>
+<section class="lastupdate">
+Last update 2011-10-16
+</section>
 
 
-    <h3 id="twitter">Twitter</h3>
+<h3 id="twitter">Twitter</h3>
 
-    <section class="lastupdate">
-    Last update 2011-10-16
-    </section>
-
+<section class="lastupdate">
+Last update 2011-10-16
+</section>
+```
 
 
 ## License
 
 This software is licensed under the [MIT license](http://en.wikipedia.org/wiki/MIT_License).
 
-© 2011-2013 Matthias Günther <matthias.guenther@wikimatze.de>.
+© 2011-2015 Matthias Günther <matthias@wikimatze.de>.
