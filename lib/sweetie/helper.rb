@@ -1,7 +1,5 @@
 module Sweetie
-
   module Helper
-
     # Traverse the page after the pattern and return the number of occurences on it
     # @param [pattern] need for nokogiri to parse the html page
     # @param [array] array to save the results
@@ -78,8 +76,6 @@ module Sweetie
         raise "Can't find the _config.yml or the _site directory! Please create these files it!"
       end
     end
-
   end
-
 end
 

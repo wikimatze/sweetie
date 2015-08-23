@@ -2,10 +2,15 @@ Sweetie is a plugin for [jekyll](https://github.com/mojombo/jekyll) to count all
 build time on a jekyll site. It can also grab the last changes of your bitbucket repositories.
 You can then use this information at a any place in your jekyll project.
 
+[![Gem Version](https://badge.fury.io/rb/sweetie.svg)](http://badge.fury.io/rb/sweetie)
+[![Build Status](https://travis-ci.org/wikimatze/sweetie.svg?branch=master)](https://travis-ci.org/wikimatze/sweetie)
+
 
 ## Installation
 
-    $ gem install sweetie
+```sh
+$ gem install sweetie
+```
 
 
 ## Usage
@@ -14,17 +19,24 @@ The easiest way is to add `require 'sweetie'` on the top of your Rakefile.
 
 Before you build your page, you can run a rake task to update the status information of a page:
 
-    desc 'write stats in the _config.yml'
-    task :create_stati do
-      Sweetie::Conversion.conversion
-    end
+
+```ruby
+desc 'write stats in the _config.yml'
+task :create_stati do
+  Sweetie::Conversion.conversion
+end
+```
+
 
 A similar task can be implemented for the bitbucket repositories:
 
-    desc 'write stats in the _config.yml'
-    task :create_bitbucket do
-      Sweetie::Bitbucket.bitbucket("yourname")
-    end
+
+```ruby
+desc 'write stats in the _config.yml'
+task :create_bitbucket do
+  Sweetie::Bitbucket.bitbucket("yourname")
+end
+```
 
 
 ## Configuration variables of jekyll
