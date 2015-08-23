@@ -6,9 +6,8 @@ Gem::Specification.new do |s|
   s.version               = Sweetie::VERSION
   s.date                  = '2012-07-15'
   s.authors               = ['Matthias Guenther']
-  s.email                 = 'matthias.guenther@wikimatze.de'
-  s.homepage              = 'https://github.com/matthias-guenther/sweetie'
-
+  s.email                 = 'matthias@wikimatze.de'
+  s.homepage              = 'https://github.com/wikimatze/sweetie'
   s.summary               = %q{Count links, images, number of html pages, and last-build time of a
                              jekyll project. In addition it can get last updates of all bitbucket
                              repositories of a user.}
@@ -21,9 +20,9 @@ Gem::Specification.new do |s|
 
   s.extra_rdoc_files      = ['README.md']
 
-  s.add_runtime_dependency 'nokogiri', '>= 1.4.6'
-  s.add_runtime_dependency 'json', '>= 1.6.1'
-  s.add_development_dependency 'rake', '~> 10.1.0'
-  s.add_development_dependency 'rspec', '~> 2.14.1'
+  s.add_runtime_dependency 'nokogiri', '~> 1.6'
+  s.add_runtime_dependency 'json', '~> 1.8'
+  s.add_development_dependency 'rake', '~> 10.2'
+  s.add_development_dependency 'rspec', '~> 3.3'
 end
 
