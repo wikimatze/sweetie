@@ -7,6 +7,29 @@ describe 'Sweetie Helper' do
   before { helper.extend Sweetie::Helper }
   subject { helper }
 
+  describe '#perform_search_for_single_page' do
+    it 'search after all links for the file directory and return the number of found entries' do
+      file = double(File)
+      file_content = '<a href="/index.html">wikimatze</a>'
+
+      expect(File).to receive(:open).with(file).and_return(file_content)
+
+      expect(subject.perform_search_for_single_page('//a', [], file)).to eql 1
+    end
+  end
+
+  describe '#perform_global_search' do
+    it 'search after all links for the given directory and return the number of found entries' do
+      file = 'test.html'
+      expect(Dir).to receive(:glob).with('test/**/*').and_yield file
+
+      file_content = '<a href="/index.html">wikimatze</a>'
+      expect(File).to receive(:open).with(file).and_return(file_content)
+
+      expect(subject.perform_global_search('//a', [], 'test')).to eql 1
+    end
+  end
+
   describe '#check_config_and_directory_file' do
     it 'raise an error if config file does not exists' do
       expect {subject.check_config_and_directory_file('not_here.txt')}.
@@ -17,6 +40,31 @@ describe 'Sweetie Helper' do
       expect(File).to receive(:exist?).and_return(false)
       expect {subject.check_config_and_directory_file('', 'not_here/')}.
         to raise_error.with_message("Can't find the _config.yml or the _site directory! Please create these files it!")
+    end
+  end
+
+  describe '#traverse' do
+    it 'harvest all the information of html files for the given directory' do
+      file = 'test.html'
+      allow(file)
+      expect(Dir).to receive(:glob).with('test/**/*').and_yield file
+
+      file_content = '<a href="/index.html">wikimatze</a>'
+      expect(File).to receive(:open).with(file).and_return(file_content)
+
+      expected_result = ['wikimatze']
+      expect(subject.traverse('//a', [], 'test')).to eql expected_result
+    end
+
+    it 'will not harvest information for text files only the given directory' do
+      file = 'test.txt'
+      allow(file)
+      expect(Dir).to receive(:glob).with('test/**/*').and_yield file
+
+      file_content = '<a href="/index.html">wikimatze</a>'
+      expect(File).to_not receive(:open).with(file)
+
+      expect(subject.traverse('//a', [], 'test')).to be_nil
     end
   end
 
@@ -33,8 +81,13 @@ describe 'Sweetie Helper' do
   end
 
   describe '#output_count' do
-    it 'counts returns the number of arguments in the given array' do
+    it 'returns the number of arguments in the given array' do
       test_aray = [1,2,3]
+      expect(subject.output_count(test_aray)).to eql 3
+    end
+
+    it 'returns the number of arguments in the given array and remove duplicates' do
+      test_aray = [1, 1, 2, 2, 3, 3]
       expect(subject.output_count(test_aray)).to eql 3
     end
   end
