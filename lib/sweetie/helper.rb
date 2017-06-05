@@ -9,6 +9,26 @@ module Sweetie
       output_count(array)
     end
 
+    # Traverse each html page and gather information about the specified html element
+    # @param [pattern] important for nokogiri
+    # @param [html] the path for the html file
+    # @param [ar] and array which stores all the findings produces by nokogiri
+    def harvest(pattern, html, ar)
+      file = File.open(html)
+      doc = Nokogiri::HTML(file)
+      doc.xpath(pattern).each do |node|
+        if pattern == '//a'
+          ar << node.text
+        elsif pattern == '//img' and ar.include?(node.to_s)
+        elsif pattern == '//img'
+          ar << node.to_s
+        elsif pattern == '//html'
+          ar << node
+        end
+      end
+      ar
+    end
+
     # Traverse the dir after the pattern and return the number of occurences in the pages
     # @param [pattern] need for nokogiri to parse the html page
     # @param [array] array to save the results
@@ -29,27 +49,6 @@ module Sweetie
           harvest(pattern, file, ar)
         end
       end
-    end
-
-    # Traverse each html page and gather information about the specified html element
-    # @param [pattern] important for nokogiri
-    # @param [html] the path for the html file
-    # @param [ar] and array which stores all the findings produces by nokogiri
-    def harvest(pattern, html, ar)
-      file = File.open(html)
-      doc = Nokogiri::HTML(file)
-      doc.xpath(pattern).each do |node|
-        if pattern == "//a"
-          ar << node.text
-        elsif pattern == "//img" and ar.include?(node.to_s)
-        elsif pattern == "//img"
-          ar << node.to_s
-        elsif pattern == "//html"
-          ar << node
-        else
-        end
-      end
-      ar
     end
 
     # Count the elements
