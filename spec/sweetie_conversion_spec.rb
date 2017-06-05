@@ -25,5 +25,12 @@ describe Sweetie::Conversion do
   it "should count all images" do
     expect(sweetie.count_all_images(site_dir)).to eq 1
   end
+
+  it 'creates the correct build-time' do
+    time = Time.now
+    expected_time = "#{time.month}-#{time.day}-#{time.year}"
+    allow(time).to receive(:now).and_return(time)
+    expect(sweetie.build_time).to eq expected_time
+  end
 end
 
