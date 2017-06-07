@@ -2,10 +2,10 @@ require 'sweetie/bitbucket'
 
 describe Sweetie::Bitbucket do
   let(:current_dir) { File.dirname(__FILE__) }
-  let(:user_repositories) { File.join(current_dir, 'source', 'bitbucket', 'user_repositories.json') }
-  let(:user_repositories_expectation) { File.join(current_dir, 'source', 'bitbucket', 'user_repositories_expectation.txt') }
-  let(:site_dir) { File.join(current_dir, 'source', 'site') }
-  let(:config) { File.join(current_dir, 'source', '_config.yml') }
+  let(:user_repositories) { File.join(current_dir, 'fixtures', 'bitbucket', 'user_repositories.json') }
+  let(:user_repositories_expectation) { File.join(current_dir, 'fixtures', 'bitbucket', 'user_repositories_expectation.txt') }
+  let(:site_dir) { File.join(current_dir, 'fixtures', 'site') }
+  let(:config) { File.join(current_dir, 'fixtures', '_config.yml') }
   let(:svn_hash) { { svn: '2011-10-16' } }
 
   let(:bitbucket) { Sweetie::Bitbucket }
@@ -43,13 +43,13 @@ describe Sweetie::Bitbucket do
     bitbucket.config = config
     bitbucket.write_repository_changes(hash)
     config_yml_content = File.open(config).read
-    expect(config_yml_content).to include "svn: 2011-10-26"
-    expect(config_yml_content).to include "pmwiki: 2011-10-26"
+    expect(config_yml_content).to include 'svn: 2011-10-26'
+    expect(config_yml_content).to include 'pmwiki: 2011-10-26'
 
     # remove variables from the text-file
-    text = config_yml_content.gsub!("svn: 2011-10-26\n", "")
-    text = config_yml_content.gsub!("pmwiki: 2011-10-26\n", "")
-    config_yml_content = File.open(config, "w")
+    text = config_yml_content.delete("svn: 2011-10-26\n")
+    text = config_yml_content.delete("pmwiki: 2011-10-26\n")
+    config_yml_content = File.open(config, 'w')
     config_yml_content.puts text
     config_yml_content.close
   end
