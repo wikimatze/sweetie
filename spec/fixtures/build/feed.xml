@@ -1,0 +1,2106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vimberlin</title>
+    <description>The gathering for Vim-enthusiasts in Berlin</description>
+    <link>http://vimberlin.com/</link>
+    <item>
+      <title>April 2017 Meetup</title>
+      <link>http://vimberlin.com/april-2017-meetup/</link>
+      <description>&lt;![CDATA[&lt;p&gt;Hi,&lt;/p&gt;
+
+&lt;p&gt;the April meetup in 2017 is just around the corner. We&amp;#39;ll meet on 20th Thursday in April at IN-Berlin in Moabit/Tiergarten/Mitte,
+just north of Hauptbahnhof between the bus stops &lt;code&gt;&amp;quot;Quitzowstraße&amp;quot;&lt;/code&gt; (Bus 123, M27) and &lt;code&gt;&amp;quot;Kruppstraße&amp;quot;&lt;/code&gt; (Bus 123).&lt;/p&gt;
+
+&lt;p&gt;Interested? We are always interested in short-talks, longer talks as well as presentations about what you&amp;#39;ve learned.&lt;/p&gt;
+
+&lt;h2&gt;The venue&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;internet: yes. cable+wifi&lt;/li&gt;
+&lt;li&gt;projector: 2 projectors. (VGA+HDMI), if you have a Mac, don&amp;#39;t forget your adapters and/or install
+&lt;a href="http://www.teamviewer.com/de/"&gt;teamviewer.com/&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;room: 15 people&lt;/li&gt;
+&lt;li&gt;drinks: fridge with drinks. 1€ each.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Bring your laptops - and join the fun! And show us &lt;em&gt;your&lt;/em&gt; use with Vim! Be brief.. 5min for each presentation. We are
+open to any kind of questions and suggestions.&lt;/p&gt;
+
+&lt;p&gt;Your host will be &lt;a title="Sven Guckes" href="http://www.guckes.net"&gt;Sven Guckes (@guckes)&lt;/a&gt; &amp;amp; &lt;a title="Matthias Guenther (@wikimatze)" href="http://wikimatze.de/"&gt;Matthias Guenther
+(@wikimatze)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;See you there!&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Thu, 20 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/april-2017-meetup/</guid>
+    </item>
+    <item>
+      <title>March 2017 Meetup</title>
+      <link>http://vimberlin.com/march-2-2017-meetup/</link>
+      <description>&lt;![CDATA[&lt;p&gt;Dear Vim users,&lt;/p&gt;
+
+&lt;p&gt;the next meetup is soon. Did you discover a new plugin, learned something about Vim, found a fancy shortcut key or just used Vim
+for developing a cool project -- we want to hear about it!&lt;/p&gt;
+
+&lt;p&gt;Interested? We are always interested in short-talks, longer talks as well as presentations about what you&amp;#39;ve learned. Please post your proposal under
+&lt;a title="GitHub" href="https://github.com/vimberlin/vimberlin.de/issues/33"&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;The rest&lt;/h2&gt;
+
+&lt;p&gt;Bring your laptops - and join the fun! And show us &lt;em&gt;your&lt;/em&gt; use with Vim! Be brief.. 5min for each presentation. We are
+open to any kind of questions and suggestions.&lt;/p&gt;
+
+&lt;p&gt;Your host will be &lt;a title="Sven Guckes" href="http://www.guckes.net"&gt;Sven Guckes a.k.a. @guckes&lt;/a&gt; &amp;amp; &lt;a title="Matthias Guenther (@wikimatze)" href="http://wikimatze.de/"&gt;Matthias Guenther
+a.k.a @wikimatze&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;See you there!&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/march-2-2017-meetup/</guid>
+    </item>
+    <item>
+      <title>March 2017 Meetup (pre-Chemnitz Linux Days)</title>
+      <link>http://vimberlin.com/march-2017-meetup/</link>
+      <description>&lt;![CDATA[&lt;p&gt;Dear Vim users,&lt;/p&gt;
+
+&lt;p&gt;the next meetup is soon. Did you discover a new plugin, learned something about Vim, found a fancy shortcut key or just used Vim
+for developing a cool project -- we want to hear about it!&lt;/p&gt;
+
+&lt;p&gt;Interested? We are always interested in short-talks, longer talks as well as presentations about what you&amp;#39;ve learned. Please post your proposal under
+&lt;a title="GitHub" href="https://github.com/vimberlin/vimberlin.de/issues/33"&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Reminder about the Chemnitz Linux Days (aka CLT):&lt;/h2&gt;
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;Chemnitzer Linux-Tage      venue: Hörsaal- und Seminar-Gebäude
+"Barrieren einreissen!"    der Technischen Universität Chemnitz
+Sa+So 11.+12. März 2017    Reichenhainer Str 90, 09126 Chemnitz
+Sa 8:30-18h, So 9-18h      http://chemnitzer.linux-tage.de/2017/
+Fr 20-24h im Turmbrauhaus  http://tinyurl.com/clt17brauhaus
+(OpenStreetMap)            map: http://www.osm.org/way/30742889
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;There will be Vim Workshop:&lt;/p&gt;
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;date:       2017-03-11 14:00-17:00 Raum W3
+event:      "Vim Advanced" - Chemnitzer LinuxTage (CLT)
+url:        https://chemnitzer.linux-tage.de/2017/de/programm/beitrag/342
+contact:    Sven Guckes chemnitz2017@guckes.net
+announce:   https://twitter.com/guckes/status/826483482285182977
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Sven is going travelling there by bus:&lt;/p&gt;
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;2017 03 10 00 Fri 12:45-15:55 Berlin_Süddkreuz -&amp;gt;Chemnitz per flixbus
+2017 03 12 00 Sun 18:20-21:30 Chemnitz-&amp;gt; Berlin_Südkreuz per flixbus
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Join him.&lt;/p&gt;
+
+&lt;h2&gt;The rest&lt;/h2&gt;
+
+&lt;p&gt;Bring your laptops - and join the fun! And show us &lt;em&gt;your&lt;/em&gt; use with Vim! Be brief.. 5min for each presentation. We are
+open to any kind of questions and suggestions.&lt;/p&gt;
+
+&lt;p&gt;Your host will be &lt;a title="Sven Guckes" href="http://www.guckes.net"&gt;Sven Guckes a.k.a. @guckes&lt;/a&gt; &amp;amp; &lt;a title="Matthias Guenther (@wikimatze)" href="http://wikimatze.de/"&gt;Matthias Guenther
+a.k.a @wikimatze&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;See you there!&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Thu, 9 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/march-2017-meetup/</guid>
+    </item>
+    <item>
+      <title>January 2017 Meetup</title>
+      <link>http://vimberlin.com/january-2017-meetup/</link>
+      <description>&lt;![CDATA[&lt;p&gt;Hi vimmers,&lt;/p&gt;
+
+&lt;p&gt;the first meetup in 2017 is just around the corner. We&amp;#39;ll meet on 19th Thursday in January at IN-Berlin in Moabit/Tiergarten/Mitte,
+just north of Hauptbahnhof between the bus stops &lt;code&gt;&amp;quot;Quitzowstraße&amp;quot;&lt;/code&gt; (Bus 123, M27) and &lt;code&gt;&amp;quot;Kruppstraße&amp;quot;&lt;/code&gt; (Bus 123).&lt;/p&gt;
+
+&lt;p&gt;Interested? We are always interested in short-talks, longer talks as well as presentations about what you&amp;#39;ve learned.&lt;/p&gt;
+
+&lt;h2&gt;Talks&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://cmus.github.io/"&gt;cmus&lt;/a&gt; and &lt;a href="https://github.com/azadkuh/vim-cmus"&gt;vim-cmus&lt;/a&gt; by &lt;a href="https://twitter.com/wikimatze"&gt;Matthias Günther&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.nitrokey.com/de"&gt;Nitrokey&lt;/a&gt; with storage and Pass for password management by &lt;a href="https://twitter.com/koehr_in"&gt;Norman Köhring&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://kakoune.org/"&gt;Kakoune&lt;/a&gt; – a modal text editor by &lt;a href="https://twitter.com/koehr_in"&gt;Norman Köhring&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.jovicailic.org/"&gt;Jovica Ilic&lt;/a&gt; will talk about his book &lt;a href="http://jovicailic.org/mastering-vim-quickly/"&gt;&amp;quot;Mastering Vim Quickly&amp;quot;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;The venue&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;internet: yes. cable+wifi&lt;/li&gt;
+&lt;li&gt;projector: 2 projectors. (VGA+HDMI), if you have a Mac, don&amp;#39;t forget your adapters and/or install
+&lt;a href="http://www.teamviewer.com/de/"&gt;teamviewer.com/&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;room: 15 people&lt;/li&gt;
+&lt;li&gt;drinks: fridge with drinks. 1€ each.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Bring your laptops - and join the fun! And show us &lt;em&gt;your&lt;/em&gt; use with Vim! Be brief.. 5min for each presentation. We are
+open to any kind of questions and suggestions.&lt;/p&gt;
+
+&lt;p&gt;Your host will be &lt;a title="Sven Guckes" href="http://www.guckes.net"&gt;Sven Guckes (@guckes)&lt;/a&gt; &amp;amp; &lt;a title="Matthias Guenther (@wikimatze)" href="http://wikimatze.de/"&gt;Matthias Guenther
+(@wikimatze)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;See you there!&lt;/p&gt;
+
+&lt;p&gt;&lt;a id="recap"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Recap&lt;/h2&gt;
+
+&lt;p&gt;Slides of the talk &lt;strong&gt;&amp;quot;vim-cmus&amp;quot;&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;script async class="speakerdeck-embed" data-id="2b48cd9f21464f1cb4dc04701daa682b" data-ratio="1.33159947984395" src="//speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;
+]]&gt;</description>
+      <pubDate>Thu, 19 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/january-2017-meetup/</guid>
+    </item>
+    <item>
+      <title>December 2016 Meetup</title>
+      <link>http://vimberlin.com/december-2016-meetup/</link>
+      <description>&lt;![CDATA[&lt;p&gt;Hi vimmers,&lt;/p&gt;
+
+&lt;p&gt;the next meetup will be on 15th Thursday in December at IN-Berlin in Moabit/Tiergarten/Mitte,
+just north of Hauptbahnhof between the bus stops &lt;code&gt;&amp;quot;Quitzowstraße&amp;quot;&lt;/code&gt; (Bus 123, M27) and &lt;code&gt;&amp;quot;Kruppstraße&amp;quot;&lt;/code&gt; (Bus 123).&lt;/p&gt;
+
+&lt;p&gt;Interested? We are always interested in short-talks, longer talks as well as presentations about what you&amp;#39;ve learned.&lt;/p&gt;
+
+&lt;p&gt;We can do the following&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;vim intro for beginners&lt;/li&gt;
+&lt;li&gt;vim Q&amp;amp;A - questions+answers&lt;/li&gt;
+&lt;li&gt;vim NEWS&lt;/li&gt;
+&lt;li&gt;vim installation from source (git repository)&lt;/li&gt;
+&lt;li&gt;vim installation config with support for lua+perl+python+ruby&lt;/li&gt;
+&lt;li&gt;vimgolf challenge&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Feel free to join us and we will help to setup vim.&lt;/p&gt;
+
+&lt;h2&gt;The venue&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;internet: yes. cable+wifi&lt;/li&gt;
+&lt;li&gt;projector: 2 projectors. (VGA+HDMI), if you have a Mac, don&amp;#39;t forget your adapters and/or install
+&lt;a href="http://www.teamviewer.com/de/"&gt;teamviewer.com/&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;room: 15 people&lt;/li&gt;
+&lt;li&gt;drinks: fridge with drinks. 1€ each.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Bring your laptops - and join the fun! And show us &lt;em&gt;your&lt;/em&gt; use with Vim! Be brief.. 5min for each presentation. We are
+open to any kind of questions and suggestions.&lt;/p&gt;
+
+&lt;p&gt;Your host will be &lt;a title="Sven Guckes" href="http://www.guckes.net"&gt;Sven Guckes (@guckes)&lt;/a&gt; &amp;amp; &lt;a title="Matthias Guenther (@wikimatze)" href="http://wikimatze.de/"&gt;Matthias Guenther
+(@wikimatze)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;See you there!&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Thu, 15 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/december-2016-meetup/</guid>
+    </item>
+    <item>
+      <title>November 2016 Meetup</title>
+      <link>http://vimberlin.com/november-2016-meetup/</link>
+      <description>&lt;![CDATA[&lt;p&gt;Hi vimmers,&lt;/p&gt;
+
+&lt;p&gt;the next meetup will be on 17th Thursday in November at IN-Berlin in Moabit/Tiergarten/Mitte,
+just north of Hauptbahnhof between the bus stops &lt;code&gt;&amp;quot;Quitzowstraße&amp;quot;&lt;/code&gt; (Bus 123, M27) and &lt;code&gt;&amp;quot;Kruppstraße&amp;quot;&lt;/code&gt; (Bus 123).&lt;/p&gt;
+
+&lt;p&gt;Interested? We are always interested in short-talks, longer talks as well as presentations about what you&amp;#39;ve learned.&lt;/p&gt;
+
+&lt;p&gt;We can do the following&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;vim intro for beginners&lt;/li&gt;
+&lt;li&gt;vim Q&amp;amp;A - questions+answers&lt;/li&gt;
+&lt;li&gt;vim NEWS&lt;/li&gt;
+&lt;li&gt;vim installation from source (git repository)&lt;/li&gt;
+&lt;li&gt;vim installation config with support for lua+perl+python+ruby&lt;/li&gt;
+&lt;li&gt;vimgolf challenge&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Feel free to join us and we will help to setup vim&lt;/p&gt;
+
+&lt;h2&gt;The venue&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;internet: yes. cable+wifi&lt;/li&gt;
+&lt;li&gt;projector: 2 projectors. (VGA+HDMI), if you have a Mac, don&amp;#39;t forget your adapters and/or install
+&lt;a href="http://www.teamviewer.com/de/"&gt;teamviewer.com/&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;room: 15 people&lt;/li&gt;
+&lt;li&gt;drinks: fridge with drinks. 1€ each.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Bring your laptops - and join the fun! And show us &lt;em&gt;your&lt;/em&gt; use with Vim! Be brief.. 5min for each presentation. We are
+open to any kind of questions and suggestions.&lt;/p&gt;
+
+&lt;p&gt;Your host will be &lt;a title="Sven Guckes" href="http://www.guckes.net"&gt;Sven Guckes (@guckes)&lt;/a&gt; &amp;amp; &lt;a title="Matthias Guenther (@wikimatze)" href="http://wikimatze.de/"&gt;Matthias Guenther
+(@wikimatze)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;See you there!&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Thu, 17 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/november-2016-meetup/</guid>
+    </item>
+    <item>
+      <title>October 2016 Meetup</title>
+      <link>http://vimberlin.com/october-2016-meetup/</link>
+      <description>&lt;![CDATA[&lt;p&gt;Hi vimmers!&lt;/p&gt;
+
+&lt;p&gt;The &lt;a title="vimfest 2016" href="http://vimfest.org/"&gt;vimfest 2016&lt;/a&gt; was a blast (Bram Moolenaar had been there - see
+&lt;a title="picture on flickr" href="https://www.flickr.com/photos/wikimatze/29767624735/in/dateposted-public/"&gt;picture on flickr&lt;/a&gt;) and after our summer break it&amp;#39;s
+time for another meetup. It will be on 2nd Thursday in October, on October 13th at IN-Berlin in Moabit/Tiergarten/Mitte,
+just north of Hauptbahnhof between the bus stops &lt;code&gt;&amp;quot;Quitzowstraße&amp;quot;&lt;/code&gt; (Bus 123, M27) and &lt;code&gt;&amp;quot;Kruppstraße&amp;quot;&lt;/code&gt; (Bus 123).&lt;/p&gt;
+
+&lt;h2&gt;Talks so far&lt;/h2&gt;
+
+&lt;p&gt;The topics this time:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&amp;quot;Getting started with vim-test&amp;quot;&lt;/strong&gt; by &lt;a href="https://twitter.com/wikimatze"&gt;Matthias Günther&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;space for your topic ...&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Interested? We are always interested in short-talks, longer talks as well as presentations about what you&amp;#39;ve learned.&lt;/p&gt;
+
+&lt;h2&gt;The venue&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;internet: yes. cable+wifi&lt;/li&gt;
+&lt;li&gt;projector: 2 projectors. (VGA+HDMI), if you have a Mac, don&amp;#39;t forget your adapters and/or install
+&lt;a href="http://www.teamviewer.com/de/"&gt;teamviewer.com/&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;room: 15 people&lt;/li&gt;
+&lt;li&gt;drinks: fridge with drinks. 1€ each.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Bring your laptops - and join the fun! And show us &lt;em&gt;your&lt;/em&gt; use with Vim! Be brief.. 5min for each presentation. We are
+open to any kind of questions and suggestions.&lt;/p&gt;
+
+&lt;p&gt;Your host will be &lt;a title="Sven Guckes" href="http://www.guckes.net"&gt;Sven Guckes (@guckes)&lt;/a&gt; &amp;amp; &lt;a title="Matthias Guenther (@wikimatze)" href="http://wikimatze.de/"&gt;Matthias Guenther
+(@wikimatze)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;See you there!&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Thu, 13 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/october-2016-meetup/</guid>
+    </item>
+    <item>
+      <title>June 2016 Meetup</title>
+      <link>http://vimberlin.com/june-2016-meetup/</link>
+      <description>&lt;![CDATA[&lt;p&gt;Hi vimmers!&lt;/p&gt;
+
+&lt;p&gt;The next vimberlin meetup will be on 3rd thursday in June, on June 16th at IN-Berlin in Moabit/Tiergarten/Mitte,
+just north of Hauptbahnhof between the bus stops &lt;code&gt;&amp;quot;Quitzowstraße&amp;quot;&lt;/code&gt; (Bus 123, M27) and &lt;code&gt;&amp;quot;Kruppstraße&amp;quot;&lt;/code&gt;   (Bus 123).&lt;/p&gt;
+
+&lt;h2&gt;Talks so far&lt;/h2&gt;
+
+&lt;p&gt;The planned topics this time:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&amp;quot;Get productive with vimtex for LaTeX&amp;quot;&lt;/strong&gt; by &lt;a href="https://twitter.com/wikimatze"&gt;Matthias Günther&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;space for your topic ...&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;The venue&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;internet: yes. cable+wifi&lt;/li&gt;
+&lt;li&gt;projector: 2 projectors. (VGA+HDMI), if you have a Mac, don&amp;#39;t forget your adapters and/or install &lt;a href="http://www.teamviewer.com/de/"&gt;teamviewer.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;room: 15 people&lt;/li&gt;
+&lt;li&gt;drinks: fridge with drinks. 1€ each.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Bring your laptops - and join the fun! And show us &lt;em&gt;your&lt;/em&gt; use with Vim!  be brief.. 5min for each presentation. We are
+open to any kind of questions and suggestions.&lt;/p&gt;
+
+&lt;p&gt;Your host will be &lt;a title="Sven Guckes" href="http://www.guckes.net"&gt;Sven Guckes (@guckes)&lt;/a&gt; &amp;amp; &lt;a title="Matthias Guenther (@wikimatze)" href="http://wikimatze.de/"&gt;Matthias Guenther (@wikimatze)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;See you there!&lt;/p&gt;
+
+&lt;p&gt;&lt;a id="recap"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Recap&lt;/h2&gt;
+
+&lt;h3&gt;wikimatze&lt;/h3&gt;
+
+&lt;p&gt;Slides of the talk &lt;strong&gt;&amp;quot;Get productive with vimtex for LaTeX&amp;quot;&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;script async class="speakerdeck-embed" data-slide="1" data-id="ff777bb521294bab88ef4d60ac6ac3fb" data-ratio="1.33159947984395" src="//speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;
+
+&lt;h3&gt;Konfekt&lt;/h3&gt;
+
+&lt;p&gt;Mentioned his &lt;code&gt;vimtex&lt;/code&gt; configuration file:&lt;/p&gt;
+&lt;pre class="highlight shell"&gt;&lt;code&gt;&lt;span class="s2"&gt;" enable special tex folding
+let g:vimtex_fold_enabled = 1
+"&lt;/span&gt; specify which areas should be detected &lt;span class="k"&gt;for &lt;/span&gt;folding
+&lt;span class="nb"&gt;let &lt;/span&gt;g:vimtex_fold_sections &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="o"&gt;[&lt;/span&gt;
+&lt;span class="se"&gt;\ &lt;/span&gt;&lt;span class="s2"&gt;"chapter"&lt;/span&gt;, &lt;span class="s2"&gt;"section"&lt;/span&gt;,
+&lt;span class="se"&gt;\ &lt;/span&gt;&lt;span class="s2"&gt;"subsection"&lt;/span&gt;, &lt;span class="s2"&gt;"subsubsection"&lt;/span&gt;
+&lt;span class="se"&gt;\ &lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;
+&lt;span class="nb"&gt;let &lt;/span&gt;g:vimtex_fold_comments &lt;span class="o"&gt;=&lt;/span&gt; 0 &lt;span class="s2"&gt;" don't fold comments
+
+"&lt;/span&gt; no indentation
+&lt;span class="nb"&gt;let &lt;/span&gt;g:vimtex_indent_enabled &lt;span class="o"&gt;=&lt;/span&gt; 0
+
+&lt;span class="s2"&gt;" toc: don't show preample and number
+"&lt;/span&gt;&lt;span class="nb"&gt;let &lt;/span&gt;g:vimtex_toc_show_preamble &lt;span class="o"&gt;=&lt;/span&gt; 0
+&lt;span class="nb"&gt;let &lt;/span&gt;g:vimtex_toc_show_numbers &lt;span class="o"&gt;=&lt;/span&gt; 0
+
+&lt;span class="s2"&gt;" don't fold &lt;/span&gt;&lt;span class="se"&gt;\b&lt;/span&gt;&lt;span class="s2"&gt;egin ... &lt;/span&gt;&lt;span class="se"&gt;\e&lt;/span&gt;&lt;span class="s2"&gt;nd environments
+let g:vimtex_fold_envs = 0
+"&lt;/span&gt; use custom section marker
+&lt;span class="nb"&gt;let &lt;/span&gt;g:vimtex_fold_levelmarker &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;'➜'&lt;/span&gt;
+
+&lt;span class="s2"&gt;" ignore certain warning types
+let g:vimtex_quickfix_ignored_warnings = ['Underfull', 'Overfull' ]
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/unblevable/quick-scope"&gt;quick-scope&lt;/a&gt;: Lightning fast left-right movement in Vim&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Sponsor&lt;/h2&gt;
+
+&lt;p&gt;&lt;img title="IN-Berlin e.V." alt="IN-Berlin e.V." src="/images/inberlin.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a href="https://www.in-berlin.de"&gt;IN-Berlin e.V.&lt;/a&gt; for hosting this event.&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Thu, 16 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/june-2016-meetup/</guid>
+    </item>
+    <item>
+      <title>May 2016 Meetup</title>
+      <link>http://vimberlin.com/may-2016-meetup/</link>
+      <description>&lt;![CDATA[&lt;p&gt;Hi vimmers!&lt;/p&gt;
+
+&lt;p&gt;The next vimberlin meetup will be on 3rd thursday in Mai, on Feb 19th at IN-Berlin in Moabit/Tiergarten/Mitte,
+just north of Hauptbahnhof between the bus stops &lt;code&gt;&amp;quot;Quitzowstraße&amp;quot;&lt;/code&gt; (Bus 123, M27) and &lt;code&gt;&amp;quot;Kruppstraße&amp;quot;&lt;/code&gt;   (Bus 123).&lt;/p&gt;
+
+&lt;h2&gt;Talks so far&lt;/h2&gt;
+
+&lt;p&gt;The planned topics this time:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&amp;quot;Weechat - another IRC client&amp;quot;&lt;/strong&gt; by &lt;a href="https://twitter.com/wikimatze"&gt;Matthias Günther&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;The venue&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;internet: yes. cable+wifi&lt;/li&gt;
+&lt;li&gt;projector: 2 projectors. (VGA+HDMI), if you have a Mac, don&amp;#39;t forget your adapters and/or install &lt;a href="http://www.teamviewer.com/de/"&gt;teamviewer.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;room: 15 people&lt;/li&gt;
+&lt;li&gt;drinks: fridge with drinks. 1€ each.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Bring your laptops - and join the fun! And show us &lt;em&gt;your&lt;/em&gt; use with Vim!  be brief.. 5min for each presentation. We are
+open to any kind of questions and suggestions.&lt;/p&gt;
+
+&lt;p&gt;Your host will be &lt;a title="Sven Guckes" href="http://www.guckes.net"&gt;Sven Guckes (@guckes)&lt;/a&gt; &amp;amp; &lt;a title="Matthias Guenther (@wikimatze)" href="http://wikimatze.de/"&gt;Matthias Guenther (@wikimatze)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;See you there!&lt;/p&gt;
+
+&lt;p&gt;&lt;a id="recap"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Recap&lt;/h2&gt;
+
+&lt;h3&gt;wikimatze&lt;/h3&gt;
+
+&lt;p&gt;Videos of the talk:&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/167374965" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/167374965"&gt;Weechat - another IRC client (Part 1)&lt;/a&gt; from &lt;a href="https://vimeo.com/wikimatze"&gt;wikimatze&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/168291013" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/168291013"&gt;Weechat - another IRC client (Part 2)&lt;/a&gt; from &lt;a href="https://vimeo.com/wikimatze"&gt;wikimatze&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;Slides:&lt;/p&gt;
+
+&lt;script async class="speakerdeck-embed" data-id="da19b520fde4424c9a24a5f049a69f82" data-ratio="1.33159947984395" src="//speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;
+
+&lt;h3&gt;Sven&lt;/h3&gt;
+
+&lt;p&gt;Questions:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;gibt es ein /clear befehl zum löschen des aktuellen fensters?&lt;/li&gt;
+&lt;li&gt;was bedeutet der &amp;quot;User mode +Zi&amp;quot;?&lt;/li&gt;
+&lt;li&gt;wie und wann merkt sich weechat die geänderten einstellungen?&lt;/li&gt;
+&lt;li&gt;wie paßt man die farben an?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Sponsor&lt;/h2&gt;
+
+&lt;p&gt;&lt;img title="IN-Berlin e.V." alt="IN-Berlin e.V." src="/images/inberlin.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a href="https://www.in-berlin.de"&gt;IN-Berlin e.V.&lt;/a&gt; for hosting this event.&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Thu, 19 May 2016 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/may-2016-meetup/</guid>
+    </item>
+    <item>
+      <title>March 2016 Meetup</title>
+      <link>http://vimberlin.com/march-2016-meetup/</link>
+      <description>&lt;![CDATA[&lt;p&gt;Hi vimmers!&lt;/p&gt;
+
+&lt;p&gt;The next vimberlin meetup will be on 3rd thursday in February, on Feb 18th - again at IN-Berlin in Moabit/Tiergarten/Mitte,
+just north of Hauptbahnhof between the bus stops &lt;code&gt;&amp;quot;Quitzowstraße&amp;quot;&lt;/code&gt; (Bus 123, M27) and &lt;code&gt;&amp;quot;Kruppstraße&amp;quot;&lt;/code&gt;   (Bus 123).&lt;/p&gt;
+
+&lt;h2&gt;Talks so far&lt;/h2&gt;
+
+&lt;p&gt;The planned topics this time:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&amp;quot;tmux buffers&amp;quot;&lt;/strong&gt; by &lt;a href="https://twitter.com/wikimatze"&gt;Matthias Günther&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;quot;tmux shortcut - copy command to pane&amp;quot;&lt;/strong&gt; by &lt;a href="https://twitter.com/wikimatze"&gt;Matthias Günther&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;quot;Explain the build of &lt;a href="https://gitter.im/vimberlin/vimberlin.de"&gt;https://gitter.im/vimberlin/vimberlin.de&lt;/a&gt;&amp;quot;&lt;/strong&gt; by &lt;a href="https://twitter.com/wikimatze"&gt;Matthias Günther&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;quot;twitterbot workflow&amp;quot;&lt;/strong&gt; by &lt;a href="https://twitter.com/oracle2025"&gt;Richard Spindler&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;The venue&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;internet: yes. cable+wifi&lt;/li&gt;
+&lt;li&gt;projector: 2 projectors. (VGA+HDMI), if you have a Mac, don&amp;#39;t forget your adapters and/or install &lt;a href="http://www.teamviewer.com/de/"&gt;teamviewer.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;room: 15 people&lt;/li&gt;
+&lt;li&gt;drinks: fridge with drinks. 1€ each.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Bring your laptops - and join the fun! And show us &lt;em&gt;your&lt;/em&gt; use with Vim!  be brief.. 5min for each presentation. We are
+open to any kind of questions.&lt;/p&gt;
+
+&lt;p&gt;Your host will be &lt;a title="Sven Guckes" href="http://www.guckes.net"&gt;Sven Guckes&lt;/a&gt; &amp;amp; &lt;a title="Matthias Guenther (@wikimatze)" href="http://wikimatze.de/"&gt;Matthias Guenther (@wikimatze)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;See you there!&lt;/p&gt;
+
+&lt;h2&gt;Sponsor&lt;/h2&gt;
+
+&lt;p&gt;&lt;img title="IN-Berlin e.V." alt="IN-Berlin e.V." src="/images/inberlin.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a href="https://www.in-berlin.de"&gt;IN-Berlin e.V.&lt;/a&gt; for hosting this event.&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Thu, 24 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/march-2016-meetup/</guid>
+    </item>
+    <item>
+      <title>February 2016 Meetup</title>
+      <link>http://vimberlin.com/february-2016-meetup/</link>
+      <description>&lt;![CDATA[&lt;p&gt;Hi vimmers!&lt;/p&gt;
+
+&lt;p&gt;The next vimberlin meetup will be on 3rd thursday in February, on Feb 18th - again at IN-Berlin in Moabit/Tiergarten/Mitte,
+just north of Hauptbahnhof between the bus stops &lt;code&gt;&amp;quot;Quitzowstraße&amp;quot;&lt;/code&gt; (Bus 123, M27) and &lt;code&gt;&amp;quot;Kruppstraße&amp;quot;&lt;/code&gt;   (Bus 123).&lt;/p&gt;
+
+&lt;h2&gt;Talks so far&lt;/h2&gt;
+
+&lt;p&gt;This time the topic is:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Vim, Zsh - and more.&amp;quot;&lt;/strong&gt; by &lt;a href="https://twitter.com/wikimatze"&gt;Matthias Günther&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;quot;Extending Mucks&amp;quot;&lt;/strong&gt; by &lt;a href="https://twitter.com/wikimatze"&gt;Matthias Günther&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;quot;:set paste in Vim&amp;quot;&lt;/strong&gt; by &lt;a href="https://twitter.com/wikimatze"&gt;Matthias Günther&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;The venue&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;internet:  yes. cable+wifi&lt;/li&gt;
+&lt;li&gt;projector: 2 projectors. (VGA+HDMI)&lt;/li&gt;
+&lt;li&gt;room:      15 people&lt;/li&gt;
+&lt;li&gt;drinks:    fridge with 23 drinks. 1€ each.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Bring your laptops - and join the fun! And show us &lt;em&gt;your&lt;/em&gt; use with Vim!  be brief.. 5min for each presentation. We are
+open to any kind of questions.&lt;/p&gt;
+
+&lt;p&gt;Your host will be &lt;a title="Sven Guckes" href="http://www.guckes.net"&gt;Sven Guckes&lt;/a&gt; &amp;amp; &lt;a title="Matthias Guenther (@wikimatze)" href="http://wikimatze.de/"&gt;Matthias Guenther (@wikimatze)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;See you there!&lt;/p&gt;
+
+&lt;p&gt;&lt;a id="recap"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Recap&lt;/h2&gt;
+
+&lt;h3&gt;&lt;a href="https://twitter.com/wikimatze"&gt;@wikimatze (Matthias Günther)&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;wikimatze has adapted &amp;quot;mucks&amp;quot; in his &lt;a href="https://github.com/wikimatze/mucks"&gt;fork&lt;/a&gt; and make it possible to run several
+tmux session at ones without using the sockets option&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/lervag/vimtex"&gt;lervag/vimtex&lt;/a&gt;: A vim plugin that provides support for writing LaTeX. Nice
+toggling, nice support for various PDF viewer and continous building&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/rhysd/clever-f.vim"&gt;clever-f.vim&lt;/a&gt;: Extended f, F, t, and T mappings - results will be highlighted
+and press the buttons again to repeat the search clever-f plugin
+neoyank&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Shougo/neoyank.vim"&gt;Shougo/neoyank.vim&lt;/a&gt;: add documentation for the &lt;a href="https://github.com/Shougo/neoyank.vim/commit/e66dd9b34ae2ac866cfdd7c62fa6863287c03e65"&gt;action-append
+option&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.teamviewer.com/de/"&gt;teamviewer.com/&lt;/a&gt;: is great when Mac machines forget their MiniDisplay-Port so that
+they can display their screen on the machine, which is connected to the beamer&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/supercrabtree"&gt;George Crabtree&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/junegunn/vim-peekaboo"&gt;junegunn/vim-peekaboo&lt;/a&gt;: easy way to manager &lt;code&gt;registers&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/sandric/ctrlsf"&gt;dyng/ctrlsf.vim&lt;/a&gt;: An ack/ag powered code search and view tool, in an intuitive way
+with fairly more context.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/so-fancy/diff-so-fancy"&gt;so-fancy/diff-so-fancy&lt;/a&gt;: good-looking git-diffs without &lt;code&gt;+&lt;/code&gt; and &lt;code&gt;-&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://getbitbar.com/"&gt;getbitbar&lt;/a&gt;: put script output direct in your Mac menue&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/jiahaog/Nativefier"&gt;jiahaog/Nativefier&lt;/a&gt;: a great way to create native apps for Windows, Mac, and
+Linux from Webpages&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;&lt;a href="https://twitter.com/oracle2025"&gt;@oracle2025 (Richard Spindler)&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Explains his desktop publishing tools/flow in Vim&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/junegunn/goyo.vim"&gt;junegunn/goyo.vim&lt;/a&gt;: distraction free writing&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/benmills/vimux"&gt;benmills/vimux&lt;/a&gt;: tmux and vim interaction&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;.vimrc&lt;/code&gt;: map F5 to make: nmap &lt;F5&gt; :call VimuxRunCommand(&amp;quot;make&amp;quot;)&lt;cr&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;.tmux.conf&lt;/code&gt; hide statusbar: bind h set-option -g status&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/vim-pandoc/vim-pandoc-syntax"&gt;vim-pandoc/vim-pandoc-syntax&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/reedes/vim-pencil"&gt;reedes/vim-pencil&lt;/a&gt;: default settings for writing documents&lt;/li&gt;
+&lt;li&gt;Hints: Set vim-pencil to &amp;quot;wrap hard&amp;quot; (see vim-pencil docs)&lt;/li&gt;
+&lt;li&gt;WordCount: &lt;a href="http://stackoverflow.com/a/116454"&gt;http://stackoverflow.com/a/116454&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://kevinburke.bitbucket.org/markdowncss/"&gt;http://kevinburke.bitbucket.org/markdowncss/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://lincolnmullen.com/blog/make-and-pandoc"&gt;http://lincolnmullen.com/blog/make-and-pandoc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Also, my dotfiles: &lt;a href="https://github.com/oracle2025/.vim"&gt;https://github.com/oracle2025/.vim&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Other tools&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://surf.suckless.org/"&gt;surf suckless&lt;/a&gt;: simple webbrowser able to display websites and follow links&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://devdocs.io/"&gt;devdocs.io&lt;/a&gt;: combines multiple API for locale documentation&lt;/li&gt;
+&lt;/ul&gt;
+]]&gt;</description>
+      <pubDate>Thu, 18 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/february-2016-meetup/</guid>
+    </item>
+    <item>
+      <title>January 2016 Meetup</title>
+      <link>http://vimberlin.com/january-2016-meetup/</link>
+      <description>&lt;![CDATA[&lt;p&gt;Happy new vim year, we hope you had a great start in 2016.&lt;/p&gt;
+
+&lt;p&gt;Tell others about it by retweeting the tweets mentioned below.&lt;/p&gt;
+
+&lt;p&gt;Bring your laptops - and join the fun! Show us &lt;em&gt;your&lt;/em&gt; use with Vim! Be brief.. 5min for each presentation.&lt;/p&gt;
+
+&lt;p&gt;The space has seats+tables for about 15 people.&lt;/p&gt;
+
+&lt;h2&gt;Talks so far&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&amp;quot;Zsh with prezto&amp;quot;&lt;/strong&gt; by &lt;a href="https://twitter.com/wikimatze"&gt;Matthias Günther&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;quot;Mucks and tmux management&amp;quot;&lt;/strong&gt; by &lt;a href="https://twitter.com/wikimatze"&gt;Matthias Günther&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Your host will be &lt;a href="http://www.guckes.net"&gt;Sven Guckes&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;See you there!&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Thu, 21 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/january-2016-meetup/</guid>
+    </item>
+    <item>
+      <title>December 2015 Meetup</title>
+      <link>http://vimberlin.com/december-2015-meetup/</link>
+      <description>&lt;![CDATA[&lt;p&gt;Hi vimmers!&lt;/p&gt;
+
+&lt;p&gt;on thursday, Dec 17th, there will be yet another vimberlin meetup - this time at IN-Berlin in Moabit/Tiergarten/Mitte, just north of Hauptbahnhof.&lt;/p&gt;
+
+&lt;p&gt;This time the topic is:  Vim!  (as usual).&lt;/p&gt;
+
+&lt;p&gt;Tell others about it by retweeting the tweets mentioned below.&lt;/p&gt;
+
+&lt;p&gt;Bring your laptops - and join the fun! Show us &lt;em&gt;your&lt;/em&gt; use with Vim!  be brief.. 5min for each presentation.&lt;/p&gt;
+
+&lt;p&gt;The space has seats+tables for about 15 people.&lt;/p&gt;
+
+&lt;p&gt;Your host will be &lt;a href="www.guckes.net"&gt;Sven Guckes&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;See you there!&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Thu, 17 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/december-2015-meetup/</guid>
+    </item>
+    <item>
+      <title>November 2015 Meetup</title>
+      <link>http://vimberlin.com/november-2015-meetup/</link>
+      <description>&lt;![CDATA[&lt;h2&gt;Topics&lt;/h2&gt;
+
+&lt;p&gt;We will talk about using &lt;a title="vim" href="http://www.vim.org/"&gt;vim&lt;/a&gt; with &lt;a title="screen window manager" href="https://www.gnu.org/software/screen/"&gt;screen window manager&lt;/a&gt; and &lt;a title="tmux" href="http://tmux.github.io/"&gt;tmux&lt;/a&gt;. This meetup will exchange workflows, shortcuts and the setup of your dotfiles. Please bring your laptop with you, so that we can hack together.&lt;/p&gt;
+
+&lt;h2&gt;Sponsor&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class="title" alt="LAUNCH/CO" src="/assets/images/launch_co_logo.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a title="LAUNCH/CO" href="https://launchco.com/etc/#coworking"&gt;LAUNCH/CO&lt;/a&gt; for hosting the event.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Matthias Günther" href="http://wikimatze.de/about"&gt;Matthias Günther&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a id="recap"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Recap&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;internet:
+
+&lt;ul&gt;
+&lt;li&gt;connect to the local wifi (&amp;quot;LAUNCH/CO&amp;quot;);&lt;/li&gt;
+&lt;li&gt;start your browser.. and wait.. for the login page..&lt;/li&gt;
+&lt;li&gt;enter the user+pass for this event (see whiteboard)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;projector:
+
+&lt;ul&gt;
+&lt;li&gt;it didnt recognize the laptops with VGA. :-(&lt;/li&gt;
+&lt;li&gt;bring a VGA extension cable next time.&lt;/li&gt;
+&lt;li&gt;the HDMI failed once in a while..  loose connection? overheating?&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;room:
+
+&lt;ul&gt;
+&lt;li&gt; we had been seven persons. there was maybe room for one more person.&lt;/li&gt;
+&lt;li&gt; then it gets awkward.  definitely not enough space for 20 people.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;drinks: club-mate for 1,00€ :)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Richard &amp;quot;oracle2025&amp;quot; Spindler&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Vimfiles: &lt;a href="https://github.com/oracle2025/.vim"&gt;https://github.com/oracle2025/.vim&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;plugin #1: &lt;a href="http://github.com/christoomay/vim-tmux-navigator"&gt;vim-tmux-navigator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;plugin #2: &lt;a href="https://github.com/benmills/vimux"&gt;vimux&lt;/a&gt; =&amp;gt; F5 opens the pane below and calls &amp;quot;make&amp;quot; therein.&lt;/li&gt;
+&lt;li&gt;plugin #3: &lt;a href="http://github.com/jpalady/vim-slime"&gt;vim-slime&lt;/a&gt; =&amp;gt; copies the current line/paragraph into the pane below&lt;/li&gt;
+&lt;li&gt;mentioned &lt;em&gt;keycaster&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Matthias &amp;quot;wikimatze&amp;quot; Günther&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Vimfiles: &lt;a href="https://github.com/wikimatze/vimfiles"&gt;https://github.com/wikimatze/vimfiles&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Dotfiles: &lt;a href="https://github.com/wikimatze/dotfiles"&gt;https://github.com/wikimatze/dotfiles&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/tmux-plugins/tpm"&gt;tmux plugin manager (tpm)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/tmux-plugins/tmux-sensible"&gt;tmux-sensible&lt;/a&gt;: common settings for every tmux.conf&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/tmux-plugins/tmux-resurrect"&gt;tmux-resurrect&lt;/a&gt;: store and save several tmux sessions&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/tmux-plugins/tmux-open"&gt;tmux-open&lt;/a&gt;: press &amp;#39;o&amp;#39; in Edit-Mode to open txt, mp3, pngs in your system default programms&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/tmux-plugins/tmux-yank"&gt;tmux-yank&lt;/a&gt;: copy text in tmux to system clipboard on various platforms&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/tmux-plugins/tmux-copycat"&gt;tmux-copycat&lt;/a&gt;: better searching with highlights&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/jimeh/tmuxifier"&gt;tmuxifer&lt;/a&gt;: Window and pane management for tmux&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Philip&lt;/h3&gt;
+
+&lt;p&gt;&amp;quot;uses the mouse&amp;quot; ;)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;fzf: &amp;quot;command line fuzzy finder&amp;quot;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/junegunn/fzf"&gt;https://github.com/junegunn/fzf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/junegunn/fzf/wiki"&gt;https://github.com/junegunn/fzf/wiki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=hO8vd1y0h6g10"&gt;https://www.youtube.com/watch?v=hO8vd1y0h6g10&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;mucks: another way to manage sessions in both screen and tmux written in awk by Serge Zaitsev
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://zserge.com/blog/mucks.html"&gt;http://zserge.com/blog/mucks.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://zserge.com/blog/mucks2.html"&gt;http://zserge.com/blog/mucks2.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Christian &amp;quot;wellle&amp;quot; Wellenbrock&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Vimfiles: &lt;a href="https://github.com/wellle/dotfiles"&gt;https://github.com/wellle/dotfiles&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;uses the &lt;a href="https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard"&gt;dvorak keyboard layout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://ranger.nongnu.org/"&gt;ranger&lt;/a&gt;: minimalistic file-browser
+
+&lt;ul&gt;
+&lt;li&gt;ranger: plugin for vim: &lt;a href="https://raw.githubusercontent.com/hut/ranger/master/examples/vim_file_chooser.vim"&gt;https://raw.githubusercontent.com/hut/ranger/master/examples/vim_file_chooser.vim&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;tmux: zoom with &amp;#39;Prefix z&amp;#39;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/wellle/tmux-complete.vim"&gt;tmux-complete&lt;/a&gt;: completes words from other panes&lt;/li&gt;
+&lt;li&gt;tmux: enable tmux with mouse support for dragging borders between panes&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/tpope/vim-tbone"&gt;vim-tbone&lt;/a&gt;: a good plugin to send keys to certain panes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Sven Guckes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;almost never uses the mouse&lt;/li&gt;
+&lt;li&gt;current window manager: &amp;quot;i3&amp;quot; (small+fast!)&lt;/li&gt;
+&lt;li&gt;has been using screen as an environment for 20+ years&lt;/li&gt;
+&lt;li&gt;maintainer of the screen maillist gnu-screen 2000-2004 &lt;a href="https://groups.yahoo.com/neo/groups/gnu-screen/info"&gt;https://groups.yahoo.com/neo/groups/gnu-screen/info&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.guckes.net/Screen"&gt;http://www.guckes.net/Screen&lt;/a&gt; webpages on screen&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt; setup files:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.guckes.net/Setup/screenrc.minimal"&gt;http://www.guckes.net/Setup/screenrc.minimal&lt;/a&gt; 450byte&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.guckes.net/Setup/screenrc"&gt;http://www.guckes.net/Setup/screenrc&lt;/a&gt; (58KB): includes many examples, links about screen, a description of copy mode, and some general problems on screen&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;screen or tmux?  tmux!
+
+&lt;ul&gt;
+&lt;li&gt;comparison: &lt;a href="http://www.guckes.net/tmux/vs.screen.txt"&gt;http://www.guckes.net/tmux/vs.screen.txt&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;screen: some remarks:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;screen+tmux: keep programs running&lt;/li&gt;
+&lt;li&gt;terminology:
+
+&lt;ul&gt;
+&lt;li&gt;screen: windows with regions&lt;/li&gt;
+&lt;li&gt;tmux:   windows with panes&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;splitting: horizontal und vertikal
+
+&lt;ul&gt;
+&lt;li&gt;screen: global layout&lt;/li&gt;
+&lt;li&gt;tmux: each window can have different panes&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;useful shell aliases:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class="highlight shell"&gt;&lt;code&gt;&lt;span class="nb"&gt;alias&lt;/span&gt;   &lt;span class="se"&gt;\\&lt;/span&gt;?&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;'screen -ls'&lt;/span&gt;
+&lt;span class="nb"&gt;alias&lt;/span&gt;   &lt;span class="se"&gt;\\&lt;/span&gt;!&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;'screen -r'&lt;/span&gt;
+&lt;span class="nb"&gt;alias    &lt;/span&gt;&lt;span class="nv"&gt;x&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;'screen -x'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;screen: starting sessions with config files&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class="highlight shell"&gt;&lt;code&gt;screen -c &lt;span class="nv"&gt;$file&lt;/span&gt;
+&lt;span class="nb"&gt;alias &lt;/span&gt;&lt;span class="nv"&gt;WORK&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;'screen           -m -c ~/.screenrc.work'&lt;/span&gt;
+&lt;span class="nb"&gt;alias &lt;/span&gt;&lt;span class="nv"&gt;COMM&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;'screen -t COMM 9 -m -c ~/.screenrc.comm'&lt;/span&gt;
+&lt;span class="gp"&gt;-&amp;gt; &lt;/span&gt;&lt;span class="s2"&gt;":source"&lt;/span&gt; allows splitting of config files
+  &lt;span class="o"&gt;(&lt;/span&gt;shells, mutt and vim allows this, &lt;span class="nv"&gt;too&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;bindings: allows to start programs and webpages easily (zB htop, imdb, mtr, mutt,vim; web: dict,google,imdbhj)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;other tools:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;irssi: &amp;quot;a modular IRC client for UNIX&amp;quot; backlog completion - ading tab completion for prefix of words which had been used in conversation (private or in public, ie on channels)&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.guckes.net/irssi/scripts/backlog_completion.txt"&gt;http://www.guckes.net/irssi/scripts/backlog_completion.txt&lt;/a&gt; written by Florian Ragwitz&lt;/li&gt;
+&lt;li&gt;xsel: &amp;quot;manipulate the X selection&amp;quot; &lt;a href="http://www.vergenet.net/%7Econrad/software/xsel/"&gt;http://www.vergenet.net/~conrad/software/xsel/&lt;/a&gt; copies text from shell/vim from/into the X clipboard -&amp;gt; no need for vim to be compiled with clipboard support
+
+&lt;ul&gt;
+&lt;li&gt;same functionality for MacOSX: pbcopy + pbpaste &lt;a href="http://osxdaily.com/2007/03/05/manipulating-the-clipboard-from-the-command-line/"&gt;http://osxdaily.com/2007/03/05/manipulating-the-clipboard-from-the-command-line/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;zsh: fc - &amp;quot;The fc command controls the interactive history mechanism.&amp;quot; builtin command to edit last command&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Questions&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;screen: backlog search with patterns? -&amp;gt; tmux+copycat!&lt;/li&gt;
+&lt;li&gt;tmux: does it have a zombie mode?&lt;/li&gt;
+&lt;li&gt;vim: tab management. &amp;quot;jump to tab with &amp;#39;foo&amp;#39; in its name&amp;quot; - possible?&lt;/li&gt;
+&lt;li&gt;vim: how do you handle empty/new buffers?
+
+&lt;ul&gt;
+&lt;li&gt;eg &amp;quot;list all buffers without a file&amp;quot;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Video&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/tpope/vim-dispatch"&gt;https://github.com/tpope/vim-dispatch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycastr/keycastr"&gt;https://github.com/keycastr/keycastr&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=hO8vd1y0h6g10"&gt;https://www.youtube.com/watch?v=hO8vd1y0h6g10&lt;/a&gt; &amp;quot;fzf - Fuzzy Finder For Your Shell - Linux TUI&amp;quot;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Ideas&lt;/h3&gt;
+
+&lt;p&gt;Christian:
+- tmux: allow naming of panes/windows with letters (instead of numbers)&lt;/p&gt;
+
+&lt;p&gt;Sven:
+- CryoPID: &amp;quot;A Process Freezer for Linux&amp;quot; &lt;a href="https://code.google.com/p/cryopid/"&gt;https://code.google.com/p/cryopid/&lt;/a&gt;
+  - CryoPID can move your running Linux programs from one computer to another.  has anyone used this yet?
+- reptyr: &amp;quot;Tool for moving running programs between ptys&amp;quot;
+- feh: &amp;quot;image viewer and cataloguer&amp;quot;&lt;/p&gt;
+&lt;pre class="highlight shell"&gt;&lt;code&gt;bilder sortieren per key bindings -&amp;gt; actions
+parameter: --action1 .. --action9
+action1:    save pictures to subdir1 &lt;span class="o"&gt;(&lt;/span&gt;good -&amp;gt; keep&lt;span class="o"&gt;)&lt;/span&gt;
+action2:    save pictures to subdir2 &lt;span class="o"&gt;(&lt;/span&gt;bad  -&amp;gt; keep &lt;span class="k"&gt;for &lt;/span&gt;now&lt;span class="o"&gt;)&lt;/span&gt;
+action3:    save pictures to subdir3 &lt;span class="o"&gt;(&lt;/span&gt;ugly -&amp;gt; to be deleted&lt;span class="o"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;screen: use case embedded device -&amp;gt; Bjoern Buerger&lt;/li&gt;
+&lt;li&gt;mutt+vim: colouring/farben&lt;/li&gt;
+&lt;li&gt;tmux: use extra pane to show key input (four/five lines)&lt;/li&gt;
+&lt;li&gt;vim: running several instances on the same files (swapfile issues)&lt;/li&gt;
+&lt;li&gt;vim: compare nerdtree to Explore to vimnegar(?)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thanks to &lt;a title="Sven Guckes" href="http://www.guckes.net"&gt;Sven Guckes&lt;/a&gt; for writing the notes.&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/november-2015-meetup/</guid>
+    </item>
+    <item>
+      <title>Vimfest October 2015</title>
+      <link>http://vimberlin.com/vimfest-october-2015/</link>
+      <description>&lt;![CDATA[&lt;p&gt;&lt;img src="/assets/images/vimfest.png" /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Sign up under &lt;a href="http://doodle.com/poll/mpzzamenz5npq3f7"&gt;http://doodle.com/poll/mpzzamenz5npq3f7&lt;/a&gt; if you want come to the event&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Vimfest Berlin 2015 is the first community-driven &lt;a href="http://www.vim.org/"&gt;Vim&lt;/a&gt; &amp;quot;&lt;a href="http://en.wikipedia.org/wiki/Hackathon"&gt;Hackathon&lt;/a&gt;&amp;quot;, happening
+the weekend of 10 – 11 October at &lt;a href="http://www.thoughtworks.com/locations/berlin"&gt;ThoughtWorks&lt;/a&gt; in Berlin, organized by the
+&lt;a href="http://vimberlin.de"&gt;Vim Berlin&lt;/a&gt; user group and Vim enthusiasts from other cities.&lt;/p&gt;
+
+&lt;p&gt;We will spend the whole weekend on topics around the popular editor, such as:
+efficient ways of writing with Vim. Setting up &lt;code&gt;.vimrc&lt;/code&gt;. Using plugins that
+rock, and writing plugins that rock. And also: other useful tools with vim
+keybindings, like &lt;code&gt;mutt&lt;/code&gt; or &lt;code&gt;newsbeuter&lt;/code&gt;. What ever you&amp;#39;re interested in:
+Vimfest Berlin is an open space, everything is up to you!&lt;/p&gt;
+
+&lt;p&gt;So don&amp;#39;t hesitate, and save the date: &lt;strong&gt;10 – 11 October&lt;/strong&gt; in Berlin: Be with us
+and join the very first Vimfest – try, learn and talk about the editor we all
+love.&lt;/p&gt;
+
+&lt;p&gt;Ain&amp;#39;t enough? Wait, there&amp;#39;s more.&lt;/p&gt;
+
+&lt;p&gt;Berlin is a great place that has a lot to offer. Once having many Vim lovers
+and interested people united at one place, we&amp;#39;ll use the opportunity and,
+guided by our locals, go find some of the most interesting buffers of Berlin
+and celebrate Vim a bit at Saturday night.&lt;/p&gt;
+
+&lt;p&gt;&lt;a title="Matthias Günther" href="http://wikimatze.de/about"&gt;Matthias Günther&lt;/a&gt; and &lt;a href="https://github.com/tqmz"&gt;Tim Quellmalz&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Venue&lt;/h2&gt;
+
+&lt;p&gt;We got a confirmation from &lt;a href="http://www.thoughtworks.com/locations/berlin"&gt;ThoughtWorks&lt;/a&gt; and are happy to announce they&amp;#39;ll
+host our weekend for &lt;em&gt;free&lt;/em&gt;! Here is the location:&lt;/p&gt;
+
+&lt;iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2427.020216472162!2d13.419111299999994!3d52.53306839999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e037767de0b%3A0xeea2f7a5ae27f3c0!2zTcO8bGhhdXNlciBTdHJhw59l!5e0!3m2!1sen!2sus!4v1401733194428" width="600" height="450" frameborder="0" style="border:0"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Venues for Saturday night to be announced. Watch &lt;a href="http://twitter.com/vimberlin"&gt;@vimberlin&lt;/a&gt; for updates.&lt;/p&gt;
+
+&lt;h2&gt;Schedule&lt;/h2&gt;
+
+&lt;p&gt;Here is the rough agenda:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;present the projects to work on,&lt;/li&gt;
+&lt;li&gt;jump into the projects,&lt;/li&gt;
+&lt;li&gt;present learnings and results.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There is enough time to chat, relax in the garden and socialize with other
+people. We will have drinks, wifi, a beamer - you can bring our own food there
+(there is a small cuisine), restaurants are around the corner.&lt;/p&gt;
+
+&lt;p&gt;The best way to get things done is to sit together and work on things with a
+limited amount of time. No time pressure or will to reach a goal - explore and
+try out new things. Let&amp;#39;s have a great time together! Let&amp;#39;s have a great time
+together!&lt;/p&gt;
+
+&lt;h2&gt;Sessions&lt;/h2&gt;
+
+&lt;h3&gt;Vim&lt;/h3&gt;
+
+&lt;p&gt;Ideas for Vim sessions so far:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Vim for Newbies&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Plugin showcase: everyone giving a brief description of plugins used
+and their purpose, experience and value + ad hoc sessions on
+plugins others are especially interested in&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;VimL first steps: a rough overview for getting into vim plugin
+development&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Issues: an occasion for helping each other fixing current issues with
+their setups&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://twitter.com/wikimatze"&gt;@wikimatze&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;write a &lt;a href="https://github.com/tpope/vim-rails"&gt;rails-vim&lt;/a&gt; plugin for &lt;a href="http://www.padrinorb.com/"&gt;Padrino&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/tqmz"&gt;@tqmz&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Tim on &lt;a href="http://www.vim.org/"&gt;Vim&lt;/a&gt; w/ &lt;a href="http://www.zim-wiki.org/"&gt;Zim&lt;/a&gt; (and more wiki-like stuff)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/nkoehring"&gt;@koehr&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.vim.org/"&gt;Vim&lt;/a&gt; + &lt;a href="http://todotxt.com"&gt;todo.txt&lt;/a&gt; + ? = Profit!&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;w/ Vim Keybindings&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/wikimatze"&gt;@wikimatze&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Get &lt;a href="http://www.mutt.org/"&gt;mutt&lt;/a&gt; up and running&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/tqmz"&gt;@tqmz&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;newsbeuter&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;vimperator &amp;amp; co.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Contribute&lt;/h2&gt;
+
+&lt;p&gt;Want to contribute to making Vimfest Berlin a great event?&lt;/p&gt;
+
+&lt;p&gt;Add your own topics here, and see &lt;a href="https://github.com/vimberlin/vimberlin.de/wiki/vimfest-org"&gt;vimfest-org&lt;/a&gt; for the
+organizational aspects.&lt;/p&gt;
+
+&lt;h2&gt;Contact&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Mail: vimberlin / gmail&lt;/li&gt;
+&lt;li&gt;IRC: Freenode &lt;code&gt;#vimberlin&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Twitter: &lt;a href="http://twitter.com/vimberlin"&gt;@vimberlin&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+]]&gt;</description>
+      <pubDate>Tue, 22 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/vimfest-october-2015/</guid>
+    </item>
+    <item>
+      <title>July 2015 Meetup</title>
+      <link>http://vimberlin.com/july-2015-meetup/</link>
+      <description>&lt;![CDATA[&lt;h2&gt;Talks&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&amp;quot;Vim Banshee - a command line wrapper for Banshee&amp;quot;&lt;/strong&gt; by &lt;a href="https://twitter.com/wikimatze"&gt;Matthias Günther&lt;/a&gt;&lt;br&gt;
+Matthias wanted to give a talk about this during the &lt;a title="april 2015 meetup" href="/april-2015-meetup/"&gt;april 2015 meetup&lt;/a&gt; and &lt;a title="may 2015 meetup" href="/may-2015-meetup/"&gt;may 2015 meetup&lt;/a&gt;but
+will do it this time. Based on &lt;a href="https://twitter.com/fifthposition"&gt;Ben Klein&amp;#39;s&lt;/a&gt; book &lt;a href="https://pragprog.com/book/bkviml/the-viml-primer"&gt;The VimL Primer: Edit Like a Pro with Vim Plugins and Scripts&lt;/a&gt; I started to write this plugin and I want to go through it, explain it, what future plans he has and how it was tested.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;quot;Hands-on Neovim&amp;quot;&lt;/strong&gt; by &lt;a href="https://twitter.com/wikimatze"&gt;Matthias Günther&lt;/a&gt;&lt;br&gt;
+Matthias will talk about his first steps with Neovim.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;See you all soon.&lt;/p&gt;
+
+&lt;h2&gt;Note&lt;/h2&gt;
+
+&lt;p&gt;Please be in front of the office around 18:45, so that we can drive together at the &lt;a title="Wunderlist office" href="https://www.wunderlist.com/"&gt;Wunderlist office&lt;/a&gt;. If you are there later, please drop us a line on &lt;a title="twitter" href="https://twitter.com/vimberlin"&gt;twitter&lt;/a&gt; so that we will pick you up.&lt;/p&gt;
+
+&lt;h2&gt;Sponsor&lt;/h2&gt;
+
+&lt;p&gt;&lt;img title="Wunderlist" alt="Wunderlist" src="/images/wunderlist.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a title="Wunderlist" href="https://www.wunderlist.com/"&gt;Wunderlist&lt;/a&gt; for hosting this event.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Matthias Günther" href="http://wikimatze.de/about"&gt;Matthias Günther&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Mon, 27 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/july-2015-meetup/</guid>
+    </item>
+    <item>
+      <title>May 2015 Meetup</title>
+      <link>http://vimberlin.com/may-2015-meetup/</link>
+      <description>&lt;![CDATA[&lt;h2&gt;Talks&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&amp;quot;Vim Banshee - a command line wrapper for Banshee&amp;quot;&lt;/strong&gt; by &lt;a href="https://twitter.com/wikimatze"&gt;Matthias Günther&lt;/a&gt;&lt;br&gt;
+Matthias wanted to give a talk about this during the &lt;a title="april 2015 meetup" href="/april-2015-meetup/"&gt;april 2015 meetup&lt;/a&gt; but
+will do it this time. Based on &lt;a href="https://twitter.com/fifthposition"&gt;Ben Klein&amp;#39;s&lt;/a&gt; book &lt;a href="https://pragprog.com/book/bkviml/the-viml-primer"&gt;The VimL Primer: Edit Like a Pro with Vim Plugins and Scripts&lt;/a&gt; I started to write this plugin and I want to go through it
+and explain it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;See you all soon.&lt;/p&gt;
+
+&lt;h2&gt;Sponsor&lt;/h2&gt;
+
+&lt;p&gt;&lt;img title="Wunderlist" alt="Wunderlist" src="/images/wunderlist.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a title="Wunderlist" href="https://www.wunderlist.com/"&gt;Wunderlist&lt;/a&gt; for hosting this event.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Matthias Günther" href="http://wikimatze.de/about"&gt;Matthias Günther&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/may-2015-meetup/</guid>
+    </item>
+    <item>
+      <title>April 2015 Meetup</title>
+      <link>http://vimberlin.com/april-2015-meetup/</link>
+      <description>&lt;![CDATA[&lt;h2&gt;Talks&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&amp;quot;Vim Banshee - a command line wrapper for Banshee&amp;quot;&lt;/strong&gt; by &lt;a href="https://twitter.com/wikimatze"&gt;Matthias Günther&lt;/a&gt;&lt;br&gt;
+Based on &lt;a href="https://twitter.com/fifthposition"&gt;Ben Klein&amp;#39;s&lt;/a&gt; book &lt;a href="https://pragprog.com/book/bkviml/the-viml-primer"&gt;The VimL Primer: Edit Like a Pro with Vim Plugins and Scripts&lt;/a&gt; I started to write this plugin and I want to go through it and explain it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vim lookup&lt;/strong&gt; by &lt;a title="Gernot Höflechner" href="https://github.com/LFDM"&gt;Gernot Höflechner&lt;/a&gt;&lt;br&gt;
+Gernot will give a shor talk about his &lt;a title="vim-lookup" href="https://github.com/LFDM/vim-lookup"&gt;vim-lookup&lt;/a&gt;  plugin which make it easy to find certain files or directories very fast.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After the talks there will be a F&amp;amp;Q and free tools session.&lt;/p&gt;
+
+&lt;p&gt;See you all soon.&lt;/p&gt;
+
+&lt;h2&gt;Sponsor&lt;/h2&gt;
+
+&lt;p&gt;&lt;img title="ThoughtWorks Werkstatt Berlin" alt="ThoughtWorks Werkstatt Berlin" src="/images/TWWB_logo_white_bg.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a href="http://www.thoughtworks.com/locations/berlin"&gt;ThoughtWorks Werkstatt Berlin&lt;/a&gt; for hosting this event.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Matthias Günther" href="http://wikimatze.de/about"&gt;Matthias Günther&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Thu, 23 Apr 2015 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/april-2015-meetup/</guid>
+    </item>
+    <item>
+      <title>Book Club About "The VimL Primer"</title>
+      <link>http://vimberlin.com/book-club-about-the-viml-primer/</link>
+      <description>&lt;![CDATA[&lt;p&gt;&lt;img src="https://imagery.pragprog.com/products/420/bkviml_xlargecover.jpg?1415117329"&gt;&lt;/p&gt;
+
+&lt;p&gt;We will have our first book club about &lt;a title="Ben Klein" href="https://twitter.com/fifthposition"&gt;Ben Klein&amp;#39;s&lt;/a&gt; book &lt;a title="The VimL Primer: Edit Like a Pro with Vim Plugins and Scripts" href="https://pragprog.com/book/bkviml/the-viml-primer"&gt;The VimL Primer: Edit Like a Pro with Vim Plugins and Scripts&lt;/a&gt;. If you want to get started scripting your own Vim plugins or learn something new, then this book might be a good start:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Build on your editor’s capabilities and tailor your editing experience with VimL, the powerful scripting language built into Vim. With VimL you can configure basic settings or add entirely new functionality. Use this quick and easy introduction to create your own Vim plugin while learning the concepts and syntax of VimL.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;You will get a 35% coupon code. Just write me a pm under &lt;a title="@vimberlin" href="http://twitter.com/vimberlin"&gt;@vimberlin&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We will talk about this book in our March Meetup. Having questions, ideas or if
+you want to report your progress through the book, please &lt;a title="share your knowledge with us" href="https://groups.google.com/group/vimberlin/"&gt;share your knowledge with us&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Sponsor&lt;/h2&gt;
+
+&lt;p&gt;&lt;img title="PragProg Image" alt="pragprog" src="/images/pragprog.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a title="pragprog" href="https://pragprog.com/"&gt;pragprog&lt;/a&gt; for giving us the discount.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Matthias Günther" href="http://wikimatze.de/about"&gt;Matthias Günther&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Tue, 24 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/book-club-about-the-viml-primer/</guid>
+    </item>
+    <item>
+      <title>February 2015 Meetup</title>
+      <link>http://vimberlin.com/february-2015-meetup/</link>
+      <description>&lt;![CDATA[&lt;h2&gt;Talks&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&amp;quot;Vim Plug - my favorite plugin manager&amp;quot;&lt;/strong&gt; by &lt;a href="https://twitter.com/wikimatze"&gt;Matthias Günther&lt;/a&gt;&lt;br&gt;
+In our &lt;a title="January 2015 Meetup" href="/january-2015-meetup/"&gt;January 2015 Meetup&lt;/a&gt; we talked about the way to use
+plugin managers for Vim. I will go through &lt;a title="vim-plug" href="https://github.com/junegunn/vim-plug"&gt;vim-plug&lt;/a&gt;
+and tell you why it&amp;#39;s the best plugin manager for vim in the world.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;quot;Configure Vim with Nix&amp;quot;&lt;/strong&gt; by &lt;a title="Rok Garbas" href="https://twitter.com/garbas"&gt;Rok Garbas&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Open Topics&lt;/h2&gt;
+
+&lt;p&gt;We are going to take time to answer questions related to vim - feel free to prepare them.&lt;/p&gt;
+
+&lt;p&gt;Beside we will have an open discussions about tools for &lt;a title="Ruby" href="https://www.ruby-lang.org/en/"&gt;Ruby&lt;/a&gt; and
+&lt;a title="Rails development" href="http://rubyonrails.org/"&gt;Rails development&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Recap&lt;/h2&gt;
+
+&lt;h3&gt;Vim Plug - my favorite plugin manager&lt;/h3&gt;
+
+&lt;p&gt;The slides of the talk:&lt;/p&gt;
+
+&lt;script async class="speakerdeck-embed" data-id="67dd407073d948f09b34918aafc24c3d" data-ratio="1.33159947984395" src="//speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;
+
+&lt;h3&gt;Highlighting SQL in heredoc parts in Ruby&lt;/h3&gt;
+
+&lt;p&gt;All credit for this goes to &lt;a title="AndrewRadev" href="https://github.com/AndrewRadev/Vimfiles/blob/master/after/syntax/ruby.vim"&gt;AndrewRadev&lt;/a&gt;:&lt;/p&gt;
+&lt;pre class="highlight viml"&gt;&lt;code&gt;&lt;span class="k"&gt;let&lt;/span&gt; &lt;span class="nv"&gt;s:bcs&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;b:current_syntax&lt;/span&gt;
+unlet &lt;span class="nv"&gt;b:current_syntax&lt;/span&gt;
+syntax include @SQL syntax/sql&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="k"&gt;vim&lt;/span&gt;
+&lt;span class="k"&gt;let&lt;/span&gt; &lt;span class="nv"&gt;b:current_syntax&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;s:bcs&lt;/span&gt;
+
+&lt;span class="c"&gt;" match optional, surrounding single or double quote and any whitespace in the heredoc name&lt;/span&gt;
+syntax region rubyHereDocSQL matchgroup&lt;span class="p"&gt;=&lt;/span&gt;rubyOperator &lt;span class="k"&gt;start&lt;/span&gt;&lt;span class="p"&gt;=+&amp;lt;&amp;lt;-&lt;/span&gt;\?\&lt;span class="p"&gt;([&lt;/span&gt;'"&lt;span class="p"&gt;]&lt;/span&gt;\?\&lt;span class="p"&gt;)&lt;/span&gt;\z&lt;span class="p"&gt;(&lt;/span&gt;\s*SQL\s*\&lt;span class="p"&gt;)&lt;/span&gt;\&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;+&lt;/span&gt; &lt;span class="k"&gt;end&lt;/span&gt;&lt;span class="p"&gt;=+&lt;/span&gt;^\s*\z1$&lt;span class="p"&gt;+&lt;/span&gt; contains&lt;span class="p"&gt;=&lt;/span&gt;@SQL
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;It&amp;#39;s the best to put this in &lt;code&gt;after/syntax/ruby.vim&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3&gt;smapclear&lt;/h3&gt;
+
+&lt;p&gt;This removes all mapping when you are in &lt;code&gt;Select&lt;/code&gt; mode (used for) - very handy for snippet completion. Put this option in &lt;code&gt;after/plugin/smapclear.vim&lt;/code&gt;. Thanks &lt;a title="AndrewRadev" href="https://github.com/AndrewRadev/"&gt;AndrewRadev&lt;/a&gt; for this tip.&lt;/p&gt;
+
+&lt;h2&gt;Sponsor&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class="title" alt="LAUNCH/CO" src="/assets/images/launch_co_logo.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a title="LAUNCH/CO" href="https://launchco.com/etc/#coworking"&gt;LAUNCH/CO&lt;/a&gt; for hosting the event.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Matthias Günther" href="http://wikimatze.de/about"&gt;Matthias Günther&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Thu, 19 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/february-2015-meetup/</guid>
+    </item>
+    <item>
+      <title>January 2015 Meetup</title>
+      <link>http://vimberlin.com/january-2015-meetup/</link>
+      <description>&lt;![CDATA[&lt;h2&gt;Talks&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&amp;quot;Git and Vim - maximize the joy and fun&amp;quot;&lt;/strong&gt; by &lt;a href="https://twitter.com/wikimatze"&gt;Matthias Günther&lt;/a&gt;&lt;br&gt;
+Follow me through my travel exploring the way to get Vim and Git running in a friendly coexistence.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;quot;Switch.vim and clever regexes&amp;quot;&lt;/strong&gt; by &lt;a title="Andrew Radev" href="https://twitter.com/andrewradev"&gt;Andrew Radev&lt;/a&gt;&lt;br&gt;
+I&amp;#39;ll talk a bit about my &amp;quot;switch&amp;quot; plugin, why I made it and why I think it&amp;#39;s a useful tool, even if it is a bit simple. I&amp;#39;ll show you some of the clever regexes I&amp;#39;ve used in it (that you might not know about), and I&amp;#39;ll ask you for feedback on how to make the plugin even better :)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Vim News&lt;/h2&gt;
+
+&lt;p&gt;Andrew will share the latest news about Vim and other parts of it.&lt;/p&gt;
+
+&lt;h2&gt;Recap&lt;/h2&gt;
+
+&lt;h3&gt;Git and Vim&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/gregsexton/gitv"&gt;gitv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/tpope/vim-fugitive"&gt;Fugitive&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/idanarye/vim-merginal"&gt;Merginal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/int3/vim-extradite"&gt;Extradite&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here are the slides of the talk:&lt;/p&gt;
+
+&lt;script async class="speakerdeck-embed" data-id="2e58f59084330132353846ef331f01f2" data-ratio="1.33159947984395" src="//speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;
+
+&lt;h3&gt;Switch.vim&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/AndrewRadev/switch.vim/wiki"&gt;It has a wiki now&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Vim news&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/vimlinks"&gt;@VimLinks&lt;/a&gt;, follow for plugins, news, blog posts.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://teespring.com/vimwq"&gt;:wq shirt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.reddit.com/r/vim/comments/2sc2qp/remember_the_vim_cheat_ball_that_was_posted_here/"&gt;Cheat Ball&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://pragprog.com/book/bkviml/the-viml-primer"&gt;The VimL Primer&lt;/a&gt;, a VimL book from PragProg&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://geoff.greer.fm/2015/01/15/why-neovim-is-better-than-vim/"&gt;A rant on Neovim vs Vim&lt;/a&gt; by Geoff Greer. Some valid criticism on Vim&amp;#39;s slow development and good news for Neovim&amp;#39;s progress.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://groups.google.com/forum/#!topic/vim_dev/m1RMplyIbug"&gt;A discussion on Vim&amp;#39;s development model&lt;/a&gt; which criticises the project&amp;#39;s slow development, but also has some good responses from core Vim on why this is the case.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Ideas for next time&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Some time for discussion and helping newbies out?&lt;/li&gt;
+&lt;li&gt;Tools for ruby and rails development?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Sponsor&lt;/h2&gt;
+
+&lt;p&gt;&lt;img title="ThoughtWorks Werkstatt Berlin" alt="ThoughtWorks Werkstatt Berlin" src="/images/TWWB_logo_white_bg.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a href="http://www.thoughtworks.com/locations/berlin"&gt;ThoughtWorks Werkstatt Berlin&lt;/a&gt; for hosting this event.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Matthias Günther" href="http://wikimatze.de/about"&gt;Matthias Günther&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Thu, 22 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/january-2015-meetup/</guid>
+    </item>
+    <item>
+      <title>October 2014 Meetup</title>
+      <link>http://vimberlin.com/october-2014-meetup/</link>
+      <description>&lt;![CDATA[&lt;h2&gt;Talks&lt;/h2&gt;
+
+&lt;p&gt;None so far, but as &lt;a href="https://twitter.com/andrewradev"&gt;Andrew&lt;/a&gt; mentioned last time, we will have a discussion on how to
+learn and teach Vim.&lt;/p&gt;
+
+&lt;h2&gt;Sponsor&lt;/h2&gt;
+
+&lt;p&gt;&lt;img title="ThoughtWorks Werkstatt Berlin" alt="ThoughtWorks Werkstatt Berlin" src="/images/TWWB_logo_white_bg.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a href="http://www.thoughtworks.com/locations/berlin"&gt;ThoughtWorks Werkstatt Berlin&lt;/a&gt; for hosting this event.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Matthias Günther" href="http://wikimatze.de/about"&gt;Matthias Günther&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Thu, 23 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/october-2014-meetup/</guid>
+    </item>
+    <item>
+      <title>September 2014 Meetup</title>
+      <link>http://vimberlin.com/september-2014-meetup/</link>
+      <description>&lt;![CDATA[&lt;h2&gt;Talks&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&amp;quot;Plugins for writing a book with Vim&amp;quot;&lt;/strong&gt; by &lt;a href="https://twitter.com/wikimatze"&gt;Matthias Günther&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;quot;Andrew&amp;#39;s guide to the NERDTree&amp;quot;&lt;/strong&gt; by &lt;a href="https://twitter.com/andrewradev"&gt;Andrew Radev&lt;/a&gt;&lt;br&gt;
+The &lt;a href="https://github.com/scrooloose/nerdtree"&gt;NERDTree&lt;/a&gt; is one of the most powerful Vim plugins up to date. And because of its many features, I feel that most people don&amp;#39;t use it to its full potential. Stuff like precise node-by-node navigation, bookmarks, manipulating the file system, and, the most fun part of all, support for plugins.&lt;br&gt; &lt;br&gt; Since I consider myself a NERDTree power user, I&amp;#39;d like to demonstrate some of these and show off a few personal customizations that I&amp;#39;ve built to improve my workflow. I&amp;#39;ll touch on some of the alternatives, but for the most part, I&amp;#39;ll try to convince you that the NERDTree is an excellent tool to have in your toolbox.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Sponsor&lt;/h2&gt;
+
+&lt;p&gt;&lt;img title="ThoughtWorks Werkstatt Berlin" alt="ThoughtWorks Werkstatt Berlin" src="/images/TWWB_logo_white_bg.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a href="http://www.thoughtworks.com/locations/berlin"&gt;ThoughtWorks Werkstatt Berlin&lt;/a&gt; for hosting this event.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Matthias Günther" href="http://wikimatze.de/about"&gt;Matthias Günther&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2&gt;Recap&lt;/h2&gt;
+
+&lt;p&gt;Here are the notes from the talk &lt;strong&gt;&amp;quot;Plugins for writing a book with Vim&amp;quot;&lt;/strong&gt; by &lt;a href="https://twitter.com/wikimatze"&gt;Matthias Günther&lt;/a&gt;&lt;/p&gt;
+
+&lt;script src="https://gist.github.com/wikimatze/1e45ca7ecd60e10cf725.js"&gt;&lt;/script&gt;
+
+&lt;p&gt;as well as the notes from the talks &lt;strong&gt;&amp;quot;Andrew&amp;#39;s guide to the NERDTree&amp;quot;&lt;/strong&gt; by &lt;a href="https://twitter.com/andrewradev"&gt;Andrew Radev&lt;/a&gt;&lt;/p&gt;
+
+&lt;script src="https://gist.github.com/AndrewRadev/00e352c8bb58be4d51c0.js"&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Matthias Günther" href="http://wikimatze.de/about"&gt;Matthias Günther&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Thu, 25 Sep 2014 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/september-2014-meetup/</guid>
+    </item>
+    <item>
+      <title>May 2014 Meetup</title>
+      <link>http://vimberlin.com/may-2014-meetup/</link>
+      <description>&lt;![CDATA[&lt;h2&gt;Discussions&lt;/h2&gt;
+
+&lt;p&gt;Luckily, &lt;a href="https://twitter.com/andrewradev"&gt;Andrew&lt;/a&gt; was so kind to post us some ideas we can talk about:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/tpope/vim-projectionist"&gt;projectile&lt;/a&gt; - Projections are maps from file names and globs to sets of properties describing the file&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/chiphogg/dotfiles/blob/master/.vimrc"&gt;vimrc from chiphogg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/emgram769/vim-multiuser"&gt;vim-multiuser&lt;/a&gt; - collaborate with others on realtime on the same file
+(bring your laptops with you so that we can try it out)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thanks to &lt;a href="http://bitcrowd.net/"&gt;bitcrowd GmbH&lt;/a&gt; for hosting this event.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Matthias Günther" href="http://wikimatze.de/about"&gt;Matthias Günther&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Thu, 22 May 2014 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/may-2014-meetup/</guid>
+    </item>
+    <item>
+      <title>April 2014 Meetup</title>
+      <link>http://vimberlin.com/april-2014-meetup/</link>
+      <description>&lt;![CDATA[&lt;h2&gt;Talks&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&amp;quot;Go support for Vim&amp;quot;&lt;/strong&gt; by &lt;a href="https://twitter.com/andrewradev"&gt;Andrew Radev&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Go is an interesting language in many respects, and one of them is tooling. Unlike many other languages, Go attempts to ship with various tools for code parsing and rewriting, to make it feasible to use IDE-like functionality with any editor or IDE, simply by invoking tools on the command-line.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;d like to demonstrate my own fork of the Go Vim support, talk about what Google has provided and what kind of experiments I&amp;#39;ve done with it. I&amp;#39;ll also show some interesting Go tools and how they can be integrated into Vim, like code completion, finding definitions, the &amp;quot;Go Oracle&amp;quot;.&lt;/p&gt;
+
+&lt;p&gt;Even if you don&amp;#39;t know anything about Go, I hope it will turn into an interesting discussion about language support and tooling in general.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&amp;quot;Three new plugins I recently used and a handy &lt;em&gt;bad-words-highlighting-function&lt;/em&gt;&amp;quot;&lt;/strong&gt; by &lt;a href="https://twitter.com/wikimatze"&gt;Matthias Günther&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;News and Discussions&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/tpope/timl"&gt;timl&lt;/a&gt; - Tim Pope&amp;#39;s Clojure like language which compiles down to VimL&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Questions&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Matthias
+
+&lt;ul&gt;
+&lt;li&gt;Difference between &lt;code&gt;set exrc&lt;/code&gt;, and &lt;code&gt;set secure&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Autocompletion: difference between path and keyword completion&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;C-n&amp;gt; | &amp;lt;C-p&amp;gt;&lt;/code&gt; ... Keyword autocompletion for next|previous matching&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;C-x&amp;gt;&amp;lt;C-n&amp;gt;&lt;/code&gt; ... current buffer keywords&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you want to give a talk too, send us a tweet or a mail.&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a href="http://www.berlinonline.net/"&gt;BerlinOnline&lt;/a&gt; for hosting this event.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Matthias Günther" href="http://wikimatze.de/about"&gt;Matthias Günther&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Thu, 24 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/april-2014-meetup/</guid>
+    </item>
+    <item>
+      <title>March 2014 Meetup</title>
+      <link>http://vimberlin.com/march-2014-meetup/</link>
+      <description>&lt;![CDATA[&lt;h2&gt;Talks&lt;/h2&gt;
+
+&lt;p&gt;None far :scream: ... but we :heart: to hear about your ideas.&lt;/p&gt;
+
+&lt;h2&gt;News and Discussions&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/neovim/neovim"&gt;Neovim&lt;/a&gt; - is it worth spending time on this?&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://medium.com/p/433852f4b4d1"&gt;&amp;quot;Why Atom Can&amp;#39;t Replace Vim&amp;quot;&lt;/a&gt; - emphasize the power of vim?&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://groups.google.com/forum/#!topic/vim_dev/x0BF9Y0Uby8"&gt;Mailing list discussion about neovim&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://vim-wiki.mawercer.de/wiki/topic/in-which-way-does-vim-suck.html"&gt;In which ways is Vim awful&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/t9md/vim-learn"&gt;vim learn - some nice links&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you want to give a talk too, send us a tweet or a mail.&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a href="http://www.absolventa.de/"&gt;Absolventa GmbH&lt;/a&gt; for hosting this event.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Matthias Günther" href="http://wikimatze.de/about"&gt;Matthias Günther&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2&gt;Recap&lt;/h2&gt;
+
+&lt;p&gt;This was our first meetup where we had no talks. I couldn&amp;#39;t attend so I can only write what I heard from people saying
+what they did there:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/wellle/dotfiles/blob/master/vimrc"&gt;vimrc&lt;/a&gt; of &lt;a href="https://github.com/wellle"&gt;Christian Wellenbrock&lt;/a&gt; was checked&lt;/li&gt;
+&lt;li&gt;talk about &lt;a href="https://github.com/wellle/targets.vim"&gt;targets.vim&lt;/a&gt; plugin&lt;/li&gt;
+&lt;li&gt;talk about &lt;a href="https://github.com/wellle/tmux-complete.vim"&gt;tmux-complete.vim&lt;/a&gt; plugin&lt;/li&gt;
+&lt;li&gt;after talking about &lt;a href="https://github.com/neovim/neovim"&gt;Neovim&lt;/a&gt;, &lt;a href="https://github.com/wellle"&gt;Christian Wellenbrock&lt;/a&gt; made a &lt;a href="https://github.com/neovim/neovim/commit/79321c62d504674d26de1d70a4832cfad7fb976e"&gt;commit&lt;/a&gt; for it&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Next time, we are going to have talks again.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Matthias Günther" href="http://wikimatze.de/about"&gt;Matthias Günther&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Thu, 27 Mar 2014 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/march-2014-meetup/</guid>
+    </item>
+    <item>
+      <title>January 2014 Meetup</title>
+      <link>http://vimberlin.com/january-2014-meetup/</link>
+      <description>&lt;![CDATA[&lt;p&gt;Happy new year and we start again with our monthly meetups in 2014.&lt;/p&gt;
+
+&lt;h2&gt;Talks&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&amp;quot;Using Vimperator to browse the Web&amp;quot;&lt;/strong&gt; by &lt;a href="https://twitter.com/wikimatze"&gt;Matthias Günther&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I switched over to Vimperator one month ago and would like to show you shortcuts and how you can configure it.&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src="//player.vimeo.com/video/85943947" width="700" height="430" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="http://vimeo.com/85943947"&gt;&amp;quot;Using Vimperator to browse the Web&amp;quot; by Matthias Günther&lt;/a&gt; from &lt;a href="http://vimeo.com/wikimatze"&gt;wikimatze&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&amp;quot;Clever autocommands&amp;quot;&lt;/strong&gt; by &lt;a href="https://twitter.com/andrewradev"&gt;Andrew Radev&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;m going to do a quick overview on autocommands and some gotchas in their usage. I assume that most people present will know this stuff already, but there might be one or two things you may not have known before :).&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;ll talk about some clever ways I use autocommands. I&amp;#39;ll also show my unfinished experiments with a recently-added autocommand called &lt;code&gt;TextChanged&lt;/code&gt;. This allows you to hook into any kind of change in both normal and insert mode, with some gotchas...&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;m hoping that many other attendees will pitch in for ideas about interesting autocommands they use, opening up some discussion after the talk.&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src="//player.vimeo.com/video/85031784" width="700" height="430" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="http://vimeo.com/85031784"&gt;“Clever autocommands” by Andrew Radev&lt;/a&gt; from &lt;a href="http://vimeo.com/wikimatze"&gt;wikimatze&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&amp;quot;Writing text in Vim&amp;quot;&lt;/strong&gt; by &lt;a href="http://feitel.indeedgeek.de/"&gt;Florian Eitel&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I like to show some tricks and snippets I use for working with text. This include using the spell checker in multiple languages, break long lines, full text search using vimgrep and maybe more.&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src="//player.vimeo.com/video/85034312" width="700" height="430" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="http://vimeo.com/85034312"&gt;“Writing text in Vim” by Florian Eitel&lt;/a&gt; from &lt;a href="http://vimeo.com/wikimatze"&gt;wikimatze&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+• &lt;a href="/data/vimberlin-2014-01_vim_writing/"&gt;SLIDES&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Blame your vimrc&lt;/strong&gt; &lt;a href="https://twitter.com/der_kronn"&gt;Matthias&lt;/a&gt; showing his &lt;a href="https://github.com/kronn/dotfiles/blob/master/.vimrc"&gt;vimrc&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src="//player.vimeo.com/video/85795008" width="700" height="420" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="http://vimeo.com/85795008"&gt;“vimrc&amp;quot; by Matthias Viehweger&lt;/a&gt; from &lt;a href="http://vimeo.com/wikimatze"&gt;wikimatze&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you want to give a talk too, send us a tweet or a mail.&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a href="https://travis-ci.org/"&gt;Travis CI&lt;/a&gt; for hosting this event.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Matthias Günther" href="http://wikimatze.de/about"&gt;Matthias Günther&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2&gt;Recap&lt;/h2&gt;
+
+&lt;h3&gt;Vim News&lt;/h3&gt;
+
+&lt;p&gt;This is a new part in our meetup. &lt;a href="https://twitter.com/andrewradev"&gt;Andrew&lt;/a&gt; will talk about the latest things happening in our Vim community like stuff posted in reddit, discussions on the mailing list, some new plugin or new mapping that someone tweeted. If we get positive feedback about this idea, we make will make this a daily habbit to every following meetup.&lt;/p&gt;
+
+&lt;h4&gt;Plugins:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/tommcdo/vim-exchange"&gt;Exchange plugin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/justinmk/vim-sneak"&gt;Sneak.vim&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/svermeulen/vim-easyclip"&gt;Easyclip&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;Builtins:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.reddit.com/r/vim/comments/1uq71v/a_gimmicky_but_potentially_useful_option/"&gt;:set writedelay&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;Twitter:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/dotvimrc/status/424236516030685184"&gt;Zip right&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;Vim mailing list:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://groups.google.com/forum/#!topic/vim_dev/UGPhorNh_3E"&gt;Check existence of function for version&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://groups.google.com/forum/#!topic/vim_dev/QF7Bzh1YABU"&gt;Non-blocking jobs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://groups.google.com/forum/#!topic/vim_dev/65jjGqS1_VQ"&gt;Input queue&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://groups.google.com/forum/#!topic/vim_dev/dcy_0HJ3RC0"&gt;Named builtins&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://groups.google.com/forum/#!topic/vim_dev/drZDXZmYBsY"&gt;Complete rewrite&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Matthias Günther" href="http://wikimatze.de/about"&gt;Matthias Günther&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Thu, 23 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/january-2014-meetup/</guid>
+    </item>
+    <item>
+      <title>November 2013 Meetup</title>
+      <link>http://vimberlin.com/november-2013-meetup/</link>
+      <description>&lt;![CDATA[&lt;p&gt;We will gather around 7pm at the office and will start with the talks around 7.30pm.&lt;/p&gt;
+
+&lt;h2&gt;We have one talk on our agenda:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&amp;quot;Using Vimperator to browse the Web&amp;quot;&lt;/strong&gt; by &lt;a href="https://twitter.com/wikimatze"&gt;Matthias Günther&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I switched over to Vimperator one month ago and would like to show you shortcuts and how you can configure it.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you want to give a talk too, just send us a tweet or a mail.&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a href="http://www.buero20.org/"&gt;Büro 2.0&lt;/a&gt; for hosting this event.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Matthias Günther" href="http://wikimatze.de/about"&gt;Matthias Günther&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Thu, 28 Nov 2013 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/november-2013-meetup/</guid>
+    </item>
+    <item>
+      <title>October 2013 Meetup</title>
+      <link>http://vimberlin.com/october-2013-meetup/</link>
+      <description>&lt;![CDATA[&lt;p&gt;We will gather around 7pm at the office and will start with the talks around 7.30pm - no need to huzzle around&lt;/p&gt;
+
+&lt;h2&gt;We have two talks on our agenda:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&amp;quot;Ways to extract certain text-components&amp;quot;&lt;/strong&gt; by &lt;a href="https://twitter.com/wikimatze"&gt;Matthias Günther&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;There are these days at work where you have to solve certain problem but you know that this isn&amp;#39;t the easiest way to
+do it. Let me explain you my thoughts to you.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&amp;quot;Fiddling around with indentation&amp;quot;&lt;/strong&gt; by &lt;a href="https://gist.github.com/AndrewRadev"&gt;Andrew Radev&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;One of the drawbacks I see in indent-based languages like haml or coffeescript is that they can be somewhat hard to manipulate, compared to the ones with closing tags. For the latter ones, we have snippets, endwise.vim, auto-indentation, text objects. Dealing with indent can be trickier.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;ve played around and built some simple tools to help me out. I didn&amp;#39;t get too far, but I&amp;#39;d like to show them off regardless, because I think they might be interesting. I&amp;#39;ll also demonstrate some interesting plugins on the topic that I know of. I&amp;#39;d love it if the attendees pitch in with their own methods of working with slim, haml, coffeescript or python.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you want to show us your &lt;code&gt;vimrc&lt;/code&gt; - you are welcome to do so.&lt;/p&gt;
+
+&lt;p&gt;You can find this event under &lt;a href="http://lanyrd.com/crqzz"&gt;Lanyrd&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you want to give a talk too, just let me know and I can you on the agenda. Just drop us a line on twitter or via
+mail.&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a href="http://www.buero20.org/"&gt;Büro 2.0&lt;/a&gt; for hosting this event.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Matthias Günther" href="http://wikimatze.de/about"&gt;Matthias Günther&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Thu, 24 Oct 2013 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/october-2013-meetup/</guid>
+    </item>
+    <item>
+      <title>September 2013 Meetup</title>
+      <link>http://vimberlin.com/september-2013-meetup/</link>
+      <description>&lt;![CDATA[&lt;h2&gt;We have two talks on our agenda:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&amp;quot;Browsing a codebase with ctags&amp;quot;&lt;/strong&gt; by &lt;a href="https://twitter.com/wikimatze"&gt;Matthias Günther&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I was always asking myself how I can browse a code base of bigger written ruby library. I want to share with you
+what I did and what my current work flow looks like. &lt;a href="https://bitbucket.org/wikimatze/presentations/src/74438bf5788e85c15f04e4e36faa3aae2da703d2/slides.markdown?at=vim-autocompletion"&gt;See sources here&lt;/a&gt; and &lt;a href="/data/vimberlin-2013-09_ctags/"&gt;See slides here&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&amp;quot;Profiling Vim&amp;quot;&lt;/strong&gt; by &lt;a href="http://feitel.indeedgeek.de/"&gt;Florian Eitel&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Showing some techniques to profile what vim is doing. &lt;a href="/data/vimberlin-2013-09_vimprofiling/"&gt;See slides here&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Blame your vimrc&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/niklas"&gt;Niklas&lt;/a&gt;
+is showing his &lt;a href="https://github.com/niklas/dotvim"&gt;vimrc&lt;/a&gt;
+and his &lt;a href="http://www.vim.org/scripts/script.php?script_id=2150"&gt;css color plugin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://bodotasche.de"&gt;Bodo&lt;/a&gt; is showing &lt;a href="https://github.com/bitboxer/dotfiles/blob/master/tilde/vimrc"&gt;his vimrc&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Other things mentioned&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/tpope/vim-dispatch"&gt;vim-dispatch&lt;/a&gt; can run external commands async (&lt;a href="http://vimeo.com/63116209]"&gt;video&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/sheerun/vim-polyglot"&gt;vim-polyglot&lt;/a&gt; can load languages faster&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.vim.org/scripts/script.php?script_id=1896"&gt;vim-ragtag&lt;/a&gt; has keybindings for html, php, eruby, ...&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/ggreer/the_silver_searcher"&gt;the silver searcher&lt;/a&gt; is even faster than &lt;a href="https://github.com/petdance/ack2"&gt;ACK&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://vim.wikia.com/wiki/Change_cursor_shape_in_different_modes"&gt;different cursor in insert mode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://kapeli.com/dash"&gt;dash&lt;/a&gt; allows you to browse various documentation locally&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://tbaggery.com/2011/08/08/effortless-ctags-with-git.html"&gt;Ctags combined with git hooks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://stevelosh.com/blog/2012/10/a-modern-space-cadet/#controlescape"&gt;Esc-Ctrl on Capslock on Macs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can find this event under &lt;a href="http://lanyrd.com/crdqc"&gt;Lanyrd&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you want to give a talk too, just let me know and I can put it on the agenda.&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a href="http://www.wooga.com/"&gt;Wooga&lt;/a&gt; for hosting the event.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Matthias Günther" href="http://wikimatze.de/about"&gt;Matthias Günther&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Thu, 26 Sep 2013 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/september-2013-meetup/</guid>
+    </item>
+    <item>
+      <title>August 2013 Meetup</title>
+      <link>http://vimberlin.com/august-2013-meetup/</link>
+      <description>&lt;![CDATA[&lt;p&gt;We currently have one talk on our agenda:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;strong&gt;"Browsing a codebase with ctags"&lt;/strong&gt; by &lt;a href="https://twitter.com/wikimatze"&gt;Matthias Günther&lt;/a&gt;
+    &lt;br&gt;
+    I was always asking myself how I can browse a code base of bigger written ruby library. I want to share with you
+    what I did and what my current work flow looks like.
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can find this event under &lt;a href="http://lanyrd.com/cqtfq"&gt;lanyrd&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Please not that this will be our last meetup at the old place of LAUNCH/CO in the Warschauer Straße since they will be
+moving to a new place. If you have any ideas how we can thank them for hosting us over 1 1/2 half year, let&amp;#39;s discuss it
+on &lt;a href="https://groups.google.com/group/vimberlin/"&gt;mailing list&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you want to give a talk too, just let me know and I can put it on the agenda.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class="title" alt="LAUNCH/CO" src="/assets/images/launch_co_logo.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a title="LAUNCH/CO" href="https://launchco.com/etc/#coworking"&gt;LAUNCH/CO&lt;/a&gt; for hosting the event.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Matthias Günther" href="http://wikimatze.de/about"&gt;Matthias Günther&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Sun, 11 Aug 2013 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/august-2013-meetup/</guid>
+    </item>
+    <item>
+      <title>May 2013 Meetup</title>
+      <link>http://vimberlin.com/may-2013-meetup/</link>
+      <description>&lt;![CDATA[&lt;p&gt;We currently have two talks on our agenda:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;strong&gt;"Multiediting"&lt;/strong&gt;
+    &lt;br&gt;
+    Since Sublime Text became popular, a lot of people have been trying to replicate its "multiple cursors" functionality in Vim. Fortunately for us Vim-users, our editor doesn't really need this, since we have built-in ways to achieve pretty much the same results. Still, I believe the multi-edit plugins have some interesting properties and I want to demonstrate them and some of their benefits and drawbacks. I'll also talk about :substitute, :global and the dot mapping and share some tips and tricks that make them a simple alternative to multiple cursors. I'll finish up with demos of some of my own hacky experiments on this topic.
+    &lt;br&gt;
+    &lt;a href="https://twitter.com/andrewradev"&gt;Andrew Radev&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;"Architecture of my Vim environment"&lt;/strong&gt;
+    &lt;br&gt;
+    &lt;a href="https://twitter.com/wikimatze"&gt;Matthias Günther&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;"Mercury plugin: execute any fragment of code directly from vim"&lt;/strong&gt;
+    &lt;br&gt;
+    &lt;a href="http://www.pushingbits.net/"&gt;Niels Madan&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can find this event under &lt;a href="http://lanyrd.com/cptcr"&gt;lanyrd&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class="lanyrd-target-participants"&gt;
+    &lt;a href="http://lanyrd.com/2013/vimberlin/attendees/"
+        class="lanyrd-participants"&gt;
+        Attendee list for vimberlin on Lanyrd
+    &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;If you want to add something, have any questions, or want to propose your talk, please feel free to post a short message to the &lt;a href="https://groups.google.com/group/vimberlin/"&gt;mailing list&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class="title" alt="LAUNCH/CO" src="/assets/images/launch_co_logo.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a title="LAUNCH/CO" href="https://launchco.com/etc/#coworking"&gt;LAUNCH/CO&lt;/a&gt; for hosting the event.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Matthias Günther" href="http://wikimatze.de/about"&gt;Matthias Günther&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3&gt;Recap&lt;/h3&gt;
+
+&lt;p&gt;After a four month break it was great to see so many new faces and that our community is growing slowly.&lt;/p&gt;
+
+&lt;p&gt;We recorded two of the three talks:&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src="http://player.vimeo.com/video/67235749" width="700" height="430" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="http://vimeo.com/67235749"&gt;&amp;quot;Multiediting&amp;quot; (@andrewradev)&lt;/a&gt; from &lt;a href="http://vimeo.com/wikimatze"&gt;wikimatze&lt;/a&gt; on &lt;a href="http://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src="http://player.vimeo.com/video/67450907" width="700" height="430" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="http://vimeo.com/67450907"&gt;Mercury plugin: execute any fragment of code directly from vim (@nielsmadan)&lt;/a&gt; from &lt;a href="http://vimeo.com/wikimatze"&gt;wikimatze&lt;/a&gt; on &lt;a href="http://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Matthias Günther" href="http://wikimatze.de/about"&gt;Matthias Günther&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Tue, 28 May 2013 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/may-2013-meetup/</guid>
+    </item>
+    <item>
+      <title>February 2013 Vim-beer-lin</title>
+      <link>http://vimberlin.com/february-2013-vim-beer-lin/</link>
+      <description>&lt;![CDATA[&lt;p&gt;This month we&amp;#39;ll skip the workshop part and move directly to the after-show party part. Berlin&amp;#39;s Vim users and everybody interested is invited to join us on.&lt;/p&gt;
+
+&lt;p&gt;We&amp;#39;ll have some beer and vim chit-chat.&lt;/p&gt;
+
+&lt;p&gt;I hope to see you there.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Gregor Schmidt" href="http://www.nach-vorne.eu/"&gt;Gregor Schmidt&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;P.S: We will continue with our regular meetup schedule on March, 28th.&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Thu, 28 Feb 2013 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/february-2013-vim-beer-lin/</guid>
+    </item>
+    <item>
+      <title>January 2013 Meetup</title>
+      <link>http://vimberlin.com/2013-01-meetup/</link>
+      <description>&lt;![CDATA[&lt;p&gt;We currently have three talks on our agenda:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;strong&gt;"Vimify your life - How to use your desktop as if it would be Vim"&lt;/strong&gt; &lt;br&gt;
+    Johannes Kulick
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;"Vimgolf - The number 4 of the Vimgolf list will talk vimgolf"&lt;/strong&gt; &lt;br&gt;
+    &lt;a href="https://twitter.com/federicogalassi"&gt;Federico Galassi&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;"REPL in Vim - A livecoding session with the vim-slime plugin"&lt;/strong&gt; &lt;br&gt;
+    &lt;a href="https://twitter.com/wikimatze"&gt;Matthias Günther&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can find this event under &lt;a href="http://lanyrd.com/2013/vimberlin-2013-01/"&gt;lanyrd&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you want to add something, have any questions, or want to propose your talk, please feel free to post a short message to the &lt;a href="https://groups.google.com/group/vimberlin/"&gt;mailing list&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class="title" alt="LAUNCH/CO" src="/assets/images/launch_co_logo.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a title="LAUNCH/CO" href="https://launchco.com/etc/#coworking"&gt;LAUNCH/CO&lt;/a&gt; for hosting the event.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Matthias Günther" href="http://wikimatze.de/about"&gt;Matthias Günther&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3&gt;Recap&lt;/h3&gt;
+
+&lt;p&gt;We were around sixteen people this time from over four different countries. Apparently, the first talk by Johannes Kulick about using your desktop as if it would be Vim wasn&amp;#39;t held because Johannes was there.&lt;/p&gt;
+
+&lt;p&gt;Matthias presented his talk about using &lt;code&gt;vim-slime&lt;/code&gt; plugin and we gave him a big Vim-Hug for Jonathan, the inventor of the plugin. You can find the slides on &lt;a href="https://speakerdeck.com/wikimatze/vim-slime"&gt;speakerdeck&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;After presenting the &amp;quot;vim-slime&amp;quot;, &lt;a href="https://twitter.com/nielsmadan"&gt;Niels Madan&lt;/a&gt;) explained a plugin he is going to install as a replacement of the vim slime plugin. It is still in development but you can find a video here:&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src="http://player.vimeo.com/video/58042262" width="700" height="430" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="http://vimeo.com/58042262"&gt;A &amp;quot;vim-slime&amp;quot; inspired plugin by Niels Madan (@nielsmadan)&lt;/a&gt; from &lt;a href="http://vimeo.com/wikimatze"&gt;wikimatze&lt;/a&gt; on &lt;a href="http://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;Our last talk was by held by &lt;a href="https://twitter.com/federicogalassi"&gt;Federico Galassi&lt;/a&gt;. He was talking about using Vimgolf and why he doesn&amp;#39;t do it any longer. You can watch the following video&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src="http://player.vimeo.com/video/58049475" width="700" height="430" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="http://vimeo.com/58049475"&gt;Playing Vimgolf by Federico Galassi (@federicogalassi)&lt;/a&gt; from &lt;a href="http://vimeo.com/wikimatze"&gt;wikimatze&lt;/a&gt; on &lt;a href="http://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Matthias Günther" href="http://wikimatze.de/about"&gt;Matthias Günther&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Tue, 22 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/2013-01-meetup/</guid>
+    </item>
+    <item>
+      <title>Unusual December 2012 Meetup</title>
+      <link>http://vimberlin.com/2012-unusual-december-meetup/</link>
+      <description>&lt;![CDATA[&lt;p&gt;We discussed on our mail list that we will have no official meetup before X-mas starts. Due to lack of space, we will meet at the home of Matthias.&lt;/p&gt;
+
+&lt;p&gt;I will provide some beer and a delicious cake. See you soon.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Matthias Günther" href="http://wikimatze.de/about"&gt;Matthias Günther&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Thu, 20 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/2012-unusual-december-meetup/</guid>
+    </item>
+    <item>
+      <title>November 2012 Meetup</title>
+      <link>http://vimberlin.com/2012-11-meetup/</link>
+      <description>&lt;![CDATA[&lt;p&gt;We currently have the three talks on our agenda:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;strong&gt;"Creating a color scheme for Vim"&lt;/strong&gt; &lt;br /&gt;
+    Niels Madan will talk about his experiences in creating
+    &lt;a href="https://github.com/nielsmadan/harlequin"&gt;harlequin&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;"Small Commands"&lt;/strong&gt; &lt;br /&gt;
+    Sven Guckes (one of our coaches) number prefix, command combinations, filtering, visual commands, mappings - some
+    commands you may want to use in everyday editing
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;"Lessons learned from building splitjoin.vim"&lt;/strong&gt; &lt;br /&gt;
+    Andrew Radev will share his knowledge about his
+    &lt;a href="https://github.com/AndrewRadev/splitjoin.vim"&gt;splitjoin&lt;/a&gt; plugin.
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can find this event under &lt;a href="http://lanyrd.com/2012/vimberlin-2-november/"&gt;lanyrd&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you want to add something, have any questions, or want to propose your talk, please feel free to post a short message to the &lt;a href="https://groups.google.com/group/vimberlin/"&gt;mailing list&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;m looking forward to seeing you there.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class="title" alt="LAUNCH/CO" src="/assets/images/launch_co_logo.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a title="LAUNCH/CO" href="https://launchco.com/etc/#coworking"&gt;LAUNCH/CO&lt;/a&gt; for hosting the event.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Matthias Günther" href="http://wikimatze.de/about"&gt;Matthias Günther&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3&gt;Recap&lt;/h3&gt;
+
+&lt;p&gt;I loved this meetup today: We had new people giving talks and they did an awesome job. I recored only one talk but next I try to get them all.&lt;/p&gt;
+
+&lt;p&gt;Niels Madan (&lt;a href="https://twitter.com/nielsmadan"&gt;@nielsmadan&lt;/a&gt;) explained his experiences with creating his own colorscheme:&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe class="center" src="http://player.vimeo.com/video/54885966" width="700" height="430" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="http://vimeo.com/50492237"&gt;Vimgolf by example&lt;/a&gt; from &lt;a href="http://vimeo.com/wikimatze"&gt;wikimatze&lt;/a&gt; on &lt;a href="http://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;This month we will not have an beginners workshop and no official meetup in december.&lt;/p&gt;
+
+&lt;p&gt;If you have any further ideas please start a discussion on our {% include mailing_list.html %} or drop us a line on &lt;a href="https://twitter.com/vimberlin"&gt;twitter&lt;/a&gt; - we would like to hear your ideas.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Matthias Günther" href="http://wikimatze.de/about"&gt;Matthias Günther&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Thu, 22 Nov 2012 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/2012-11-meetup/</guid>
+    </item>
+    <item>
+      <title>October 2012 Workshop</title>
+      <link>http://vimberlin.com/2012-10-workshop/</link>
+      <description>&lt;![CDATA[&lt;p&gt;&lt;img title="workshop" alt="/images/workshop.png" src="/images/workshop.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Our first beginners workshop in &lt;a href="/august-2012-workshop"&gt;August 2012&lt;/a&gt; was a huge success. Around twenty people were learning something new: Some of them learned the usage of the &lt;code&gt;vimrc&lt;/code&gt;, others went through &lt;a href="http://linuxcommand.org/man_pages/vimtutor1.html"&gt;vimtutor&lt;/a&gt;, and some of them asked specific questions.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;m happy to announce the second vimberlin beginners workshop.&lt;/p&gt;
+
+&lt;h3&gt;Registration&lt;/h3&gt;
+
+&lt;p&gt;If you are interested, please sign under &lt;a href="http://www.eventbrite.com/event/4134065100"&gt;eventbrite&lt;/a&gt;. The workshop is &lt;strong&gt;free&lt;/strong&gt; and we have place for &lt;strong&gt;12 students&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3&gt;Coaches&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/lucapette"&gt;@lucapette&lt;/a&gt; has over 5 years of Vim experience, has written a bunch of plugins for Vim, and using editor heavenly on hacking on different Rails projects.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/guckes"&gt;@guckes&lt;/a&gt; has countless years of experience in using Vim and he can convince you in two
+minutes to use another shell then &lt;i&gt;bash&lt;/i&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/wikimatze"&gt;@wikimatze&lt;/a&gt; - using Vim for two years now and using it to write a book about &lt;a href="http://www.padrinorb.com/"&gt;Padrino&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;What else do you need&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Your machine with Vim on it&lt;/li&gt;
+&lt;li&gt;Your questions you want to ask&lt;/li&gt;
+&lt;li&gt;Maybe a cake so that we can have a break&lt;/li&gt;
+&lt;li&gt;Patience&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In case some of you want to play &lt;a href="http://vimgolf.com/"&gt;vimgolf&lt;/a&gt;, please have ruby installed on your system along with the &lt;code&gt;vimgolf&lt;/code&gt; gem.&lt;/p&gt;
+
+&lt;p&gt;Please be on-time, we won&amp;#39;t want to waste time.&lt;/p&gt;
+
+&lt;h3&gt;Recap&lt;/h3&gt;
+
+&lt;p&gt;This time we had fewer people at out workshop since last time: 5 males, 1 female, and three coaches. We changed the format of this workshop a little bit more and make it more like a talk about the main concepts and features of Vim with interactive questions of the audience. Other coaches trained new people to Vim individually as we went together through the &lt;strong&gt;vimtutor&lt;/strong&gt;. Again, we got huge positive feedback for our workshop and will try newer things in the future to make it better.&lt;/p&gt;
+
+&lt;p&gt;You can discuss things on our If you want to add something, have any questions, or want to propose your talk, please feel free to post a short message to the &lt;a href="https://groups.google.com/group/vimberlin/"&gt;mailing list&lt;/a&gt;.
+ and on {% include twitter_link.html %}. Our coach &lt;a href="https://twitter.com/guckes"&gt;Sven&lt;/a&gt; was so nice to put a resume of the last meetup &lt;a href="http://www.guckes.net/vimberlin/2012-10-25.notes.txt"&gt;online&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you have any further ideas please start a discussion on our If you want to add something, have any questions, or want to propose your talk, please feel free to post a short message to the &lt;a href="https://groups.google.com/group/vimberlin/"&gt;mailing list&lt;/a&gt;.
+ or drop us a line on &lt;a href="https://twitter.com/vimberlin"&gt;twitter&lt;/a&gt; - we would like to hear your ideas.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Matthias Günther" href="http://wikimatze.de/about"&gt;Matthias Günther&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Wed, 3 Oct 2012 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/2012-10-workshop/</guid>
+    </item>
+    <item>
+      <title>September 2012 Meetup</title>
+      <link>http://vimberlin.com/2012-09-meetup/</link>
+      <description>&lt;![CDATA[&lt;p&gt;We currently have the following talks on our agenda:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Buffer, quickfix windows, :Ack - does this work together?&lt;/strong&gt; &lt;br/&gt;
+    &lt;a href="http://www.wikimatze.de"&gt;Matthias Günther&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Mission Vimpossible - Some things you cannot do in Vim and how to do them
+    there anyway&lt;/strong&gt; &lt;br/&gt;
+    &lt;a href="http://kronn.de/"&gt;Matthias Viehweger&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Vimgolf by example&lt;/strong&gt; &lt;br/&gt;
+    &lt;a href="http://www.nach-vorne.eu"&gt;Gregor Schmidt&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you want to add something, have any questions, or want to propose your talk, please feel free to post a short message to the &lt;a href="https://groups.google.com/group/vimberlin/"&gt;mailing list&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class="title" alt="LAUNCH/CO" src="/assets/images/launch_co_logo.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a title="LAUNCH/CO" href="https://launchco.com/etc/#coworking"&gt;LAUNCH/CO&lt;/a&gt; for hosting the event.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;m looking forward to seeing you there.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Gregor Schmidt" href="http://www.nach-vorne.eu/"&gt;Gregor Schmidt&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3&gt;Recap&lt;/h3&gt;
+
+&lt;p&gt;First of all: Thanks to the about 20 Vim enthusiasts for coming, thanks to &lt;a href="https://launchco.com/etc/#coworking"&gt;LAUNCH/CO&lt;/a&gt; for providing the space, and last but not least, thanks to the speakers Gregor Schmidt, Matthias Viehweger, and Matthias Günther for preparing and giving the talks.&lt;/p&gt;
+
+&lt;p&gt;Gregor (&lt;a href="https://twitter.com/schmidtwisser"&gt;@schmidtwisser&lt;/a&gt;) explained how Vimgolfs work and what he learned during solving the &lt;a href="http://vimgolf.com/challenges/50048db8cdc4060002000004"&gt;Vertical Limit&lt;/a&gt; challenge. You may find his slides on &lt;a href="http://schmidt.github.com/talks/2012-09-27/"&gt;GitHub&lt;/a&gt; and a video of the talk on &lt;a href="https://vimeo.com/50492237"&gt;vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe class="center" src="http://player.vimeo.com/video/50492237" width="700" height="430" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="http://vimeo.com/50492237"&gt;Vimgolf by example&lt;/a&gt; from &lt;a href="http://vimeo.com/wikimatze"&gt;wikimatze&lt;/a&gt; on &lt;a href="http://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;Matthias Viehweger (&lt;a href="https://twitter.com/der_kronn"&gt;@der_kronn&lt;/a&gt;) talked in &amp;quot;Mission Vimpossible - Some things you cannot do in Vim and how to do them there anyway&amp;quot; about how he uses Vim to create IT-Infrastructure visualization with Vim, how to make nice favicons in Vim, and how to use hidden buffers to prepare a presentation. You may find his talk on &lt;a href="https://vimeo.com/50492236"&gt;vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe class="center" src="http://player.vimeo.com/video/50492236" width="700" height="430" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="http://vimeo.com/50492236"&gt;Mission Vimpossible - Some things you cannot do in Vim and how to do them there anyway&lt;/a&gt; from &lt;a href="http://vimeo.com/wikimatze"&gt;wikimatze&lt;/a&gt; on &lt;a href="http://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;You may find the slides of Matthias Günther&amp;#39;s (&lt;a href="https://twitter.com/wikimatze"&gt;@wikimatze&lt;/a&gt;) talk &amp;quot;Buffer, quickfix windows, :Ack - does this work together?&amp;quot; &lt;a href="https://speakerdeck.com/u/wikimatze/p/buffer-quickfix-windows-ack-does-this-work-together"&gt;at Speakerdeck&lt;/a&gt;.  It is also a video available on &lt;a href="https://vimeo.com/50508801"&gt;vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe class="center" src="http://player.vimeo.com/video/50508801" width="700" height="430" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="http://vimeo.com/50508801"&gt;Buffer, quickfix windows, :Ack - does this work together?&lt;/a&gt; from &lt;a href="http://vimeo.com/wikimatze"&gt;wikimatze&lt;/a&gt; on &lt;a href="http://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks for coming and making vimberlin happen. I&amp;#39;ve had great fun and learned a lot. See you all in November 2012.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Matthias Günther" href="http://wikimatze.de/about"&gt;Matthias Günther&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Thu, 27 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/2012-09-meetup/</guid>
+    </item>
+    <item>
+      <title>August 2012 Workshop</title>
+      <link>http://vimberlin.com/2012-08-workshop/</link>
+      <description>&lt;![CDATA[&lt;p&gt;&lt;strong&gt;Next meetup is something special: &amp;quot;VIM NOVICE - a beginners workshop for people new to Vim&amp;quot;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;After discussing with &lt;a href="https://twitter.com/lucapette"&gt;@lucapette&lt;/a&gt; and &lt;a href="https://twitter.com/guckes"&gt;@guckes&lt;/a&gt; on our last meetup, we brainstormed the ideas how we can teach Vim not only to basic users of the editor but as well to beginners who has never used a modal editor like Vim before.&lt;/p&gt;
+
+&lt;p&gt;We will have three coaches:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/lucapette"&gt;@lucapette&lt;/a&gt; has over 5 years of Vim experience, has written a bunch of plugins for Vim, and using editor heavenly on hacking on different Rails projects.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/guckes"&gt;@guckes&lt;/a&gt; has countless years of experience in using Vim and he can convince you in two
+minutes to use another shell then &lt;i&gt;bash&lt;/i&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/wikimatze"&gt;@wikimatze&lt;/a&gt; - using Vim for two years now and using it to write a book about &lt;a href="http://www.padrinorb.com/"&gt;Padrino&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Schedule&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Get to know each other - tell us something about yourself and what editors you have used in the past.&lt;/li&gt;
+&lt;li&gt;Tell what you want to learn (or what you already know) and we will start.&lt;/li&gt;
+&lt;li&gt;Find more about the topic under our
+&lt;a title="wiki" href="https://github.com/vimberlin/vimberlin.de/wiki/vimberlin-workshop-for-newbies"&gt;wiki&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you are interested, please sign under &lt;a title="eventbrite" href="http://vimberlin-eorg.eventbrite.com/"&gt;evenbrite&lt;/a&gt; and &lt;a title="lanyrd" href="http://lanyrd.com/2012/vimberlin-2-august/"&gt;lanyrd&lt;/a&gt; we have place for 12 students. It would be nice if you already installed Vim on your operation system so that we can right start without any bigger technical problems. You can find the installation instruction for [Vim here](&lt;a href="http://www.vim.org/download.php"&gt;http://www.vim.org/download.php&lt;/a&gt; &amp;quot;Vim installation).&lt;/p&gt;
+
+&lt;p&gt;If you have any questions, please contact &lt;a href="mailto:vimberlin@gmail.com"&gt;vimberlin@gmail.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class="title" alt="LAUNCH/CO" src="/assets/images/launch_co_logo.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a title="LAUNCH/CO" href="https://launchco.com/etc/#coworking"&gt;LAUNCH/CO&lt;/a&gt; for hosting the event.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Matthias Günther" href="http://wikimatze.de/about"&gt;Matthias Günther&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3&gt;Recap&lt;/h3&gt;
+
+&lt;p&gt;Thousands thanks to all the attendees, our coaches (&lt;a href="https://twitter.com/lucapette"&gt;@lucapette&lt;/a&gt;, &lt;a href="https://twitter.com/guckes"&gt;@guckes&lt;/a&gt;, and &lt;a href="https://twitter.com/wikimatze"&gt;@wikimatze&lt;/a&gt;, and {% include launch&lt;em&gt;co&lt;/em&gt;link.html %} to make this event happen. We got a huge amount of positive feedback to keep up with this event - we will go on with and would like to enhance your Vim abilities.&lt;/p&gt;
+
+&lt;p&gt;Later on the evening we talked about the timeframe of the next meeting. This would normally be in October but some of you suggested to do this kind of workshop every two weeks to keep the learning and memorizing of commands. I&amp;#39;m not able to be a coach this often.&lt;/p&gt;
+
+&lt;p&gt;The ones who want more frequent meetups may discuss things on the {% include mailing&lt;em&gt;list.html %} and on {% include twitter&lt;/em&gt;link.html %} - if you have found a date, I will help you to find a location where you can have the session.&lt;/p&gt;
+
+&lt;p&gt;If you have any further ideas please start a discussion on the If you want to add something, have any questions, or want to propose your talk, please feel free to post a short message to the &lt;a href="https://groups.google.com/group/vimberlin/"&gt;mailing list&lt;/a&gt;.
+ - we would like to hear your ideas.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Matthias Günther" href="http://wikimatze.de/about"&gt;Matthias Günther&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Wed, 29 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/2012-08-workshop/</guid>
+    </item>
+    <item>
+      <title>July 2012 Meetup</title>
+      <link>http://vimberlin.com/2012-07-meetup/</link>
+      <description>&lt;![CDATA[&lt;p&gt;We currently have one talk on our agenda:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;strong&gt;"Buffer, quickfix windows, :Ack - does this work together?"&lt;/strong&gt;&lt;br /&gt;
+    Matthias Günther
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can find this meeting on &lt;a href="http://lanyrd.com/2012/vimberlin-2-july/"&gt;lanyrd&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you want to add something, have any questions, or want to propose your talk, please feel free to post a short message to the &lt;a href="https://groups.google.com/group/vimberlin/"&gt;mailing list&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class="title" alt="LAUNCH/CO" src="/assets/images/launch_co_logo.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a title="LAUNCH/CO" href="https://launchco.com/etc/#coworking"&gt;LAUNCH/CO&lt;/a&gt; for hosting the event.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;m looking forward to seeing you there and we count on your participation.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Matthias Günther" href="http://wikimatze.de/about"&gt;Matthias Günther&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3&gt;Recap&lt;/h3&gt;
+
+&lt;p&gt;Due to vacations, this meetup was a bit more intimate than usual. This led to interesting discussions about the future work of the user group. One outcome was the announcement of regular Vim Novice workshops, which will be a great opportunity to learn the first steps in Vim and connect with fellow Vimers.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Gregor Schmidt" href="http://www.nach-vorne.eu/"&gt;Gregor Schmidt&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Thu, 26 Jul 2012 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/2012-07-meetup/</guid>
+    </item>
+    <item>
+      <title>May 2012 Meetup</title>
+      <link>http://vimberlin.com/2012-05-meetup/</link>
+      <description>&lt;![CDATA[&lt;p&gt;We currently have two talks on our agenda:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&amp;quot;Notes - is there a best plugin&amp;quot;&lt;/em&gt; Matthias Günther feat. Stefan Otte &amp;quot;vim-orgmode&amp;quot;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&amp;quot;Vim - Precision editing at the speed of thought&amp;quot;&lt;/em&gt; Drew Neill&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The rest will be some ad hoc and lightning talk style presentations about all things Vim. We count on your participation.&lt;/p&gt;
+
+&lt;p&gt;If you want to add something, have any questions, or want to propose your talk, please feel free to post a short message to the &lt;a href="https://groups.google.com/group/vimberlin/"&gt;mailing list&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class="title" alt="LAUNCH/CO" src="/assets/images/launch_co_logo.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a title="LAUNCH/CO" href="https://launchco.com/etc/#coworking"&gt;LAUNCH/CO&lt;/a&gt; for hosting the event.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;m looking forward to seeing you there.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Gregor Schmidt" href="http://www.nach-vorne.eu/"&gt;Gregor Schmidt&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3&gt;Recap&lt;/h3&gt;
+
+&lt;p&gt;Thanks for the countless coming, thanks for &lt;a href="https://launchco.com/etc/#coworking"&gt;LAUNCH/CO&lt;/a&gt; for giving us space, and thanks for the speakers Matthias, Stefan, and Drew for the various presentations.&lt;/p&gt;
+
+&lt;p&gt;You can find the slides of Matthias Günthers talk &amp;quot;Notes - is there a best plugin?&amp;quot; &lt;a href="https://speakerdeck.com/u/wikimatze/p/notes-is-there-a-best-plugin"&gt;at Speakerdeck&lt;/a&gt;. Stefan Otte&amp;#39;s talk about &amp;quot;vim-orgmode&amp;quot; was an additional talk about note taking with vim-orgmode. Drew Neil gave a very interesting talk about &amp;quot;Vim - Precision editing at the speed of thought&amp;quot; which he gave on the &lt;a href="http://www.sourcedevcon.eu/"&gt;SourceDevCon 2012&lt;/a&gt;, and showed the Vim hackers how work more with text object, and motions.&lt;/p&gt;
+
+&lt;p&gt;We are sad to hear that Drew will leave Berlin and that our future meetups will be without him - we wish you all the best in England, and with his book &lt;a href="http://pragprog.com/book/dnvim/practical-vim"&gt;Practical Vim&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Thanks for coming and making vimberlin happen. I&amp;#39;ve had great fun and learned a lot. I hope to see you all in May.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Matthias Günther" href="http://wikimatze.de/about"&gt;Matthias Günther&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Thu, 24 May 2012 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/2012-05-meetup/</guid>
+    </item>
+    <item>
+      <title>March 2012 Meetup</title>
+      <link>http://vimberlin.com/2012-03-meetup/</link>
+      <description>&lt;![CDATA[&lt;p&gt;We currently have two talks on our agenda:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&amp;quot;Lessons learned with Vimscript&amp;quot;&lt;/em&gt; Matthias Günther&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&amp;quot;From rails.vim to dbext.vim&amp;quot;&lt;/em&gt; Matthias Viehweger&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The rest will be some ad hoc and lightning talk style presentations about all things Vim. We count on your participation.&lt;/p&gt;
+
+&lt;p&gt;If you want to add something, have any questions, or want to propose your talk, please feel free to post a short message to the &lt;a href="https://groups.google.com/group/vimberlin/"&gt;mailing list&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class="title" alt="LAUNCH/CO" src="/assets/images/launch_co_logo.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a title="LAUNCH/CO" href="https://launchco.com/etc/#coworking"&gt;LAUNCH/CO&lt;/a&gt; for hosting the event.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;m looking forward to seeing you there.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Gregor Schmidt" href="http://www.nach-vorne.eu/"&gt;Gregor Schmidt&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2&gt;Recap&lt;/h2&gt;
+
+&lt;p&gt;First of all: Thank you all for coming, thanks to the two Matthiases for preparing and giving a talk and thanks to LAUNCH/CO for having us.&lt;/p&gt;
+
+&lt;p&gt;The slides of Matthias Günther&amp;#39;s talk &amp;quot;Lessons learned with Vimscript&amp;quot; may be found &lt;a href="http://speakerdeck.com/u/wikimatze/p/lessons-learned-with-vimscript"&gt;at Speakerdeck&lt;/a&gt;. Matthias Viehweger&amp;#39;s talk was more ad-hoc a.k.a. lightning talk style, and he did not use slides. So if you are interested in his introduction to &lt;a href="https://github.com/tpope/vim-rails"&gt;rails.vim&lt;/a&gt; and the
+&lt;a href="http://www.vim.org/scripts/script.php?script_id=356"&gt;Vim dbext plugin&lt;/a&gt; you need to ask him in person.&lt;/p&gt;
+
+&lt;p&gt;We&amp;#39;ve again had lots of interesting discussions about folding, navigation and other Vim best practices. In this context Matthias Günther mentioned his &lt;a title="tocdown plugin" href="https://github.com/wikimatze/tocdown"&gt;tocdown plugin&lt;/a&gt;, Drew Neil mentioned his &lt;a href="https://github.com/nelstrom/dotfiles/blob/master/vim/ftplugin/markdown/folding.vim"&gt;syntax highlighting for Markdown&lt;/a&gt;, the &lt;a href="https://github.com/nelstrom/dotfiles/tree/master/vim/bundle/vimoutliner"&gt;vimoutliner&lt;/a&gt; and gave a quick explanation why he favors the default &lt;a href="http://vimcasts.org/e/15"&gt;netrw file browser&lt;/a&gt; over plugins like &lt;a href="https://github.com/scrooloose/nerdtree"&gt;NERDtree&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We will meet again on May 24th, 8 p.m. at the LAUNCH/CO coworking space. We would be glad, if you send talk proposals the mailing list.&lt;/p&gt;
+
+&lt;p&gt;I encourage you to send pull request to the &lt;a href="https://github.com/vimberlin/vimberlin.de"&gt;vimberlin GitHub repository&lt;/a&gt; and add anything, that I might have missed.  Again, thanks for coming and making vimberlin happen. I&amp;#39;ve had great fun and learned a lot. I hope to see you all in May.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Gregor Schmidt" href="http://www.nach-vorne.eu/"&gt;Gregor Schmidt&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Thu, 22 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/2012-03-meetup/</guid>
+    </item>
+    <item>
+      <title>January 2012 Meetup</title>
+      <link>http://vimberlin.com/2012-01-meetup/</link>
+      <description>&lt;![CDATA[&lt;p&gt;&lt;a title="Drew Neil" href="http://drewneil.com/"&gt;Drew Neil&lt;/a&gt; (aka &lt;a title="@nelstrom" href="https://twitter.com/nelstrom"&gt;@nelstrom&lt;/a&gt;, the creator of the awesome &lt;a title="vimcasts" href="http://vimcasts.org/"&gt;vimcasts&lt;/a&gt;, agreed to give a talk.&lt;/p&gt;
+
+&lt;p&gt;We are very proud to have him at our very first meetup. The topic is yet to be announced.  Further topics will be kind of organizational. We should briefly talk about:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Expectations for this user group&lt;/li&gt;
+&lt;li&gt;Future schedule for regular meetups&lt;/li&gt;
+&lt;li&gt;Future topics of meetups&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We will have some time at the end for small talk and socializing. Also, in Friedrichshain, it should be rather easy to move on to a bar after the meetup.&lt;/p&gt;
+
+&lt;pre&gt;
+ 1. Find the Warschauer Str. 70A
+ 2. Go to the second backyard
+ 3. Enter the big door in the middle of the building with the LAUNCH/CO and
+     Noisy Rooms signs
+ 4. Use the staircase on the right and go to the 2nd level
+ 5. After the staircase head right (this is left in relation to the entrance)
+ 6. Go to the end of the corridor
+ 7. Use the staircase to go down to the 1st floor
+ 8. Open the big steel door
+ 9. You're there
+
+  or alternatively
+
+ 1. Follow the LAUNCH/CO signs all over the place
+ 2. You're there
+&lt;/pre&gt;
+
+&lt;p&gt;If you want to add something, have any questions, or want to propose your talk, please feel free to post a short message to the &lt;a href="https://groups.google.com/group/vimberlin/"&gt;mailing list&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class="title" alt="LAUNCH/CO" src="/assets/images/launch_co_logo.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a title="LAUNCH/CO" href="https://launchco.com/etc/#coworking"&gt;LAUNCH/CO&lt;/a&gt; for hosting the event.&lt;/p&gt;
+
+&lt;p&gt;Hope to see you there,&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Gregor Schmidt" href="http://www.nach-vorne.eu/"&gt;Gregor Schmidt&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2&gt;Recap&lt;/h2&gt;
+
+&lt;p&gt;Thank you all for coming. It was a great evening and I had a lot of fun. I&amp;#39;m especially proud, that so many of you guys showed up.  I think we were about 20 people. I think, that&amp;#39;s pretty impressive for a first meeting.&lt;/p&gt;
+
+&lt;p&gt;I would like to thank &lt;a title="Drew" href="http://drewneil.com/"&gt;Drew&lt;/a&gt; for his thoughts on plugins and how they fit into the Vim universe.  Also, playing some &lt;a title="vimgolf" href="http://vimgolf.com/"&gt;vimgolf&lt;/a&gt; was both entertaining and illuminating.&lt;/p&gt;
+
+&lt;p&gt;Finally we talked about vimberlin itself. We&amp;#39;ve settled to meet on the 4th Thursday of every odd month. So the next meetup will be on &lt;strong&gt;March 22nd 2012 - 8 p.m. again at LAUNCH/CO&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;We are starting to using a mailing list to discuss talk proposals and other stuff. (There is a link at the top of the page.) I&amp;#39;ve also added a link to an iCal feed containing the schedule for the next meetups.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;ll continue to use the Twitter account &lt;a title="@vimberlin" href="http://twitter.com/vimberlin"&gt;@vimberlin&lt;/a&gt; for announcements and things of (potentially) general interest.&lt;/p&gt;
+
+&lt;p&gt;Thanks Jan and LAUNCH/CO for hosting the event and providing us with chairs, beers and beamer and thank you all for making vimberlin happen.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title="Gregor Schmidt" href="http://www.nach-vorne.eu/"&gt;Gregor Schmidt&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+]]&gt;</description>
+      <pubDate>Fri, 27 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>http://vimberlin.com/2012-01-meetup/</guid>
+    </item>
+  </channel>
+</rss>
