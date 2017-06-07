@@ -3,7 +3,7 @@ module Sweetie
   class Bitbucket
     require 'json'
 
-    @@config = "_config.yml"
+    @@config = '_config.yml'
 
     class << self
       include Sweetie::Helper
@@ -105,10 +105,10 @@ module Sweetie
         repository_hash = parse_json(json_repositories)
         repositories_changsets = {}
 
-        repository_hash["repositories"].each do |repository|
+        repository_hash['repositories'].each do |repository|
           repository_name = repository['name']
           repository_last_updated = parse_timestamp(repository['last_updated'])
-          repositories_changsets.merge!({repository_name => repository_last_updated})
+          repositories_changsets.merge!(repository_name => repository_last_updated)
         end
 
         repositories_changsets
@@ -165,10 +165,10 @@ module Sweetie
       def write_repository_changes(repositories)
         repositories.each do |name, last_updated|
           file = File.open(@@config)
-          text = ""
+          text = ''
           match = false
           while line = file.gets
-            if line.match(/#{name}/)
+            if line =~ /#{name}/
               match = true
               # create string and replace this line with the new changes
               text << entry_text(name, last_updated) + "\n"

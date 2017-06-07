@@ -4,9 +4,8 @@ require 'sweetie/helper'
 module Sweetie
   class Conversion
     class << self
-
-      @@config = "_config.yml"
-      @@dir    = "_site"
+      @@config = '_config.yml'
+      @@dir    = '_site'
 
       include Sweetie::Helper
 
@@ -17,15 +16,15 @@ module Sweetie
         check_config_and_directory_file(@@config, @@dir)
 
         file = File.open(@@config)
-        text = ""
+        text = ''
         while line = file.gets
-          if line.match(/build:/)
+          if line =~ /build:/
             text << "build: #{build_time}\n"
-          elsif line.match(/htmlpages:/)
+          elsif line =~ /htmlpages:/
             text << "htmlpages: #{count_all_html_pages(@@dir)}\n"
-          elsif line.match(/images:/)
+          elsif line =~ /images:/
             text << "images: #{count_all_images(@@dir)}\n"
-          elsif line.match(/links:/)
+          elsif line =~ /links:/
             text << "links: #{count_all_links(@@dir)}\n"
           else
             text << line
