@@ -14,7 +14,7 @@ module Sweetie
     # It saves the gathered information about the build-date, the links,
     # the images, and the number of html-pages in the jekyll project.
     def conversion
-      check_config_and_directory_file(@dir, @config)
+      check_directory_and_config_file(@dir, @config)
 
       file = File.open(@config)
       text = ''
