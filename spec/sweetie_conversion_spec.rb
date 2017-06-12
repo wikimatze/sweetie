@@ -65,9 +65,10 @@ TEXT
   end
 
   describe 'Middleman project' do
-    let(:build_dir) { File.join(current_dir, 'fixtures', 'build') }
-    let(:index_page) { File.join(current_dir, 'fixtures', 'build', 'index.html') }
-    let(:sweetie) { Sweetie::Conversion.new }
+    let(:build_dir) { File.join(current_dir, 'fixtures', 'middleman', 'build') }
+    let(:site_config) { File.join(current_dir, 'fixtures', 'middleman', 'config.rb') }
+    let(:index_page) { File.join(build_dir, 'index.html') }
+    let(:sweetie) { Sweetie::Conversion.new(build_dir, File.join(current_dir, 'fixtures', 'middleman', 'config.rb' )) }
 
     subject { sweetie }
 
@@ -89,6 +90,33 @@ TEXT
 
     it 'should count all images' do
       expect(subject.count_all_images(build_dir)).to eq 10
+    end
+
+    it 'does the conversion for middleman project and write all the gathered information' do
+      config_yml_file = File.open(site_config, 'w')
+      default_text = <<TEXT
+build:
+htmlpages:
+images:
+links:
+
+TEXT
+      config_yml_file.write(default_text)
+      config_yml_file.close
+
+      sweetie.conversion
+
+      config_yml_file = File.open(site_config).readlines
+      expected_config = File.open(File.join(current_dir, 'fixtures', 'middleman', 'expected_config.rb')).readlines
+
+      result = true
+      config_yml_file.each do |e|
+        if !expected_config.include? e
+          result = false
+        end
+      end
+
+      expect(result).to be_truthy
     end
   end
 end
