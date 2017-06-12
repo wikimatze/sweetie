@@ -94,9 +94,9 @@ TEXT
     it 'does the conversion for middleman project and write all the gathered information' do
       config_yml_file = File.open(site_config, 'w')
       default_text = <<TEXT
-htmlpages:
-images:
-links:
+set :htmlpages,
+set :images,
+set :links,
 
 TEXT
       config_yml_file.write(default_text)
@@ -109,7 +109,7 @@ TEXT
 
       result = true
       config_yml_file.each do |e|
-        if !expected_config.include? e
+        if !expected_config.include? e or e.empty?
           result = false
         end
       end

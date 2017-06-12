@@ -1,4 +1,4 @@
-htmlpages: 52
-images: 10
-links: 405
+set :htmlpages, 52
+set :images, 10
+set :links, 405
 
