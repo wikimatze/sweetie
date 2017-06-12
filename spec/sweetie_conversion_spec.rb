@@ -36,6 +36,32 @@ describe Sweetie::Conversion do
       expect(sweetie.build_time).to eq expected_time
     end
 
+    it 'does the conversion for jekyll project and write all the gathered information' do
+      config_yml_file = File.open(site_config, 'w')
+      default_text = <<TEXT
+build:
+htmlpages:
+images:
+links:
+
+TEXT
+      config_yml_file.write(default_text)
+      config_yml_file.close
+
+      sweetie.conversion
+
+      config_yml_file = File.open(site_config).readlines
+      expected_config = File.open(File.join(current_dir, 'fixtures', 'jekyll', '_expected_config.yml')).readlines
+
+      result = true
+      config_yml_file.each do |e|
+        if !expected_config.include? e
+          result = false
+        end
+      end
+
+      expect(result).to be_truthy
+    end
   end
 
   describe 'Middleman project' do
