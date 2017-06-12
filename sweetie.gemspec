@@ -1,4 +1,4 @@
-$:.push File.expand_path("../lib", __FILE__)
+$LOAD_PATH.push File.expand_path('../lib', __FILE__)
 require 'sweetie/version'
 
 Gem::Specification.new do |s|
@@ -8,15 +8,15 @@ Gem::Specification.new do |s|
   s.authors               = ['Matthias Guenther']
   s.email                 = 'matthias@wikimatze.de'
   s.homepage              = 'https://github.com/wikimatze/sweetie'
-  s.summary               = %q{Count links, images, number of html pages, and last-build time of a
+  s.summary               = 'Count links, images, number of html pages, and last-build time of a
                              jekyll project. In addition it can get last updates of all bitbucket
-                             repositories of a user.}
+                             repositories of a user.'
 
-  s.description           = %q{Sweetie counts the links, images, number of html pages, and last-build
+  s.description           = 'Sweetie counts the links, images, number of html pages, and last-build
                              time of a jekyll project. In addition it can get the last changes of all
-                             bitbuckets repositories of a user.}
+                             bitbuckets repositories of a user.'
   s.files                 = `git ls-files`.split("\n")
-  s.test_files            = `git ls-files -- {test,spec,features}/*`.split("\n")
+  s.test_files            = `git ls-files -- {test,spec}/*`.split("\n")
 
   s.extra_rdoc_files      = ['README.md']
 
