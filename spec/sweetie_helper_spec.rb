@@ -30,15 +30,22 @@ describe 'Sweetie Helper' do
     end
   end
 
-  describe '#check_config_and_directory_file' do
-    it 'raise an error if config file does not exists' do
-      expect { subject.check_config_and_directory_file('not_here.txt') }.to \
+  describe '#check_directory_and_config_file' do
+    let(:site_dir) { File.join(File.dirname(__FILE__), 'fixtures', 'jekyll', 'site') }
+    let(:about_page) { File.join(site_dir, 'about.html') }
+
+    it 'raise an error if dir folder does not exists' do
+      expect { subject.check_directory_and_config_file('not_here/', about_page) }.to \
         raise_error.with_message("Can't find the _config.yml or the _site directory! Please create these files it!")
     end
 
-    it 'raise an error if dir folder does not exists' do
-      expect(File).to receive(:exist?).and_return(false)
-      expect { subject.check_config_and_directory_file('', 'not_here/') }.to \
+    it 'raise an error if config file does not exists' do
+      expect { subject.check_directory_and_config_file(site_dir, 'not_there.txt') }.to \
+        raise_error.with_message("Can't find the _config.yml or the _site directory! Please create these files it!")
+    end
+
+    it 'raise no error if dir and config file exists' do
+      expect { subject.check_directory_and_config_file(site_dir, about_page) }.not_to \
         raise_error.with_message("Can't find the _config.yml or the _site directory! Please create these files it!")
     end
   end

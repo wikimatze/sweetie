@@ -4,8 +4,8 @@ describe Sweetie::Bitbucket do
   let(:current_dir) { File.dirname(__FILE__) }
   let(:user_repositories) { File.join(current_dir, 'fixtures', 'bitbucket', 'user_repositories.json') }
   let(:user_repositories_expectation) { File.join(current_dir, 'fixtures', 'bitbucket', 'user_repositories_expectation.txt') }
-  let(:site_dir) { File.join(current_dir, 'fixtures', 'site') }
-  let(:config) { File.join(current_dir, 'fixtures', '_config.yml') }
+  let(:site_dir) { File.join(current_dir, 'fixtures', 'jekyll', 'site') }
+  let(:config) { File.join(current_dir, 'fixtures', 'jekyll', '_config.yml') }
   let(:svn_hash) { { svn: '2011-10-16' } }
 
   let(:bitbucket) { Sweetie::Bitbucket }

@@ -4,9 +4,10 @@ describe Sweetie::Conversion do
   let(:current_dir) { File.dirname(__FILE__) }
 
   describe 'Jekyll project' do
-    let(:about_page) { File.join(current_dir, 'fixtures', 'site', 'about.html') }
-    let(:site_dir) { File.join(current_dir, 'fixtures', 'site') }
-    let(:sweetie) { Sweetie::Conversion.new }
+    let(:site_dir) { File.join(current_dir, 'fixtures', 'jekyll', 'site') }
+    let(:about_page) { File.join(site_dir, 'about.html') }
+    let(:site_config) { File.join(current_dir, 'fixtures', 'jekyll', '_config.yml') }
+    let(:sweetie) { Sweetie::Conversion.new(site_dir, site_config) }
 
     it 'should count links of about.html page' do
       expect(sweetie.count_link_of_one_page(about_page)).to eq(11)
@@ -34,6 +35,7 @@ describe Sweetie::Conversion do
       allow(time).to receive(:now).and_return(time)
       expect(sweetie.build_time).to eq expected_time
     end
+
   end
 
   describe 'Middleman project' do
