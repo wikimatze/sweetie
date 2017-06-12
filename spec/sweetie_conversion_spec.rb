@@ -4,7 +4,7 @@ describe Sweetie::Conversion do
   let(:current_dir) { File.dirname(__FILE__) }
   let(:about_page) { File.join(current_dir, 'fixtures', 'site', 'about.html') }
   let(:site_dir) { File.join(current_dir, 'fixtures', 'site') }
-  let(:sweetie) { Sweetie::Conversion }
+  let(:sweetie) { Sweetie::Conversion.new }
 
   it 'should count links of about.html page' do
     expect(sweetie.count_link_of_one_page(about_page)).to eq(11)
