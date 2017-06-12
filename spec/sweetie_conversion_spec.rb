@@ -39,7 +39,6 @@ describe Sweetie::Conversion do
     it 'does the conversion for jekyll project and write all the gathered information' do
       config_yml_file = File.open(site_config, 'w')
       default_text = <<TEXT
-build:
 htmlpages:
 images:
 links:
@@ -95,7 +94,6 @@ TEXT
     it 'does the conversion for middleman project and write all the gathered information' do
       config_yml_file = File.open(site_config, 'w')
       default_text = <<TEXT
-build:
 htmlpages:
 images:
 links:
