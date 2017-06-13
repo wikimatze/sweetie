@@ -13,7 +13,7 @@ module Sweetie
     # Opens the config file and search after the specified parameters.
     # It saves the gathered information about the build-date, the links,
     # the images, and the number of html-pages in the jekyll project.
-    def conversion
+    def create_stati
       check_directory_and_config_file(@dir, @config)
 
       file = File.open(@config)

@@ -36,7 +36,7 @@ describe Sweetie::Conversion do
       expect(sweetie.build_time).to eq expected_time
     end
 
-    it 'does the conversion for jekyll project and write all the gathered information' do
+    it 'does create stati for jekyll project' do
       config_yml_file = File.open(site_config, 'w')
       default_text = <<TEXT
 htmlpages:
@@ -47,7 +47,7 @@ TEXT
       config_yml_file.write(default_text)
       config_yml_file.close
 
-      sweetie.conversion
+      sweetie.create_stati
 
       config_yml_file = File.open(site_config).readlines
       expected_config = File.open(File.join(current_dir, 'fixtures', 'jekyll', '_expected_config.yml')).readlines
@@ -91,7 +91,7 @@ TEXT
       expect(subject.count_all_images(build_dir)).to eq 10
     end
 
-    it 'does the conversion for middleman project and write all the gathered information' do
+    it 'does create stati for middleman project' do
       config_yml_file = File.open(site_config, 'w')
       default_text = <<TEXT
 set :htmlpages,
@@ -102,7 +102,7 @@ TEXT
       config_yml_file.write(default_text)
       config_yml_file.close
 
-      sweetie.conversion
+      sweetie.create_stati
 
       config_yml_file = File.open(site_config).readlines
       expected_config = File.open(File.join(current_dir, 'fixtures', 'middleman', 'expected_config.rb')).readlines
