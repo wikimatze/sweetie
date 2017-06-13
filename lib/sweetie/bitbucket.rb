@@ -1,16 +1,22 @@
 require 'sweetie/helper'
+require 'pry'
 require 'json'
 
 module Sweetie
   class Bitbucket
     include Sweetie::Helper
 
-    def initialize(config = '_config.yml')
+    def initialize(config = '_config.yml', user = '')
       @config = config
+      @user = user
     end
 
     def config=(config)
       @config = config
+    end
+
+    def user=(user)
+      @user = user
     end
 
     # Public: Wrapper to start all the other methods
@@ -22,8 +28,8 @@ module Sweetie
     #   bitbucket('wikimatze')
     #
     # Returns nothing but write the changes in the _config.yml file
-    def bitbucket(user)
-      json_repositories = get_repositories(user)
+    def update_stati
+      json_repositories = get_repositories(@user)
       repositories_change_hashs = get_repositories_changes(json_repositories)
       write_repository_changes(repositories_change_hashs)
     end
@@ -161,23 +167,21 @@ module Sweetie
       repositories.each do |name, last_updated|
         file = File.open(@config)
         text = ''
-        match = false
+        project = 'middleman'
+
+        if File.extname(file) =~ /.yml/
+          project = 'jekyll'
+        end
+
         while line = file.gets
-          if line =~ /#{name}/
-            match = true
-            # create string and replace this line with the new changes
-            text << entry_text(name, last_updated) + "\n"
+          if line =~ /#{name}/ && project == 'middleman'
+            text << entry_text_middleman(name, last_updated) + "\n"
+            binding.pry
+          elsif line =~ /#{name}/ && project == 'jekyll'
+            text << entry_text_jekyll(name, last_updated) + "\n"
           else
             text << line
           end
-        end
-
-        # append the name if it is not in there
-
-        if File.extname(file) =~ /.rb/
-          text << entry_text_middleman(name, last_updated) unless match
-        else
-          text << entry_text_jekyll(name, last_updated) unless match
         end
 
         file.close

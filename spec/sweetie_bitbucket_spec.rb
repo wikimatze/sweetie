@@ -60,7 +60,7 @@ describe Sweetie::Bitbucket do
     expect(subject.entry_text_middleman(repository.keys.first, repository.values.first)).to eq 'set :pmwiki, 2011-10-26'
   end
 
-  it 'writes repository changes to config file for jekyll project' do
+  it 'do not writes repository changes to config file for jekyll project if entries are not in there' do
     hash = { svn: '2011-10-26', pmwiki: '2011-10-26' }
     config = File.join(current_dir, 'fixtures', 'jekyll', '_config.yml')
 
@@ -68,17 +68,29 @@ describe Sweetie::Bitbucket do
     subject.write_repository_changes(hash)
     config_yml_content = File.open(config).read
 
-    expect(config_yml_content).to include 'svn: 2011-10-26'
-    expect(config_yml_content).to include 'pmwiki: 2011-10-26'
+    expect(config_yml_content).not_to include 'svn: 2011-10-26'
+    expect(config_yml_content).not_to include 'pmwiki: 2011-10-26'
+  end
+
+  it 'it writes repository changes to config file for jekyll project if entries are in config file' do
+    hash = { svn: '2017-10-26', pmwiki: '2017-10-26' }
+    config = File.join(current_dir, 'fixtures', 'jekyll', '_config_repositories.yml')
+
+    subject.config = config
+    subject.write_repository_changes(hash)
+    config_yml_content = File.open(config).read
+
+    expect(config_yml_content).to include 'svn: 2017-10-26'
+    expect(config_yml_content).to include 'pmwiki: 2017-10-26'
 
     # remove variables from the text-file
-    text = config_yml_content.delete("pmwiki: 2011-10-26\n").delete("svn: 2011-10-26\n")
+    text = config_yml_content.gsub('pmwiki: 2017-10-26', 'pmwiki: 2011-10-26').gsub('svn: 2017-10-26', 'svn: 2011-10-26')
     config_yml_content = File.open(config, 'w')
     config_yml_content.puts text
     config_yml_content.close
   end
 
-  it 'writes repository changes to config file for middleman project' do
+  it 'do not writes repository changes to config file for jekyll project if entries are not in there' do
     hash = { svn: '2011-10-26', pmwiki: '2011-10-26' }
     config = File.join(current_dir, 'fixtures', 'middleman', 'config.rb')
 
@@ -86,14 +98,8 @@ describe Sweetie::Bitbucket do
     subject.write_repository_changes(hash)
     config_yml_content = File.open(config).read
 
-    expect(config_yml_content).to include 'set :svn, 2011-10-26'
-    expect(config_yml_content).to include 'set :pmwiki, 2011-10-26'
-
-    # remove variables from the text-file
-    text = config_yml_content.delete("set :svn, 2011-10-26\n").delete("set :pmwiki, 2011-10-26\n")
-    config_yml_content = File.open(config, 'w')
-    config_yml_content.puts text
-    config_yml_content.close
+    expect(config_yml_content).not_to include 'set :svn, 2011-10-26'
+    expect(config_yml_content).not_to include 'set :pmwiki, 2011-10-26'
   end
 end
 
