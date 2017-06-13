@@ -173,26 +173,16 @@ module Sweetie
         end
 
         # append the name if it is not in there
-        text << entry_text_jekyll(name, last_updated) unless match
+
+        if File.extname(file) =~ /.rb/
+          text << entry_text_middleman(name, last_updated) unless match
+        else
+          text << entry_text_jekyll(name, last_updated) unless match
+        end
 
         file.close
         write_config(@config, text)
       end
-    end
-
-    # Public: Create a string representation of a repository entry in jekyll style
-    #
-    # name - A string containing the name of the repository
-    # last_updated - A string containing the date of the last change of the repo
-    #
-    # Example:
-    #
-    #   entry_text({"pmwiki" => "2011-10-26"}
-    #   # => "pmwiki: 2011-10-26"
-    #
-    # Return a string in the form "<name>: <last_updated>"
-    def entry_text_jekyll(name, updated)
-      "#{name}: #{updated}"
     end
 
     # Public: Create a string representation of a repository entry in middleman style
@@ -208,6 +198,21 @@ module Sweetie
     # Return a string in the form "<name>: <last_updated>"
     def entry_text_middleman(name, updated)
       "set :#{name}, #{updated}"
+    end
+
+    # Public: Create a string representation of a repository entry in jekyll style
+    #
+    # name - A string containing the name of the repository
+    # last_updated - A string containing the date of the last change of the repo
+    #
+    # Example:
+    #
+    #   entry_text({"pmwiki" => "2011-10-26"}
+    #   # => "pmwiki: 2011-10-26"
+    #
+    # Return a string in the form "<name>: <last_updated>"
+    def entry_text_jekyll(name, updated)
+      "#{name}: #{updated}"
     end
   end
 end
