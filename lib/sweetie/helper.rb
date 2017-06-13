@@ -29,6 +29,12 @@ module Sweetie
       ar
     end
 
+    # Count the elements
+    # @param [ar] is an array with all the found html parts
+    def output_count(ar)
+      ar.uniq.count # remove duplicates with uniq
+    end
+
     # Traverse the dir after the pattern and return the number of occurences in the pages
     # @param [pattern] need for nokogiri to parse the html page
     # @param [array] array to save the results
@@ -49,12 +55,6 @@ module Sweetie
           harvest(pattern, file, ar)
         end
       end
-    end
-
-    # Count the elements
-    # @param [ar] is an array with all the found html parts
-    def output_count(ar)
-      ar.uniq.count # remove duplicates with uniq
     end
 
     # Write in the file the text

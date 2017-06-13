@@ -88,7 +88,7 @@ module Sweetie
       #
       # Returns a json representation the specified user
       def get_repositories(user)
-        `curl -s https://api.bitbucket.org/1.0/users/#{user}/`
+        `curl -s https://api.bitbucket.org/2.0/repositories/#{user}/`
       end
 
       # Public: Grab for each repository the recent update
@@ -105,9 +105,9 @@ module Sweetie
         repository_hash = parse_json(json_repositories)
         repositories_changsets = {}
 
-        repository_hash['repositories'].each do |repository|
+        repository_hash['values'].each do |repository|
           repository_name = repository['name']
-          repository_last_updated = parse_timestamp(repository['last_updated'])
+          repository_last_updated = parse_timestamp(repository['updated_on'])
           repositories_changsets.merge!(repository_name => repository_last_updated)
         end
 
