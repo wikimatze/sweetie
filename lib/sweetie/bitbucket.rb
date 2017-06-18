@@ -1,222 +1,28 @@
 require 'sweetie/helper'
-require 'pry'
+require 'sweetie/bitbucket_stati_helper'
 require 'json'
 
 module Sweetie
   class Bitbucket
     include Sweetie::Helper
 
-    def initialize(config = '_config.yml', user = '')
-      @config = config
-      @user = user
+    # A basic initialize method.
+    #
+    # @param bitbucket_stati_helper [BitbucketStatiHelper]
+    # @return [BitbucketStatiHelper]
+    def initialize(bitbucket_stati_helper)
+      @bitbucket_stati_helper = bitbucket_stati_helper
     end
 
-    def config=(config)
-      @config = config
-    end
-
-    def user=(user)
-      @user = user
-    end
-
-    # Public: Wrapper to start all the other methods
+    # Wrapper to start all the other methods which will use methods
+    # to write the changes of the bitbucket in the config file,
+    # which can be configured in the BitbucketStatiHelper
     #
-    # user - The String of the bitbucket user
-    #
-    # Example:
-    #
-    #   bitbucket('wikimatze')
-    #
-    # Returns nothing but write the changes in the _config.yml file
+    # @return [nil]
     def update_stati
-      json_repositories = get_repositories(@user)
-      repositories_change_hashs = get_repositories_changes(json_repositories)
-      write_repository_changes(repositories_change_hashs)
-    end
-
-    # Public: Fire up curl request to bitbucket
-    #
-    # user - The String of the bitbucket user
-    #
-    # Example:
-    #
-    #   bitbucket('wikimatze')
-    #
-    #   # =>
-    #     {
-    #         "repositories": [
-    #             {
-    #                 "scm": "git",
-    #                 "has_wiki": false,
-    #                 "last_updated": "2012-07-01 07:03:08",
-    #                 "creator": null,
-    #                 "created_on": "2012-07-01 07:03:08",
-    #                 "owner": "wikimatze",
-    #                 "logo": null,
-    #                 "email_mailinglist": "",
-    #                 "is_mq": false,
-    #                 "size": 580,
-    #                 "read_only": false,
-    #                 "fork_of": null,
-    #                 "mq_of": null,
-    #                 "followers_count": 1,
-    #                 "state": "available",
-    #                 "utc_created_on": "2012-07-01 05:03:08+00:00",
-    #                 "website": "",
-    #                 "description": "",
-    #                 "has_issues": false,
-    #                 "is_fork": false,
-    #                 "slug": "knoppix-6-01",
-    #                 "is_private": false,
-    #                 "name": "knoppix-6-01",
-    #                 "language": "",
-    #                 "utc_last_updated": "2012-07-01 05:03:08+00:00",
-    #                 "email_writers": true,
-    #                 "no_public_forks": false,
-    #                 "resource_uri": "/1.0/repositories/wikimatze/knoppix-6-01"
-    #             },
-    #             ... other repositories
-    #             }
-    #         ],
-    #         "user": {
-    #             "username": "wikimatze",
-    #             "first_name": "Matthias",
-    #             "last_name": "Guenther",
-    #             "avatar": "https://secure.gravatar.com/avatar/208673d619b63131cbfd7205366ad16e?d=identicon&s=32",
-    #             "resource_uri": "/1.0/users/wikimatze"
-    #         }
-    #     }
-    #
-    # Returns a json representation the specified user
-    def get_repositories(user)
-      `curl -s https://api.bitbucket.org/2.0/repositories/#{user}/`
-    end
-
-    # Public: Grab for each repository the recent update
-    #
-    # json_repositories: A json object of the bitbucket API response
-    #
-    # Example:
-    #
-    #   get_repositories_changes(wikimatze_json)
-    #   # => {"pmwiki-headlineimage-recipe"=>"2011-10-29", "pmwiki-linkicons-recipe"=>"2011-10-29"}
-    #
-    # Returns a hash of the form {repository_name => last_updated}
-    def get_repositories_changes(json_repositories)
-      repository_hash = parse_json(json_repositories)
-      repositories_changsets = {}
-
-      repository_hash['values'].each do |repository|
-        repository_name = repository['name']
-        repository_last_updated = parse_timestamp(repository['updated_on'])
-        repositories_changsets.merge!(repository_name => repository_last_updated)
-      end
-
-      repositories_changsets
-    end
-
-    # Public: Wrapper for calling the json_parsing
-    #
-    # file: A String in JSON format
-    #
-    # Example:
-    #
-    #   json = {
-    #     "user": {
-    #       "username": "wikimatze",
-    #       "first_name": "Matthias",
-    #       "last_name": "Guenther",
-    #       "resource_uri": "/1.0/users/wikimatze"
-    #     }
-    #   }
-
-    #   parse_json(json)
-    #   # => {"user"=>{"username"=>"wikimatze", "first_name"=>"Matthias", "last_name"=>"Guenther", "resource_uri"=>"/1.0/users/wikimatze"}}
-    #
-    # Returns Parse JSON file to format be read by ruby
-    def parse_json(json)
-      JSON.parse(json)
-    end
-
-    # Public: Parse a timestamp in a wanted format
-    #
-    # timestamp - A string in the form 2011-04-20 11:31:39
-    #
-    # Example:
-    #
-    #   parse_timestamp("2011-04-20 11:31:39")
-    #   # => 2011-04-20
-    #
-    # Returns a string in the format "yyyy-mm-dd"
-    def parse_timestamp(timestamp)
-      regex = Regexp.new(/(\d+)-(\d+)-(\d+)/)
-      regex.match(timestamp)[0]
-    end
-
-    # Public: Parse a hash and write its key/value pairs in a file
-    #
-    # repositories - A hash in the form {<name> => <last_updated}
-    #
-    # Example:
-    #
-    #   write_repository_changes({"svn" => "2011-10-26", "pmwiki" => "2011-10-26"})
-    #   # => svn: 2011-10-26\npmwiki: 2011-10-26
-    #
-    # Returns nothing but writes the information in the specified _config.yml file
-    def write_repository_changes(repositories)
-      repositories.each do |name, last_updated|
-        file = File.open(@config)
-        text = ''
-        project = 'middleman'
-
-        if File.extname(file) =~ /.yml/
-          project = 'jekyll'
-        end
-
-        while line = file.gets
-          if line =~ /#{name}/ && project == 'middleman'
-            text << entry_text_middleman(name, last_updated) + "\n"
-            binding.pry
-          elsif line =~ /#{name}/ && project == 'jekyll'
-            text << entry_text_jekyll(name, last_updated) + "\n"
-          else
-            text << line
-          end
-        end
-
-        file.close
-        write_config(@config, text)
-      end
-    end
-
-    # Public: Create a string representation of a repository entry in middleman style
-    #
-    # name - A string containing the name of the repository
-    # last_updated - A string containing the date of the last change of the repo
-    #
-    # Example:
-    #
-    #   entry_text({"pmwiki" => "2011-10-26"}
-    #   # => "pmwiki: 2011-10-26"
-    #
-    # Return a string in the form "<name>: <last_updated>"
-    def entry_text_middleman(name, updated)
-      "set :#{name}, #{updated}"
-    end
-
-    # Public: Create a string representation of a repository entry in jekyll style
-    #
-    # name - A string containing the name of the repository
-    # last_updated - A string containing the date of the last change of the repo
-    #
-    # Example:
-    #
-    #   entry_text({"pmwiki" => "2011-10-26"}
-    #   # => "pmwiki: 2011-10-26"
-    #
-    # Return a string in the form "<name>: <last_updated>"
-    def entry_text_jekyll(name, updated)
-      "#{name}: #{updated}"
+      json_repositories = @bitbucket_stati_helper.get_repositories
+      repositories_change_hashs = @bitbucket_stati_helper.get_repositories_changes(json_repositories)
+      @bitbucket_stati_helper.write_repository_changes(repositories_change_hashs)
     end
   end
 end
