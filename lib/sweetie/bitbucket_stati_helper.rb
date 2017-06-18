@@ -21,7 +21,7 @@ module Sweetie
     # Grab for each repository the recent update
     #
     # @param json_repositories [String]: A json object of the bitbucket API response
-    # @return [Hash] Returns a hash of the form {repository_name => last_updated}
+    # @return [Hash] Returns a hash of the form {<repository_name> => <last_updated>}
     #
     # Example:
     #
@@ -142,8 +142,6 @@ module Sweetie
     end
 
     # Fire up curl request to bitbucket
-    #
-    # @param user [String] Name of the bitbucket user
     #
     # Example:
     #

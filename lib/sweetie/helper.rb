@@ -1,6 +1,7 @@
 module Sweetie
   module Helper
     # Traverse the page after the pattern and return the number of occurences on it
+    #
     # @param [pattern] need for nokogiri to parse the html page
     # @param [array] array to save the results
     # @param [page] a single page which will be taken for the search
@@ -10,6 +11,7 @@ module Sweetie
     end
 
     # Traverse each html page and gather information about the specified html element
+    #
     # @param [pattern] important for nokogiri
     # @param [html] the path for the html file
     # @param [ar] and array which stores all the findings produces by nokogiri
@@ -30,12 +32,14 @@ module Sweetie
     end
 
     # Count the elements
+    #
     # @param [ar] is an array with all the found html parts
     def output_count(ar)
       ar.uniq.count # remove duplicates with uniq
     end
 
     # Traverse the dir after the pattern and return the number of occurences in the pages
+    #
     # @param [pattern] need for nokogiri to parse the html page
     # @param [array] array to save the results
     # @param [dir] the main directory in which the by jekyll generated files are stored

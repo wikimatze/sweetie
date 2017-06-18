@@ -5,14 +5,20 @@ module Sweetie
   class Conversion
     include Sweetie::Helper
 
+    # A basic initialize method.
+    #
+    # @param dir [String] The directoy in which should search after links, images and number of HTML pages
+    # @param config [String] The name of the config file in which the results should be written
+    # @return [nil]
     def initialize(dir = '_site', config = '_config.yml')
       @dir = dir
       @config = config
     end
 
-    # Opens the config file and search after the specified parameters.
     # It saves the gathered information about the build-date, the links,
     # the images, and the number of html-pages in the jekyll project.
+    #
+    # @return [nil]
     def create_stati
       check_directory_and_config_file(@dir, @config)
 
@@ -47,47 +53,54 @@ module Sweetie
           end
         end
       end
+
       file.close
 
       write_config(file, text)
     end
 
-    # Counts the link of on html page
-    # @param [page] the path of a html page
-    # @return the number of unique links
+    # Counts the link of on html page.
+    #
+    # @param page [String] The path of a html page
+    # @return [Fixnum] The number of unique links for the given page
     def count_link_of_one_page(page)
       perform_search_for_single_page('//a', [], page)
     end
 
-    # Count the images of one html page
-    # @param (see #self.count_link_of_one_page)
-    # @return the number of unique images
+    # Count the images of one html page.
+    #
+    # @param page [String] The path of a html page
+    # @return [Fixnum] The number of unique images for the given page
     def count_images_of_one_page(page)
       perform_search_for_single_page('//img', [], page)
     end
 
-    # Counts all html pages
-    # @param [Dir] the path of the directory
-    # @return [Fixnum] the number of unique html pages
+    # Counts all html pages for the given directory.
+    #
+    # @param dir [String] The path of the directory
+    # @return [Fixnum] The number of unique html pages
     def count_all_html_pages(dir)
       perform_global_search('//html', [], dir)
     end
 
-    # Counts all the links of all html pages
-    # @param (see #self.count_all_html_pages)
-    # @return (see #self.count_all_html_pages)
+    # Counts all the links for the given directory.
+    #
+    # @param dir [String] The path of the directory
+    # @return [Fixnum] The number of unique links for the given dir
     def count_all_links(dir)
       perform_global_search('//a', [], dir)
     end
 
-    # Counts all the images of all html pages
-    # @param (see #self.count_all_html_pages)
-    # @return (see #self.count_all_html_pages)
+    # Counts all the images for the given directory.
+    #
+    # @param dir [String] The path of the directory
+    # @return [Fixnum] The number of all images for the given dir
     def count_all_images(dir)
       perform_global_search('//img', [], dir)
     end
 
-    # Create the actual build time
+    # Create the actual build time.
+    #
     # @return [String] in the date format mm-dd-yyyy
     def build_time
       time = Time.now
