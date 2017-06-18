@@ -1,7 +1,7 @@
 require 'sweetie/helper'
 require 'nokogiri'
 
-RSpec::Expectations.configuration.warn_about_potential_false_positives = false
+require 'spec_helper'
 
 describe 'Sweetie Helper' do
   let(:helper) { Class.new }
