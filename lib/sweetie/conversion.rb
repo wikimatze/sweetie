@@ -2,6 +2,7 @@ require 'nokogiri'
 require 'sweetie/helper'
 
 module Sweetie
+  # The class which can get the stati of the project including number of html pages, images, and links
   class Conversion
     include Sweetie::Helper
 
@@ -62,7 +63,7 @@ module Sweetie
     # Counts the link of on html page.
     #
     # @param page [String] The path of a html page
-    # @return [Fixnum] The number of unique links for the given page
+    # @return [Integer] The number of unique links for the given page
     def count_link_of_one_page(page)
       perform_search_for_single_page('//a', [], page)
     end
@@ -70,7 +71,7 @@ module Sweetie
     # Count the images of one html page.
     #
     # @param page [String] The path of a html page
-    # @return [Fixnum] The number of unique images for the given page
+    # @return [Integer] The number of unique images for the given page
     def count_images_of_one_page(page)
       perform_search_for_single_page('//img', [], page)
     end
@@ -78,7 +79,7 @@ module Sweetie
     # Counts all html pages for the given directory.
     #
     # @param dir [String] The path of the directory
-    # @return [Fixnum] The number of unique html pages
+    # @return [Integer] The number of unique html pages
     def count_all_html_pages(dir)
       perform_global_search('//html', [], dir)
     end
@@ -86,7 +87,7 @@ module Sweetie
     # Counts all the links for the given directory.
     #
     # @param dir [String] The path of the directory
-    # @return [Fixnum] The number of unique links for the given dir
+    # @return [Integer] The number of unique links for the given dir
     def count_all_links(dir)
       perform_global_search('//a', [], dir)
     end
@@ -94,7 +95,7 @@ module Sweetie
     # Counts all the images for the given directory.
     #
     # @param dir [String] The path of the directory
-    # @return [Fixnum] The number of all images for the given dir
+    # @return [Integer] The number of all images for the given dir
     def count_all_images(dir)
       perform_global_search('//img', [], dir)
     end

@@ -3,6 +3,7 @@ require 'sweetie/bitbucket_stati_helper'
 require 'json'
 
 module Sweetie
+  # The class to get the repositorie updates from Bitbucket
   class Bitbucket
     include Sweetie::Helper
 

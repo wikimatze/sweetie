@@ -1,69 +1,76 @@
 module Sweetie
+  # The Helper module which can get the stati of the project including number of html pages, images, and links
   module Helper
     # Traverse the page after the pattern and return the number of occurences on it
     #
-    # @param [pattern] need for nokogiri to parse the html page
-    # @param [array] array to save the results
-    # @param [page] a single page which will be taken for the search
-    def perform_search_for_single_page(pattern, array, page)
-      harvest(pattern, page, array)
-      output_count(array)
+    # @param pattern [String] need for nokogiri to parse the html page
+    # @param arr [Array] array to save the results
+    # @param page [String] The path to a file which will be taken for the search
+    def perform_search_for_single_page(pattern, arr, page)
+      harvest(pattern, page, arr)
+      output_count(arr)
     end
 
     # Traverse each html page and gather information about the specified html element
     #
-    # @param [pattern] important for nokogiri
-    # @param [html] the path for the html file
-    # @param [ar] and array which stores all the findings produces by nokogiri
-    def harvest(pattern, html, ar)
+    # @param pattern [String] The xpath regular for Nokogiri expressions after which the HTML is grabbed
+    # @param html [String] An array to save the results
+    # @param arr [Array] An array which stores all the findings produces by nokogiri
+    # @return [Array] The number of found results
+    def harvest(pattern, html, arr)
       file = File.open(html)
       doc = Nokogiri::HTML(file)
       doc.xpath(pattern).each do |node|
         if pattern == '//a'
-          ar << node.text
-        elsif pattern == '//img' and ar.include?(node.to_s)
+          arr << node.text
+        elsif pattern == '//img' and arr.include?(node.to_s)
         elsif pattern == '//img'
-          ar << node.to_s
+          arr << node.to_s
         elsif pattern == '//html'
-          ar << node
+          arr << node
         end
       end
-      ar
+      arr
     end
 
     # Count the elements
     #
-    # @param [ar] is an array with all the found html parts
-    def output_count(ar)
-      ar.uniq.count # remove duplicates with uniq
+    # @param arr [Array] An array with all the found html parts.
+    # @return [Integer] The number of uniq results in the given array.
+    def output_count(arr)
+      arr.uniq.count # remove duplicates with uniq
     end
 
     # Traverse the dir after the pattern and return the number of occurences in the pages
     #
-    # @param [pattern] need for nokogiri to parse the html page
-    # @param [array] array to save the results
-    # @param [dir] the main directory in which the by jekyll generated files are stored
-    def perform_global_search(pattern, array, dir)
-      traverse(pattern, array, dir)
-      output_count(array)
+    # @param pattern [String] The xpath regular for Nokogiri expressions after which the HTML is grabbed.
+    # @param arr [Array] array to save the results.
+    # @param dir [String] The main directory in which the search should be performed.
+    # @return [Integer] The number of found results.
+    def perform_global_search(pattern, arr, dir)
+      traverse(pattern, arr, dir)
+      output_count(arr)
     end
 
     # Traverse the jekyll directory and get the information about a specific pattern
-    # @param [pattern] is a string for nokogiri after which the html pages should be parsed
-    # @param [ar] is an empty Array which is used by the harvest method
-    # @param [dir] the directory in which the html files are stored
-    def traverse(pattern, ar, dir)
+    #
+    # @param pattern [String] The xpath regular for Nokogiri expressions after which the HTML is grabbed.
+    # @param arr [Array] array to save the results.
+    # @param dir [String] The directory in which the html files are stored.
+    def traverse(pattern, arr, dir)
       Dir.glob(dir+"/**/*") do |file|
         next if file == '.' or file == '..' or file.include?("html~")
         if file.match(/(.*).html/)
-          harvest(pattern, file, ar)
+          harvest(pattern, file, arr)
         end
       end
     end
 
     # Write in the file the text
-    # @param [file] is the _config.yml file of the jekyll project
-    # @param [text] is a multiline string which will be written in the file
+    #
+    # @param file [String] The path to the config file
+    # @param text [String] Is a multiline string of text
+    # @return [nil]
     def write_config(file, text)
       File.open(file, 'w') do |file|
         file.puts text
@@ -71,9 +78,10 @@ module Sweetie
       end
     end
 
-    # Check the existence of needed files for sweetie
-    # @param [config] the _config.yml file
-    # @param [dir] the directory of the generated jekyll page
+    # Check the existence of given directory and config
+    #
+    # @param dir [String] The directory of the files.
+    # @param config [String] The path to the config file.
     def check_directory_and_config_file(dir = '', config= '')
 
       if !Dir.exist? dir or !File.exist? config

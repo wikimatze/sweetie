@@ -1,6 +1,6 @@
 require 'sweetie/conversion'
 require 'sweetie/bitbucket'
 
-module Sweetie
+# The wrapper class for the gem
+module Sweetie; end
 
-end

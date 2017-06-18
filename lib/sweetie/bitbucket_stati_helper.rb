@@ -3,6 +3,7 @@ require 'json'
 require 'pry'
 
 module Sweetie
+  # The class which do the actuall work to get and write the repositories updates in the config file
   class BitbucketStatiHelper
     include Sweetie::Helper
 

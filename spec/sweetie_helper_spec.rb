@@ -1,6 +1,5 @@
 require 'sweetie/helper'
 require 'nokogiri'
-
 require 'spec_helper'
 
 describe 'Sweetie Helper' do
