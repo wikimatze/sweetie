@@ -54,9 +54,7 @@ TEXT
 
       result = true
       config_yml_file.each do |e|
-        if !expected_config.include? e
-          result = false
-        end
+        result = false unless expected_config.include? e
       end
 
       expect(result).to be_truthy
@@ -67,7 +65,7 @@ TEXT
     let(:build_dir) { File.join(current_dir, 'fixtures', 'middleman', 'build') }
     let(:site_config) { File.join(current_dir, 'fixtures', 'middleman', 'config.rb') }
     let(:index_page) { File.join(build_dir, 'index.html') }
-    let(:sweetie) { Sweetie::Conversion.new(build_dir, File.join(current_dir, 'fixtures', 'middleman', 'config.rb' )) }
+    let(:sweetie) { Sweetie::Conversion.new(build_dir, File.join(current_dir, 'fixtures', 'middleman', 'config.rb')) }
 
     subject { sweetie }
 
@@ -109,9 +107,7 @@ TEXT
 
       result = true
       config_yml_file.each do |e|
-        if !expected_config.include? e or e.empty?
-          result = false
-        end
+        result = false if !expected_config.include?(e) || e.empty?
       end
 
       expect(result).to be_truthy

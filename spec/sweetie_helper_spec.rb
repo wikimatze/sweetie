@@ -121,7 +121,7 @@ describe 'Sweetie Helper' do
       expect(File).to receive(:open).with(file).and_return(file_content)
 
       result = []
-      expected_result = ["<img src=\"/images/images-global/matthias_guenther_thumbnail_small.jpg\" style=\"float:right;\">"]
+      expected_result = ['<img src="/images/images-global/matthias_guenther_thumbnail_small.jpg" style="float:right;">']
       expect(subject.harvest('//img', file, result)).to eql expected_result
     end
 

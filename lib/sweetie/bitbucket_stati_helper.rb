@@ -6,6 +6,7 @@ module Sweetie
   class BitbucketStatiHelper
     include Sweetie::Helper
 
+
     attr_writer :config, :user
 
     # A basic initialize method.
@@ -78,19 +79,17 @@ module Sweetie
         text = ''
         project = 'middleman'
 
-        if File.extname(file) =~ /.yml/
-          project = 'jekyll'
-        end
+        project = 'jekyll' if File.extname(file) =~ /.yml/
 
-        name = name.to_s.gsub('-', '_')
+        name = name.to_s.tr('-', '_')
         while line = file.gets
-          if line =~ /#{name}/ && project == 'middleman'
-            text << entry_text_middleman(name, last_updated) + "\n"
-          elsif line =~ /#{name}/ && project == 'jekyll'
-            text << entry_text_jekyll(name, last_updated) + "\n"
-          else
-            text << line
-          end
+          text << if line =~ /#{name}/ && project == 'middleman'
+                    entry_text_middleman(name, last_updated) + "\n"
+                  elsif line =~ /#{name}/ && project == 'jekyll'
+                    entry_text_jekyll(name, last_updated) + "\n"
+                  else
+                    line
+                  end
         end
 
         file.close
@@ -245,3 +244,4 @@ module Sweetie
     end
   end
 end
+

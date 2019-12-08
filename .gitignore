@@ -4,3 +4,6 @@
 *.sass-cache
 .yardoc/*
 Gemfile.lock
+doc/
+bin/
+.mucksrc

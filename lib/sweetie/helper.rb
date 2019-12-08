@@ -23,7 +23,7 @@ module Sweetie
       doc.xpath(pattern).each do |node|
         if pattern == '//a'
           arr << node.text
-        elsif pattern == '//img' and arr.include?(node.to_s)
+        elsif pattern == '//img' && arr.include?(node.to_s)
         elsif pattern == '//img'
           arr << node.to_s
         elsif pattern == '//html'
@@ -58,11 +58,9 @@ module Sweetie
     # @param arr [Array] array to save the results.
     # @param dir [String] The directory in which the html files are stored.
     def traverse(pattern, arr, dir)
-      Dir.glob(dir+"/**/*") do |file|
-        next if file == '.' or file == '..' or file.include?("html~")
-        if file.match(/(.*).html/)
-          harvest(pattern, file, arr)
-        end
+      Dir.glob(dir + '/**/*') do |file|
+        next if file == '.' || file == '..' || file.include?('html~')
+        harvest(pattern, file, arr) if file =~ /(.*).html/
       end
     end
 
@@ -82,9 +80,8 @@ module Sweetie
     #
     # @param dir [String] The directory of the files.
     # @param config [String] The path to the config file.
-    def check_directory_and_config_file(dir = '', config= '')
-
-      if !Dir.exist? dir or !File.exist? config
+    def check_directory_and_config_file(dir = '', config = '')
+      if !Dir.exist?(dir) || !File.exist?(config)
         raise "Can't find the _config.yml or the _site directory! Please create these files it!"
       end
     end

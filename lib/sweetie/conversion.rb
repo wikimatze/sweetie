@@ -25,33 +25,33 @@ module Sweetie
 
       file = File.open(@config)
       text = ''
-      if (File.extname(file) =~ /.rb/)
+      if File.extname(file) =~ /.rb/
         while line = file.gets
-          if line =~ /set :build,/
-            text << "set :build, #{build_time}\n"
-          elsif line =~ /set :htmlpages,/
-            text << "set :htmlpages, #{count_all_html_pages(@dir)}\n"
-          elsif line =~ /set :images,/
-            text << "set :images, #{count_all_images(@dir)}\n"
-          elsif line =~ /set :links,/
-            text << "set :links, #{count_all_links(@dir)}\n"
-          else
-            text << line
-          end
+          text << if line =~ /set :build,/
+                    "set :build, '#{build_time}'\n"
+                  elsif line =~ /set :htmlpages,/
+                    "set :htmlpages, #{count_all_html_pages(@dir)}\n"
+                  elsif line =~ /set :images,/
+                    "set :images, #{count_all_images(@dir)}\n"
+                  elsif line =~ /set :links,/
+                    "set :links, #{count_all_links(@dir)}\n"
+                  else
+                    line
+                  end
         end
       else
         while line = file.gets
-          if line =~ /build:/
-            text << "build: #{build_time}\n"
-          elsif line =~ /htmlpages:/
-            text << "htmlpages: #{count_all_html_pages(@dir)}\n"
-          elsif line =~ /images:/
-            text << "images: #{count_all_images(@dir)}\n"
-          elsif line =~ /links:/
-            text << "links: #{count_all_links(@dir)}\n"
-          else
-            text << line
-          end
+          text << if line =~ /build:/
+                    "build: '#{build_time}'\n"
+                  elsif line =~ /htmlpages:/
+                    "htmlpages: #{count_all_html_pages(@dir)}\n"
+                  elsif line =~ /images:/
+                    "images: #{count_all_images(@dir)}\n"
+                  elsif line =~ /links:/
+                    "links: #{count_all_links(@dir)}\n"
+                  else
+                    line
+                  end
         end
       end
 
