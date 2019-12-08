@@ -1,5 +1,7 @@
-source "http://rubygems.org"
+source 'http://rubygems.org'
 
-gem "codeclimate-test-reporter", group: :test, require: nil
+gem 'codeclimate-test-reporter', group: :test, require: nil
+gem 'pry'
 
 gemspec
+

@@ -151,7 +151,7 @@ set :links,
 ```
 
 
-After running the script, the changes in `config.rb` will look like:
+After running the script, the changes in `config.rb` will look like for example:
 
 
 ```ruby
@@ -300,4 +300,4 @@ set :pmwiki_headlineimage_recipe, 2017-02-25
 
 This software is licensed under the [MIT license](http://en.wikipedia.org/wiki/MIT_License).
 
-© 2011-2017 Matthias Günther <matthias@wikimatze.de>.
+© 2011-2019 Matthias Günther <matze@wikimatze.de>.
