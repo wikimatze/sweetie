@@ -5,6 +5,7 @@ Gem::Specification.new do |s|
   s.name                  = 'sweetie'
   s.version               = Sweetie::VERSION
   s.date                  = '2012-07-15'
+  s.licenses              = ['MIT']
   s.authors               = ['Matthias Guenther']
   s.email                 = 'matthias@wikimatze.de'
   s.homepage              = 'https://github.com/wikimatze/sweetie'
@@ -20,9 +21,9 @@ Gem::Specification.new do |s|
 
   s.extra_rdoc_files      = ['README.md']
 
-  s.add_runtime_dependency 'nokogiri', '~> 1.6'
-  s.add_runtime_dependency 'json', '~> 1.8'
-  s.add_development_dependency 'rake', '~> 10.2'
+  s.add_runtime_dependency 'nokogiri', '~> 1.10'
+  s.add_runtime_dependency 'json', '~> 2.3'
+  s.add_development_dependency 'rake', '~> 12.3'
   s.add_development_dependency 'rspec', '~> 3.3'
 end
 
