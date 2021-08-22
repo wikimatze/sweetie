@@ -9,7 +9,7 @@ It can also grab the last changes of your bitbucket repositories. You can then u
 your project
 
 [![Gem Version](https://badge.fury.io/rb/sweetie.svg)](http://badge.fury.io/rb/sweetie)
-[![Build Status](https://travis-ci.org/wikimatze/sweetie.svg?branch=master)](https://travis-ci.org/wikimatze/sweetie)
+[![CircleCI](https://circleci.com/gh/wikimatze/sweetie.svg?style=svg)](https://app.circleci.com/pipelines/github/wikimatze/sweetie)
 
 
 ## Toc
