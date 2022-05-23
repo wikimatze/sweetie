@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
 
   s.extra_rdoc_files      = ['README.md']
 
-  s.add_runtime_dependency 'nokogiri', '~> 1.12'
+  s.add_runtime_dependency 'nokogiri', '~> 1.13'
   s.add_runtime_dependency 'json', '~> 2.3'
   s.add_development_dependency 'rake', '~> 12.3'
   s.add_development_dependency 'rspec', '~> 3.3'
